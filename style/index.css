@@ -99,6 +99,14 @@ body {
 
 .title {
     color: red;
+    text-shadow: black 0px 1px 1px,
+                 black 1px 0px 1px,
+                 black -1px 0px 1px,
+                 black 0px -1px 1px,
+                 black 1px 1px 1px,
+                 black 1px -1px 1px,
+                 black -1px -1px 1px,
+                 black -1px 1px 1px;
 }
 
 /* ==============
