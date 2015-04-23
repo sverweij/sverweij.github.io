@@ -1,10 +1,5 @@
 /*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
 
-/* KL orange: DC6E21 */
-/* KL blue: 0DA6E0  */
-/* KL light blue: #F1F8FD*/
-/* KL dark blue:  #005B82 */
-
 html,
 button,
 input,
@@ -98,7 +93,7 @@ body {
 }
 
 .title {
-    color: red;
+    color: #ff0000;
     text-shadow: black 0px 1px 1px,
                  black 1px 0px 1px,
                  black -1px 0px 1px,
@@ -106,8 +101,15 @@ body {
                  black 1px 1px 1px,
                  black 1px -1px 1px,
                  black -1px -1px 1px,
-                 black -1px 1px 1px;
+                 black -1px 1px 1px,
+                 black 3px 3px 4px;
+
 }
+/*
+a[target="_blank"]:after {
+    content: "^";
+}
+*/
 
 /* ==============
     MOBILE: Menu
@@ -150,6 +152,14 @@ nav a:hover {
 
 .main article h1 {
     font-size: 2em;
+}
+.main article h1, h2 {
+  /*
+  border-top: $demarcation-line;
+  */
+}
+.main article h1, h2, h3 {
+  margin-bottom: -0.7em;
 }
 
 .main aside {
