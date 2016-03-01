@@ -1,0 +1,420 @@
+<kml xmlns="http://earth.google.com/kml/2.0">
+<Document>
+<name>amsacc01</name>
+<Style id="RTE">
+  <LineStyle>
+    <width>3</width>
+    <colorMode>random</colorMode>
+  </LineStyle>
+</Style>
+<Style id="WPT">
+  <IconStyle>
+    <scale>0.5</scale>
+    <Icon><href>http://maps.google.com/mapfiles/kml/shapes/triangle.png</href></Icon>
+    <HotSpot x="0" y="0" xunits="pixels" yunits="pixels" />
+  </IconStyle>
+</Style>
+<Folder>
+  <open>0</open>
+  <name>WayPoints</name>
+  <description>Waypoints of route: amsacc01</description>
+<Placemark>
+  <name>EHAM  </name>
+  <styleUrl>#WPT</styleUrl>
+  <description>N52.18.29 E004.45.51
+Waypoint 1 on route amsacc01</description>
+  <Point><coordinates>4.764167,52.308056</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>WOODY </name>
+  <styleUrl>#WPT</styleUrl>
+  <description>N51.24.20 E004.21.59
+Waypoint 2 on route amsacc01</description>
+  <Point><coordinates>4.366481,51.405661</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>NIK   </name>
+  <styleUrl>#WPT</styleUrl>
+  <description>N51.09.54 E004.11.02
+Waypoint 3 on route amsacc01</description>
+  <Point><coordinates>4.183936,51.165081</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>DENOX </name>
+  <styleUrl>#WPT</styleUrl>
+  <description>N50.52.46 E004.01.40
+Waypoint 4 on route amsacc01</description>
+  <Point><coordinates>4.027778,50.879444</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>CIV   </name>
+  <styleUrl>#WPT</styleUrl>
+  <description>N50.34.26 E003.49.58
+Waypoint 5 on route amsacc01</description>
+  <Point><coordinates>3.832778,50.573889</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>MEDIL </name>
+  <styleUrl>#WPT</styleUrl>
+  <description>N50.20.32 E003.40.30
+Waypoint 6 on route amsacc01</description>
+  <Point><coordinates>3.675000,50.342222</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>LESDO </name>
+  <styleUrl>#WPT</styleUrl>
+  <description>N49.48.30 E003.19.05
+Waypoint 7 on route amsacc01</description>
+  <Point><coordinates>3.318056,49.808333</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>KOVIN </name>
+  <styleUrl>#WPT</styleUrl>
+  <description>N49.29.09 E003.06.23
+Waypoint 8 on route amsacc01</description>
+  <Point><coordinates>3.106389,49.485833</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>RESMI </name>
+  <styleUrl>#WPT</styleUrl>
+  <description>N48.34.07 E002.11.30
+Waypoint 9 on route amsacc01</description>
+  <Point><coordinates>2.191944,48.568611</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>DEKOD </name>
+  <styleUrl>#WPT</styleUrl>
+  <description>N48.17.00 E002.06.00
+Waypoint 10 on route amsacc01</description>
+  <Point><coordinates>2.100000,48.283333</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>DISAK </name>
+  <styleUrl>#WPT</styleUrl>
+  <description>N48.08.00 E002.07.54
+Waypoint 11 on route amsacc01</description>
+  <Point><coordinates>2.131667,48.133333</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>DEPOM </name>
+  <styleUrl>#WPT</styleUrl>
+  <description>N47.19.04 E002.10.45
+Waypoint 12 on route amsacc01</description>
+  <Point><coordinates>2.179167,47.317778</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>DIRMO </name>
+  <styleUrl>#WPT</styleUrl>
+  <description>N47.05.21 E002.11.31
+Waypoint 13 on route amsacc01</description>
+  <Point><coordinates>2.192222,47.089167</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>GUERE </name>
+  <styleUrl>#WPT</styleUrl>
+  <description>N46.11.24 E002.05.21
+Waypoint 14 on route amsacc01</description>
+  <Point><coordinates>2.089444,46.190000</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>ABUSO </name>
+  <styleUrl>#WPT</styleUrl>
+  <description>N45.51.02 E001.44.55
+Waypoint 15 on route amsacc01</description>
+  <Point><coordinates>1.748611,45.850556</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>VEGOB </name>
+  <styleUrl>#WPT</styleUrl>
+  <description>N45.34.46 E001.28.47
+Waypoint 16 on route amsacc01</description>
+  <Point><coordinates>1.479722,45.579444</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>MAKOX </name>
+  <styleUrl>#WPT</styleUrl>
+  <description>N45.19.58 E001.14.17
+Waypoint 17 on route amsacc01</description>
+  <Point><coordinates>1.238056,45.332778</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>AGN   </name>
+  <styleUrl>#WPT</styleUrl>
+  <description>N43.53.16 E000.52.22
+Waypoint 18 on route amsacc01</description>
+  <Point><coordinates>0.872872,43.888039</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>ANETO </name>
+  <styleUrl>#WPT</styleUrl>
+  <description>N42.41.35 E000.33.30
+Waypoint 19 on route amsacc01</description>
+  <Point><coordinates>0.558333,42.693056</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>TURUV </name>
+  <styleUrl>#WPT</styleUrl>
+  <description>N42.22.03 E000.28.29
+Waypoint 20 on route amsacc01</description>
+  <Point><coordinates>0.474961,42.367539</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>GRAUS </name>
+  <styleUrl>#WPT</styleUrl>
+  <description>N41.58.44 E000.22.35
+Waypoint 21 on route amsacc01</description>
+  <Point><coordinates>0.376447,41.979039</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>LOBAR </name>
+  <styleUrl>#WPT</styleUrl>
+  <description>N41.44.52 E000.19.06
+Waypoint 22 on route amsacc01</description>
+  <Point><coordinates>0.318442,41.748011</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>SEROX </name>
+  <styleUrl>#WPT</styleUrl>
+  <description>N41.20.48 E000.13.07
+Waypoint 23 on route amsacc01</description>
+  <Point><coordinates>0.218611,41.346667</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>CASPE </name>
+  <styleUrl>#WPT</styleUrl>
+  <description>N41.16.06 E000.11.57
+Waypoint 24 on route amsacc01</description>
+  <Point><coordinates>0.199386,41.268450</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>MLA   </name>
+  <styleUrl>#WPT</styleUrl>
+  <description>N41.07.47 E000.09.56
+Waypoint 25 on route amsacc01</description>
+  <Point><coordinates>0.165556,41.129722</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>CRETA </name>
+  <styleUrl>#WPT</styleUrl>
+  <description>N40.52.20 E000.03.41
+Waypoint 26 on route amsacc01</description>
+  <Point><coordinates>0.061556,40.872264</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>RIMES </name>
+  <styleUrl>#WPT</styleUrl>
+  <description>N40.33.28 W000.57.10
+Waypoint 27 on route amsacc01</description>
+  <Point><coordinates>-0.063944,40.557944</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>SAURA </name>
+  <styleUrl>#WPT</styleUrl>
+  <description>N40.15.21 W000.49.00
+Waypoint 28 on route amsacc01</description>
+  <Point><coordinates>-0.183361,40.256028</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>TATOS </name>
+  <styleUrl>#WPT</styleUrl>
+  <description>N40.00.00 W000.43.59
+Waypoint 29 on route amsacc01</description>
+  <Point><coordinates>-0.283739,40.000000</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>PLANA </name>
+  <styleUrl>#WPT</styleUrl>
+  <description>N39.53.26 W000.41.25
+Waypoint 30 on route amsacc01</description>
+  <Point><coordinates>-0.326389,39.890556</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>VLC   </name>
+  <styleUrl>#WPT</styleUrl>
+  <description>N39.29.08 W000.32.02
+Waypoint 31 on route amsacc01</description>
+  <Point><coordinates>-0.483056,39.485639</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>RIPUX </name>
+  <styleUrl>#WPT</styleUrl>
+  <description>N39.14.47 W000.34.37
+Waypoint 32 on route amsacc01</description>
+  <Point><coordinates>-0.439778,39.246639</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>SUMMO </name>
+  <styleUrl>#WPT</styleUrl>
+  <description>N38.21.37 W000.44.06
+Waypoint 33 on route amsacc01</description>
+  <Point><coordinates>-0.281758,38.360328</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>MAGAL </name>
+  <styleUrl>#WPT</styleUrl>
+  <description>N38.04.23 W000.47.10
+Waypoint 34 on route amsacc01</description>
+  <Point><coordinates>-0.230731,38.073308</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>HAMRA </name>
+  <styleUrl>#WPT</styleUrl>
+  <description>N36.52.16 W000.59.35
+Waypoint 35 on route amsacc01</description>
+  <Point><coordinates>-0.023611,36.871111</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>BAHRI </name>
+  <styleUrl>#WPT</styleUrl>
+  <description>N36.17.43 E000.04.09
+Waypoint 36 on route amsacc01</description>
+  <Point><coordinates>0.069167,36.295278</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>MOS   </name>
+  <styleUrl>#WPT</styleUrl>
+  <description>N35.53.55 E000.08.10
+Waypoint 37 on route amsacc01</description>
+  <Point><coordinates>0.136297,35.898647</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>FAROS </name>
+  <styleUrl>#WPT</styleUrl>
+  <description>N35.30.19 E000.18.26
+Waypoint 38 on route amsacc01</description>
+  <Point><coordinates>0.307222,35.505556</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>BAY   </name>
+  <styleUrl>#WPT</styleUrl>
+  <description>N33.42.35 E001.04.45
+Waypoint 39 on route amsacc01</description>
+  <Point><coordinates>1.079186,33.709806</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>BREZI </name>
+  <styleUrl>#WPT</styleUrl>
+  <description>N33.00.00 E001.07.21
+Waypoint 40 on route amsacc01</description>
+  <Point><coordinates>1.122500,33.000000</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>JOKKA </name>
+  <styleUrl>#WPT</styleUrl>
+  <description>N29.15.00 E001.20.47
+Waypoint 41 on route amsacc01</description>
+  <Point><coordinates>1.346389,29.250000</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>ROFER </name>
+  <styleUrl>#WPT</styleUrl>
+  <description>N23.28.26 E001.40.29
+Waypoint 42 on route amsacc01</description>
+  <Point><coordinates>1.674722,23.473889</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>MOKAT </name>
+  <styleUrl>#WPT</styleUrl>
+  <description>N20.56.00 E001.10.00
+Waypoint 43 on route amsacc01</description>
+  <Point><coordinates>1.166667,20.933333</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>TESLT </name>
+  <styleUrl>#WPT</styleUrl>
+  <description>N20.15.00 E000.58.53
+Waypoint 44 on route amsacc01</description>
+  <Point><coordinates>0.981389,20.250000</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>GAO   </name>
+  <styleUrl>#WPT</styleUrl>
+  <description>N16.14.16 W000.59.25
+Waypoint 45 on route amsacc01</description>
+  <Point><coordinates>-0.026500,16.237861</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>LIPET </name>
+  <styleUrl>#WPT</styleUrl>
+  <description>N13.55.59 W000.00.10
+Waypoint 46 on route amsacc01</description>
+  <Point><coordinates>-0.013889,13.933056</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>TAREN </name>
+  <styleUrl>#WPT</styleUrl>
+  <description>N13.18.47 W000.00.22
+Waypoint 47 on route amsacc01</description>
+  <Point><coordinates>-0.010556,13.313056</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>DEKAS </name>
+  <styleUrl>#WPT</styleUrl>
+  <description>N12.48.50 W000.00.31
+Waypoint 48 on route amsacc01</description>
+  <Point><coordinates>-0.008056,12.813889</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>PINGO </name>
+  <styleUrl>#WPT</styleUrl>
+  <description>N11.00.00 E000.01.06
+Waypoint 49 on route amsacc01</description>
+  <Point><coordinates>0.018333,11.000000</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>TAMIL </name>
+  <styleUrl>#WPT</styleUrl>
+  <description>N10.38.24 W000.59.30
+Waypoint 50 on route amsacc01</description>
+  <Point><coordinates>-0.025000,10.640000</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>EBTOB </name>
+  <styleUrl>#WPT</styleUrl>
+  <description>N09.31.26 W000.00.08
+Waypoint 51 on route amsacc01</description>
+  <Point><coordinates>-0.014475,9.524117</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>LIPUS </name>
+  <styleUrl>#WPT</styleUrl>
+  <description>N09.13.30 W000.00.18
+Waypoint 52 on route amsacc01</description>
+  <Point><coordinates>-0.011667,9.225000</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>TURUT </name>
+  <styleUrl>#WPT</styleUrl>
+  <description>N08.38.42 W000.00.36
+Waypoint 53 on route amsacc01</description>
+  <Point><coordinates>-0.006667,8.645000</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>LITEX </name>
+  <styleUrl>#WPT</styleUrl>
+  <description>N06.38.13 W000.54.40
+Waypoint 54 on route amsacc01</description>
+  <Point><coordinates>-0.105781,6.636953</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>DGAA  </name>
+  <styleUrl>#WPT</styleUrl>
+  <description>Final waypoint on route amsacc01</description>
+  <Point><coordinates>-0.167544,5.604414</coordinates></Point>
+</Placemark>
+</Folder>
+<Placemark>
+  <description>Company route: amsacc01</description>
+  <name>amsacc01</name>
+  <visibility>1</visibility>
+  <open>0</open>
+  <styleUrl>#RTE</styleUrl>
+  <LineString>
+    <extrude>1</extrude>
+    <tessellate>1</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>4.764167,52.308056 4.366481,51.405661 4.183936,51.165081 4.027778,50.879444 3.832778,50.573889 3.675000,50.342222 3.318056,49.808333 3.106389,49.485833 2.191944,48.568611 2.100000,48.283333 2.131667,48.133333 2.179167,47.317778 2.192222,47.089167 2.089444,46.190000 1.748611,45.850556 1.479722,45.579444 1.238056,45.332778 0.872872,43.888039 0.558333,42.693056 0.474961,42.367539 0.376447,41.979039 0.318442,41.748011 0.218611,41.346667 0.199386,41.268450 0.165556,41.129722 0.061556,40.872264 -0.063944,40.557944 -0.183361,40.256028 -0.283739,40.000000 -0.326389,39.890556 -0.483056,39.485639 -0.439778,39.246639 -0.281758,38.360328 -0.230731,38.073308 -0.023611,36.871111 0.069167,36.295278 0.136297,35.898647 0.307222,35.505556 1.079186,33.709806 1.122500,33.000000 1.346389,29.250000 1.674722,23.473889 1.166667,20.933333 0.981389,20.250000 -0.026500,16.237861 -0.013889,13.933056 -0.010556,13.313056 -0.008056,12.813889 0.018333,11.000000 -0.025000,10.640000 -0.014475,9.524117 -0.011667,9.225000 -0.006667,8.645000 -0.105781,6.636953 -0.167544,5.604414</coordinates>
+  </LineString>
+</Placemark>
+</Document>
+</kml>
