@@ -1,0 +1,469 @@
+<kml xmlns="http://earth.google.com/kml/2.0">
+<Document>
+<name>amsebb03</name>
+<Style id="RTE">
+  <LineStyle>
+    <width>3</width>
+    <colorMode>random</colorMode>
+  </LineStyle>
+</Style>
+<Style id="WPT">
+  <IconStyle>
+    <scale>0.5</scale>
+    <Icon><href>http://maps.google.com/mapfiles/kml/shapes/triangle.png</href></Icon>
+    <HotSpot x="0" y="0" xunits="pixels" yunits="pixels" />
+  </IconStyle>
+</Style>
+<Folder>
+  <open>0</open>
+  <name>WayPoints</name>
+  <description>Waypoints of route: amsebb03</description>
+<Placemark>
+  <name>EHAM  </name>
+  <styleUrl>#WPT</styleUrl>
+  <description>N52.18.29 E004.45.51
+Waypoint 1 on route amsebb03</description>
+  <Point><coordinates>4.764167,52.308056</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>EDUPO </name>
+  <styleUrl>#WPT</styleUrl>
+  <description>N51.58.31 E005.50.09
+Waypoint 2 on route amsebb03</description>
+  <Point><coordinates>5.835936,51.975525</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>NAPRO </name>
+  <styleUrl>#WPT</styleUrl>
+  <description>N51.51.21 E006.03.32
+Waypoint 3 on route amsebb03</description>
+  <Point><coordinates>6.058889,51.855833</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>DEPAD </name>
+  <styleUrl>#WPT</styleUrl>
+  <description>N51.46.05 E006.13.12
+Waypoint 4 on route amsebb03</description>
+  <Point><coordinates>6.220000,51.768056</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>AMOSU </name>
+  <styleUrl>#WPT</styleUrl>
+  <description>N51.38.20 E006.27.18
+Waypoint 5 on route amsebb03</description>
+  <Point><coordinates>6.455000,51.638889</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>MISGO </name>
+  <styleUrl>#WPT</styleUrl>
+  <description>N51.24.17 E006.52.33
+Waypoint 6 on route amsebb03</description>
+  <Point><coordinates>6.875833,51.404722</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>GMH   </name>
+  <styleUrl>#WPT</styleUrl>
+  <description>N51.10.13 E007.53.31
+Waypoint 7 on route amsebb03</description>
+  <Point><coordinates>7.892039,51.170511</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>TESGA </name>
+  <styleUrl>#WPT</styleUrl>
+  <description>N50.26.41 E008.37.07
+Waypoint 8 on route amsebb03</description>
+  <Point><coordinates>8.618872,50.444900</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>ESATI </name>
+  <styleUrl>#WPT</styleUrl>
+  <description>N50.03.47 E009.11.24
+Waypoint 9 on route amsebb03</description>
+  <Point><coordinates>9.190000,50.063056</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>DETEV </name>
+  <styleUrl>#WPT</styleUrl>
+  <description>N49.49.25 E009.32.31
+Waypoint 10 on route amsebb03</description>
+  <Point><coordinates>9.541944,49.823611</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>DINKU </name>
+  <styleUrl>#WPT</styleUrl>
+  <description>N49.14.10 E010.22.59
+Waypoint 11 on route amsebb03</description>
+  <Point><coordinates>10.383056,49.236111</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>XERUM </name>
+  <styleUrl>#WPT</styleUrl>
+  <description>N48.48.40 E010.46.04
+Waypoint 12 on route amsebb03</description>
+  <Point><coordinates>10.767778,48.811111</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>BURAM </name>
+  <styleUrl>#WPT</styleUrl>
+  <description>N48.41.44 E010.56.56
+Waypoint 13 on route amsebb03</description>
+  <Point><coordinates>10.948889,48.695556</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>WLD   </name>
+  <styleUrl>#WPT</styleUrl>
+  <description>N48.34.45 E011.07.45
+Waypoint 14 on route amsebb03</description>
+  <Point><coordinates>11.129386,48.579419</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>BAVAX </name>
+  <styleUrl>#WPT</styleUrl>
+  <description>N48.15.46 E011.40.32
+Waypoint 15 on route amsebb03</description>
+  <Point><coordinates>11.675556,48.262778</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>MUN   </name>
+  <styleUrl>#WPT</styleUrl>
+  <description>N48.10.49 E011.48.57
+Waypoint 16 on route amsebb03</description>
+  <Point><coordinates>11.816017,48.180325</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>VAVOR </name>
+  <styleUrl>#WPT</styleUrl>
+  <description>N47.56.03 E012.09.16
+Waypoint 17 on route amsebb03</description>
+  <Point><coordinates>12.154547,47.934167</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>LOMRO </name>
+  <styleUrl>#WPT</styleUrl>
+  <description>N47.44.00 E012.21.28
+Waypoint 18 on route amsebb03</description>
+  <Point><coordinates>12.357878,47.733356</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>NOKDA </name>
+  <styleUrl>#WPT</styleUrl>
+  <description>N46.51.20 E013.30.29
+Waypoint 19 on route amsebb03</description>
+  <Point><coordinates>13.508125,46.855617</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>REKTI </name>
+  <styleUrl>#WPT</styleUrl>
+  <description>N46.35.04 E013.53.50
+Waypoint 20 on route amsebb03</description>
+  <Point><coordinates>13.897447,46.584539</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>NIPEL </name>
+  <styleUrl>#WPT</styleUrl>
+  <description>N46.29.22 E014.01.57
+Waypoint 21 on route amsebb03</description>
+  <Point><coordinates>14.032597,46.489472</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>ROKSA </name>
+  <styleUrl>#WPT</styleUrl>
+  <description>N45.29.42 E015.00.25
+Waypoint 22 on route amsebb03</description>
+  <Point><coordinates>15.007147,45.495017</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>NERRA </name>
+  <styleUrl>#WPT</styleUrl>
+  <description>N42.54.19 E017.32.36
+Waypoint 23 on route amsebb03</description>
+  <Point><coordinates>17.543333,42.905278</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>DBK   </name>
+  <styleUrl>#WPT</styleUrl>
+  <description>N42.33.13 E018.16.38
+Waypoint 24 on route amsebb03</description>
+  <Point><coordinates>18.277433,42.553839</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>KONUV </name>
+  <styleUrl>#WPT</styleUrl>
+  <description>N42.26.09 E018.26.12
+Waypoint 25 on route amsebb03</description>
+  <Point><coordinates>18.436667,42.435833</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>TILVO </name>
+  <styleUrl>#WPT</styleUrl>
+  <description>N42.20.46 E018.33.27
+Waypoint 26 on route amsebb03</description>
+  <Point><coordinates>18.557500,42.346111</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>LASTI </name>
+  <styleUrl>#WPT</styleUrl>
+  <description>N42.06.01 E018.53.06
+Waypoint 27 on route amsebb03</description>
+  <Point><coordinates>18.885083,42.100444</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>LEBGA </name>
+  <styleUrl>#WPT</styleUrl>
+  <description>N41.52.59 E019.10.18
+Waypoint 28 on route amsebb03</description>
+  <Point><coordinates>19.171722,41.883139</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>PETAK </name>
+  <styleUrl>#WPT</styleUrl>
+  <description>N41.46.31 E019.18.50
+Waypoint 29 on route amsebb03</description>
+  <Point><coordinates>19.313889,41.775278</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>TRN   </name>
+  <styleUrl>#WPT</styleUrl>
+  <description>N41.24.58 E019.43.05
+Waypoint 30 on route amsebb03</description>
+  <Point><coordinates>19.718194,41.416139</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>UNDER </name>
+  <styleUrl>#WPT</styleUrl>
+  <description>N41.04.05 E019.56.51
+Waypoint 31 on route amsebb03</description>
+  <Point><coordinates>19.947500,41.068056</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>ADDER </name>
+  <styleUrl>#WPT</styleUrl>
+  <description>N40.31.26 E020.18.17
+Waypoint 32 on route amsebb03</description>
+  <Point><coordinates>20.304722,40.523889</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>DIMIS </name>
+  <styleUrl>#WPT</styleUrl>
+  <description>N40.04.21 E020.35.41
+Waypoint 33 on route amsebb03</description>
+  <Point><coordinates>20.594722,40.072500</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>YNN   </name>
+  <styleUrl>#WPT</styleUrl>
+  <description>N39.42.00 E020.49.16
+Waypoint 34 on route amsebb03</description>
+  <Point><coordinates>20.821317,39.700033</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>TRL   </name>
+  <styleUrl>#WPT</styleUrl>
+  <description>N37.24.17 E022.20.27
+Waypoint 35 on route amsebb03</description>
+  <Point><coordinates>22.340833,37.404722</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>DILMO </name>
+  <styleUrl>#WPT</styleUrl>
+  <description>N36.07.00 E023.08.30
+Waypoint 36 on route amsebb03</description>
+  <Point><coordinates>23.141667,36.116667</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>PLH   </name>
+  <styleUrl>#WPT</styleUrl>
+  <description>N35.13.39 E023.40.51
+Waypoint 37 on route amsebb03</description>
+  <Point><coordinates>23.680833,35.227500</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>SALUN </name>
+  <styleUrl>#WPT</styleUrl>
+  <description>N34.00.00 E024.27.00
+Waypoint 38 on route amsebb03</description>
+  <Point><coordinates>24.450000,34.000000</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>BRN   </name>
+  <styleUrl>#WPT</styleUrl>
+  <description>N31.34.32 E026.00.20
+Waypoint 39 on route amsebb03</description>
+  <Point><coordinates>26.005556,31.575556</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>DANAD </name>
+  <styleUrl>#WPT</styleUrl>
+  <description>N28.51.06 E028.06.09
+Waypoint 40 on route amsebb03</description>
+  <Point><coordinates>28.102500,28.851667</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>ALTAT </name>
+  <styleUrl>#WPT</styleUrl>
+  <description>N26.36.02 E029.46.18
+Waypoint 41 on route amsebb03</description>
+  <Point><coordinates>29.771667,26.600556</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>EGPAR </name>
+  <styleUrl>#WPT</styleUrl>
+  <description>N26.14.48 E030.01.48
+Waypoint 42 on route amsebb03</description>
+  <Point><coordinates>30.030000,26.246667</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>NODLA </name>
+  <styleUrl>#WPT</styleUrl>
+  <description>N25.48.18 E030.20.29
+Waypoint 43 on route amsebb03</description>
+  <Point><coordinates>30.341389,25.805000</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>IMLAX </name>
+  <styleUrl>#WPT</styleUrl>
+  <description>N25.29.24 E030.27.07
+Waypoint 44 on route amsebb03</description>
+  <Point><coordinates>30.451944,25.490000</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>VUTAB </name>
+  <styleUrl>#WPT</styleUrl>
+  <description>N25.26.48 E030.28.02
+Waypoint 45 on route amsebb03</description>
+  <Point><coordinates>30.467222,25.446667</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>DESDO </name>
+  <styleUrl>#WPT</styleUrl>
+  <description>N25.19.32 E030.30.34
+Waypoint 46 on route amsebb03</description>
+  <Point><coordinates>30.509444,25.325556</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>ORLEX </name>
+  <styleUrl>#WPT</styleUrl>
+  <description>N22.57.32 E031.18.59
+Waypoint 47 on route amsebb03</description>
+  <Point><coordinates>31.316389,22.958889</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>ALKED </name>
+  <styleUrl>#WPT</styleUrl>
+  <description>N22.21.52 E031.30.52
+Waypoint 48 on route amsebb03</description>
+  <Point><coordinates>31.514444,22.364444</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>NUBAR </name>
+  <styleUrl>#WPT</styleUrl>
+  <description>N22.00.00 E031.38.24
+Waypoint 49 on route amsebb03</description>
+  <Point><coordinates>31.640000,22.000000</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>SOMAK </name>
+  <styleUrl>#WPT</styleUrl>
+  <description>N19.03.01 E031.47.17
+Waypoint 50 on route amsebb03</description>
+  <Point><coordinates>31.788056,19.050278</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>MRW   </name>
+  <styleUrl>#WPT</styleUrl>
+  <description>N18.24.49 E031.49.48
+Waypoint 51 on route amsebb03</description>
+  <Point><coordinates>31.830269,18.413622</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>ALPOX </name>
+  <styleUrl>#WPT</styleUrl>
+  <description>N17.11.31 E032.08.30
+Waypoint 52 on route amsebb03</description>
+  <Point><coordinates>32.141944,17.191944</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>KTM   </name>
+  <styleUrl>#WPT</styleUrl>
+  <description>N15.33.57 E032.33.12
+Waypoint 53 on route amsebb03</description>
+  <Point><coordinates>32.553375,15.566089</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>GAGNI </name>
+  <styleUrl>#WPT</styleUrl>
+  <description>N13.54.27 E032.47.05
+Waypoint 54 on route amsebb03</description>
+  <Point><coordinates>32.785000,13.907500</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>KNA   </name>
+  <styleUrl>#WPT</styleUrl>
+  <description>N13.01.40 E032.54.23
+Waypoint 55 on route amsebb03</description>
+  <Point><coordinates>32.906444,13.027972</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>AVONO </name>
+  <styleUrl>#WPT</styleUrl>
+  <description>N09.20.25 E033.56.01
+Waypoint 56 on route amsebb03</description>
+  <Point><coordinates>33.933722,9.340500</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>EPSIX </name>
+  <styleUrl>#WPT</styleUrl>
+  <description>N06.38.08 E034.40.01
+Waypoint 57 on route amsebb03</description>
+  <Point><coordinates>34.667083,6.635667</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>AMATO </name>
+  <styleUrl>#WPT</styleUrl>
+  <description>N05.18.36 E035.01.24
+Waypoint 58 on route amsebb03</description>
+  <Point><coordinates>35.023333,5.310000</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>ANTAX </name>
+  <styleUrl>#WPT</styleUrl>
+  <description>N04.00.00 E035.22.48
+Waypoint 59 on route amsebb03</description>
+  <Point><coordinates>35.380000,4.000000</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>LOV   </name>
+  <styleUrl>#WPT</styleUrl>
+  <description>N03.06.27 E035.36.45
+Waypoint 60 on route amsebb03</description>
+  <Point><coordinates>35.612739,3.107500</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>PATAR </name>
+  <styleUrl>#WPT</styleUrl>
+  <description>N02.26.52 E034.58.31
+Waypoint 61 on route amsebb03</description>
+  <Point><coordinates>34.975403,2.447928</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>HUEN  </name>
+  <styleUrl>#WPT</styleUrl>
+  <description>Final waypoint on route amsebb03</description>
+  <Point><coordinates>32.440542,0.040814</coordinates></Point>
+</Placemark>
+</Folder>
+<Placemark>
+  <description>Company route: amsebb03</description>
+  <name>amsebb03</name>
+  <visibility>1</visibility>
+  <open>0</open>
+  <styleUrl>#RTE</styleUrl>
+  <LineString>
+    <extrude>1</extrude>
+    <tessellate>1</tessellate>
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>4.764167,52.308056 5.835936,51.975525 6.058889,51.855833 6.220000,51.768056 6.455000,51.638889 6.875833,51.404722 7.892039,51.170511 8.618872,50.444900 9.190000,50.063056 9.541944,49.823611 10.383056,49.236111 10.767778,48.811111 10.948889,48.695556 11.129386,48.579419 11.675556,48.262778 11.816017,48.180325 12.154547,47.934167 12.357878,47.733356 13.508125,46.855617 13.897447,46.584539 14.032597,46.489472 15.007147,45.495017 17.543333,42.905278 18.277433,42.553839 18.436667,42.435833 18.557500,42.346111 18.885083,42.100444 19.171722,41.883139 19.313889,41.775278 19.718194,41.416139 19.947500,41.068056 20.304722,40.523889 20.594722,40.072500 20.821317,39.700033 22.340833,37.404722 23.141667,36.116667 23.680833,35.227500 24.450000,34.000000 26.005556,31.575556 28.102500,28.851667 29.771667,26.600556 30.030000,26.246667 30.341389,25.805000 30.451944,25.490000 30.467222,25.446667 30.509444,25.325556 31.316389,22.958889 31.514444,22.364444 31.640000,22.000000 31.788056,19.050278 31.830269,18.413622 32.141944,17.191944 32.553375,15.566089 32.785000,13.907500 32.906444,13.027972 33.933722,9.340500 34.667083,6.635667 35.023333,5.310000 35.380000,4.000000 35.612739,3.107500 34.975403,2.447928 32.440542,0.040814</coordinates>
+  </LineString>
+</Placemark>
+</Document>
+</kml>

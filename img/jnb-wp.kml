@@ -672,13 +672,13 @@ Waypoint 93 on route amsjnb42</description>
 <Placemark>
   <name>FAOR  </name>
   <styleUrl>#WPT</styleUrl>
-  <description>jnb</description>
+  <description>Final waypoint on route amsjnb42</description>
   <Point><coordinates>28.242317,-26.133694</coordinates></Point>
 </Placemark>
 </Folder>
 <Placemark>
-  <description>jnb</description>
-  <name>amsjnb</name>
+  <description>Company route: amsjnb42</description>
+  <name>amsjnb42</name>
   <visibility>1</visibility>
   <open>0</open>
   <styleUrl>#RTE</styleUrl>
