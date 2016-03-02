@@ -1,6 +1,6 @@
 <kml xmlns="http://earth.google.com/kml/2.0">
 <Document>
-<name>amslad01</name>
+<name>Sample route Amsterdam - Luanda</name>
 <Style id="RTE">
   <LineStyle>
     <width>3</width>
@@ -9,7 +9,7 @@
 </Style>
 <Placemark>
   <description>Amsterdam - Luanda</description>
-  <name>amslad</name>
+  <name>Sample route</name>
   <visibility>1</visibility>
   <open>0</open>
   <styleUrl>#RTE</styleUrl>
