@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<!--
+  This is very much _not_ production code - it takes various shortcuts
+  and violates several best practices. Goal was to get a workable demo
+  with real data in a few hours of hacking.
+  -->
+  <head>
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>African routes</title>
+    <style>
+      html, body {
+        height: 100%;
+        margin: 20px;
+        padding: 0;
+        font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Helvetica Neue', Helvetica, verdana, arial, sans-serif;
+        font-size: 13px;
+        background-color: #0da6e0;
+      }
+      select {
+          font-size: inherit;
+          font-family: inherit;
+          margin: 0;
+          height: 32px;
+          line-height: 15px;
+          padding: 6px;
+          color: #003145;
+          border: 1px solid #abd7ea;
+          border-radius: 3px;
+          background-color: #fcfefe;
+      }
+      label {
+          width: 100px;
+          font-weight: bold;
+          display: inline-block;
+      }
+      a {
+          text-decoration: none;
+          color: #00a1de;
+          /*font-weight: bold;*/
+      }
+      a:hover {
+          color: #003145;
+      }
+
+      #__select_area {
+          background-color: white;
+          padding: 20px;
+          display: flex;
+          display: -webkit-flex;
+          flex-direction: row;
+          -webkit-flex-direction: row;
+          justify-content: space-between;
+          -webkit-justify-content: space-between;
+          transition: width 0.3s ease-out;
+          -webkit-transition: width 0.3s ease-out;
+      }
+      #map {
+        float: bottom;
+        height: 75%;
+        width: 100%;
+        transition: width 0.3s ease-out;
+        -webkit-transition: width 0.3s ease-out;
+      }
+      @media screen and (max-width: 639px){
+          html, body {
+            height: 100%;
+            margin: 0px;
+            padding: 0;
+            font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Helvetica Neue', Helvetica, verdana, arial, sans-serif;
+            font-size: 13px;
+            background-color: white;
+          }
+          #map {
+              height: 90%;
+              transition: width 0.3s ease-out;
+              -webkit-transition: width 0.3s ease-out;
+          }
+          label {
+              width: auto;
+          }
+          #__select_area {
+              flex-direction: column;
+              -webkit-flex-direction: column;
+              padding: 15px 5px 10px 5px;
+              transition: width 0.3s ease-out;
+              -webkit-transition: width 0.3s ease-out;
+          }
+      }
+    </style>
+
+  </head>
+<body>
+    <div id="__select_area">
+        <div>
+            <label for="__routes">Route</label>
+            <select title="list of routes" id="__routes">
+                <option value="none">Select...</option>
+                <option value="https://sverweij.github.io/img/acc-wp.kml">Amsterdam - Accra</option>
+                <option value="https://sverweij.github.io/img/acc.kml">Amsterdam - Accra (without waypoints)</option>
+                <option value="https://sverweij.github.io/img/cai-wp.kml">Amsterdam - Cairo</option>
+                <option value="https://sverweij.github.io/img/cpt-wp.kml">Amsterdam - Capetown</option>
+                <option value="https://sverweij.github.io/img/dar-wp.kml">Amsterdam - Dar Es Salaam</option>
+                <option value="https://sverweij.github.io/img/ebb-wp.kml">Amsterdam - Entebbe</option>
+                <option value="https://sverweij.github.io/img/jnb-wp.kml">Amsterdam - Johannesburg</option>
+                <option value="https://sverweij.github.io/img/jro-wp.kml">Amsterdam - Kilimanjaro</option>
+                <option value="https://sverweij.github.io/img/kgl-wp.kml">Amsterdam - Kigali</option>
+                <option value="https://sverweij.github.io/img/lad-wp.kml">Amsterdam - Luanda</option>
+                <option value="https://sverweij.github.io/img/los-wp.kml">Amsterdam - Lagos</option>
+                <option value="https://sverweij.github.io/img/nbo-wp.kml">Amsterdam - Nairobi</option>
+            </select>
+        </div>
+        <div style="padding-top: 8px;">
+            <a id="__link" style="display:none;">download this route&nbsp;&gt;</a>
+        </div>
+
+    </div>
+    <div id="map"></div>
+
+    <script>
+
+      var AMSTERDAM_COORDS = {lat: 52.308056, lng: 4.764167};
+
+      var MAPOPTIONS = {
+        zoom             : 5,
+        center           : AMSTERDAM_COORDS,
+        streetViewControl: false,
+        minZoom          : 2
+      };
+
+      function initMap() {
+        var map = new google.maps.Map(document.getElementById('map'), MAPOPTIONS);
+      }
+
+      function showMap(pURL){
+          var map = new google.maps.Map(document.getElementById('map'), MAPOPTIONS);
+
+          var kmlLayer = new google.maps.KmlLayer({
+            url: pURL,
+            suppressInfoWindows: false,
+            map: map
+          });
+      }
+
+      function routesOnChange() {
+        if ("none" !== window.__routes.value){
+            showMap(window.__routes.value);
+            window.__link.style="display:inline-block;";
+            window.__link.href=window.__routes.value;
+        } else {
+            initMap();
+            window.__link.style="display:none;";
+        }
+      }
+
+      window.__routes.addEventListener("change", routesOnChange, false);
+    </script>
+
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB5fUjDOq8X0Z2PWo8lDgkeKcq3NpIVldE&callback=initMap">
+    </script>
+  </body>
+</html>
