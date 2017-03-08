@@ -1,104 +1,159 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-      <meta http-equiv="Content-Type" content="text/html;charset=utf-8" >
-      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-      <meta name="google-site-verification" content="G7Qv6VkSE89m8dMe9LGXIR5VlycCrVLD53OmmtTYsKw"/>
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="icon" sizes="16x16 32x32 64x64" href="./favicon.ico">
-        <link rel="icon" sizes="228x228" href="./favicon-228.png">
-        <link rel="icon" sizes="195x195" href="./favicon-195.png">
-        <link rel="icon" sizes="152x152" href="./favicon-152.png">
-        <link rel="icon" sizes="144x144" href="./favicon-144.png">
-        <link rel="icon" sizes="128x128" href="./favicon-128.png">
-        
-        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="./iosfavicon-152.png">
-        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="./iosfavicon-144.png">
-        <link rel="apple-touch-icon-precomposed" sizes="120x120" href="./iosfavicon-120.png">
-        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="./iosfavicon-114.png">
-        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="./iosfavicon-72.png">
-        <link rel="apple-touch-icon-precomposed" href="./iosfavicon-57.png">
-        <link rel="shortcut icon" href="./favicon.ico">
-		<link rel="stylesheet" href="style/normalize.min.css" type="text/css" media="screen">
-		<link rel="stylesheet" href="style/index.css" type="text/css" media="screen">
-      <title>Sander Verweij</title>
-    </head>
-    <!--[if lt IE 9]>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="google-site-verification" content="G7Qv6VkSE89m8dMe9LGXIR5VlycCrVLD53OmmtTYsKw" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" sizes="16x16 32x32 64x64" href="./favicon.ico">
+    <link rel="icon" sizes="228x228" href="./favicon-228.png">
+    <link rel="icon" sizes="195x195" href="./favicon-195.png">
+    <link rel="icon" sizes="152x152" href="./favicon-152.png">
+    <link rel="icon" sizes="144x144" href="./favicon-144.png">
+    <link rel="icon" sizes="128x128" href="./favicon-128.png">
+
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="./iosfavicon-152.png">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="./iosfavicon-144.png">
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="./iosfavicon-120.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="./iosfavicon-114.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="./iosfavicon-72.png">
+    <link rel="apple-touch-icon-precomposed" href="./iosfavicon-57.png">
+    <link rel="shortcut icon" href="./favicon.ico">
+    <style type="text/css">
+        * { transition: all ease 0.1s } /*cough* errm *cough*/
+        body{font-family: sans-serif; margin:40px auto;max-width:650px;line-height:1.6;font-size:18px;color:#444;padding:0 10px}h1,h2,h3{line-height:1.2}
+        a, a:visited{color:inherit;text-decoration: none;border-bottom: 1px solid lightgray}
+        a:hover{border-bottom: 1px solid black}
+        footer{border-top:solid grey 1px;font-size:small}
+    </style>
+    <title>Sander Verweij</title>
+</head>
+<!--[if lt IE 9]>
     <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
-  <body>
-      <div class="header-container">
-          <header class="wrapper clearfix">
-              <h1 class="title">Sander Verweij</h1>
-          </header>
-         
-      </div>
-      <div class="main-container">
-          <div class="main wrapper clearfix">
-      <article>
-      <section>
-      <h2>Project: mscgen_js</h2>
-      <p>
-      A faithful reimplementation of <a
-      href="http://www.mcternan.co.uk/mscgen/" title="mscgen original
-      site (opens new window)" target="_blank">mscgen</a> in
-      javascript. With it, you can embed sequence charts in html, 
-      write sequence charts on line or in the atom editor.
-      </p>
-          <ul>
-            <li><a href="https://mscgen.js.org/index.html?utm_source=sverweij.github.io">interpreter</a></li>
-            <li><a href="https://mscgen.js.org/embed.html?utm_source=sverweij.github.io">embed mscgen in html</a></li>
-            <li><a href="https://atom.io/packages/mscgen-preview">atom mscgen package</a></li>
-            <li><a href="https://mscgen.js.org/tutorial.html?utm_source=sverweij.github.io">tutorial</a></li>
-            <li><a href="https://github.com/sverweij/mscgen_js">github repo</a>
-          </ul>
-      </section>
-      <section>
-          <h2>Project: WordyWordy</h2>
-          <p>
-             A web app that presents text one word at a time.
-             You can drop any text on it and it will start reading
-             it to you. It also remembers where you left off.
-          </p>
-          <p>
-          I started this to test some stuff for mscgen_js, but
-          it ended up being useful in itself.
-         </p>
-          <ul>
-              <li><a href="https://wordywordy.js.org//index.html?canned=intro&speed=150&loop=0&play=1&utm_source=sverweij.github.io">WordyWordy</a></li>
-              <li><a href="https://github.com/sverweij/wordywordy">github repo</a></li>
-          </ul>
-          </p>
-      </section>
-      <section>
-        <h2>Disclaimer</h2>
+<body>
+    <h1><img style="vertical-align:middle;border-radius: 64px" height="100px" src="img/mug.jpg" alt="Sander's mugshot"> Sander Verweij</h1>
+
+    <p>
+        Hi. I'm Sander. You probably landed on this page to learn a little
+        more about me (check?). That's cool.
+    </p>
+
+
+    <h2>Life</h2>
+    <p>
+        I live in Holland. It could be my wife lives there as well, but I
+        honestly don't know. I have never met her.
+    </p>
+    <p>
+        To the best of my knowledge I don't have any kids either.
+    </p>
+    <p>
+        Other random facts:
+        <ul>
+            <li>Hats are cool.</li>
+            <li>The best time to go out for a walk is when it rains.</li>
+            <li>Best purchase of 2015: leather walking shoes.</li>
+            <li>I know how to assemble a
+                <a href="https://en.wikipedia.org/wiki/Chromatic_harmonica">chromatic harmonica.</a>
+            </li>
+            <li>Best purchase of 2016: noise canceling head phones.</li>
+        </ul>
+    </p>
+
+    <h2>Work</h2>
+    <p>
+        Despite appearances, I'm not a software engineer. I did start out as
+        one, but discovered other types of work can be just as
+        rewarding<sup>1)</sup>. I currently earn my daily bread as a
+        <strong>full stack analyst</strong> <sup> 2)</sup> in a scrum team that
+        builds an e-commerce site.
+    </p>
+
+    <h2>Side projects</h2>
+    <p>
+        I love <strong>text based modeling software</strong>, like
+        <a href="http://www.mcternan.me.uk/mscgen/">MscGen</a> (sequence charts)
+        and <a href="http://graphviz.org">Graphviz</a> (networks). Weirdly,
+        tooling to work with that software is klunky - if it's available at all.
+    </p>
+    <p>
+        In 2013 I set out to change that. I implemented mscgen in
+        JavaScript and put it on a website (<a href="https://mscgen.js.org">mscgen.js.org</a>).
+        This meant I could use it from anywhere, and that I could learn from
+        how others used it. That worked. Three years later there's a cli, an
+        npm library, two little languages that expand upon the ideas in MscGen,
+        syntax highlighting in codemirror and visual studio code.
+        And a plugin for the Atom editor. Which is really awesome. You should
+        try it. No, really.
+    </p>
+    <p>
+        At the end of 2016 I set upon writing
+        <a href="https://github.com/sverweij/dependency-cruiser">dependency-cruiser</a>
+        <strong>dependency analyzer and visualizer</strong> for JavaScript.
+        Or actually for TypeScript.
+    </p>
+    <p>
+        My team was using a mono-repo for their Angular 2 code.
+        Our chief architect didn't like that. His concern was that it
+        would be too easy to create dependencies between modules that
+        shouldn't know of each other. The teams concern was that splitting
+        the repo in the early stages would introduce too much complexity and
+        would be error prone (try developing six new npm modules at the same
+        time that work together).
+    </p>
+    <p>
+        As a solution I proposed to add a kind of dependency-lint to our
+        pre-commit hook and to our CI script, that would stop the build process
+        when an ontoward dependency was introduced. I figured that if it wouldn't
+        exist yet, it would be easy to write over a weekend. The architect
+        and the team liked the idea.
+    </p>
+    <p>
+        The <em>easy to write over a weekend</em> estimate proved to be correct
+        for our minimum set of requirements (handles typescript, exits
+        non-zero on rule violations) <em>and</em> a simple graphviz dot
+        visualization.
+    </p>
+    <p>
+        I have some <strong>other side projects</strong>; <a href="https://github.com/sverweij" title="Sander on GitHub">GitHub</a>
+        is doing a decent job on showcasing them, so if you want to see them, hit over there.
+    </p>
+
+    <h2>Social media</h2>
+    <p>
+        Apart from <a href="https://github.com/sverweij" title="Sander on GitHub">GitHub</a>,
+        I have accounts on
+        <a href="http://www.linkedin.com/in/sanderverweij" title="Sander's LinkedIn profile">LinkedIn</a>
+        <a href="https://www.twitter.com/SanderSpeaks" title="Sander's Twitter account">Twitter</a> and
+        <a href="https://plus.google.com/u/0/118369668878370776334" title="Sander on Google+">Google+</a>.
+        Fair warning, though: I tend to check these once every two weeks.
+    </p>
+    <p>
+    </p>
+    <p style="text-align:right">
+        Made with :metal: in Holland.
+    </p>
+    <footer>
         <p>
-            I work for a contracting company, who hires me
-            to cool companies as <abbr title="business analist, information analyst, information architect, consultant, ...">requirements dude</abbr>.
-        <p>
+            <sup>1)</sup>= And have better pay.
         </p>
-            The public work present at github (including, but not limited to
+        <p>
+            <sup>2)</sup>= That's not my official job title. But it's closer
+            to what I actually do there. It encompasses things like business
+            analysis, coaching, system analysis, coaching, code review and
+            occasionally writing some software.
+        </p>
+        </p>
+            <strong>Disclaimer</strong>: The public work present at github (including, but not limited to
             <a href="https://mscgen.js.org?utm_source=sverweij.github.io">mscgen_js</a>)
-            is a strict spare time endeavour and is <em><strong>in no way</strong></em>
-            related to that contracting company or any of its customers.
+            is a strict spare time endeavour and is
+            <em>in no way</em> related to the contracting
+            company I work for nor to any of its customers.
         </p>
-        </section>
-    </article>
-      <aside>
-        <h3>sverweij, elswewhere</h3>
-        <p> 
-          <a href="http://www.linkedin.com/in/sanderverweij" title="Sander's LinkedIn profile (opens in new window)" target="_blank">LinkedIn</a>
-          <a href="https://www.twitter.com/SanderSpeaks" title="Sander's Twitter account (opens in new window)" target="_blank">Twitter</a>
-          <a href="https://plus.google.com/u/0/118369668878370776334" title="Sander on Google+ (opens in new window)"  target="_blank">Google+</a>
-        </p>
-      </aside>
-    </div> <!-- main wrapper -->
-    </div> <!-- main-container -->
-    <div class="footer-container">
-    <footer class="footer wrapper clearfix">
-    Ceci ne pas un footer
     </footer>
-    </div><!-- footer-container-->
-  </body>
+</body>
+
 </html>
