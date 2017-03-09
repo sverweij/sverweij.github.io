@@ -34,18 +34,61 @@
     <![endif]-->
 
 <body>
-    <h1><img style="vertical-align:middle;border-radius: 64px" height="100px" src="img/mug.jpg" alt="Sander's mugshot"> Sander Verweij</h1>
+    <h1><img style="vertical-align:middle;border-radius:64px;height:2em;width:2em" src="assets/mug.jpg" alt="Sander's mugshot"> Sander Verweij</h1>
 
     <p>
         Hi. I'm Sander. You probably landed on this page to learn a little
-        more about me (check?). That's cool.
+        more about me (check?). That's cool, but brace for prose.
     </p>
 
-
-    <h2>Life</h2>
+    <h2>Work</h2>
     <p>
-        I live in Holland. It could be my wife lives there as well, but I
-        honestly don't know. I have never met her.
+        Despite appearances, I'm not a software engineer. I did start out as
+        one, but discovered other types of work can be just as
+        rewarding<sup>1)</sup>. I currently earn my daily bread as a
+        <strong>full stack analyst</strong> <sup> 2)</sup> in a scrum team that
+        builds an e-commerce site.
+    </p>
+
+    <h2>Side projects</h2>
+    <p>
+        I love <strong>text based modeling software</strong>, like
+        <a href="http://www.mcternan.me.uk/mscgen/">MscGen</a> (sequence charts)
+        and <a href="http://graphviz.org">Graphviz</a> (networks). Weirdly,
+        tooling to work with that software is either non-existant or klunky.
+    </p>
+    <p>
+        In 2013 I set out to change that. I implemented mscgen in
+        JavaScript and put it on a website (<a href="https://mscgen.js.org">mscgen.js.org</a>).
+        This meant I could use it from anywhere, and that I could learn from
+        how others used it. That worked. Three years later there's a cli, an
+        npm library, two little languages that expand upon the ideas in MscGen,
+        syntax highlighting in codemirror and visual studio code.
+        And a plugin for the Atom editor. Which is really awesome. You should
+        try it. No, really.
+    </p>
+    <p>
+        At the end of 2016 I set upon writing
+        <a href="https://github.com/sverweij/dependency-cruiser">dependency-cruiser</a>
+        <strong>dependency analyzer and visualizer</strong> for TypeScript (and
+        hence JavaScript) to keep both my team and the chief architect happy.
+        My team wanted to keep a mono-repo for a while to keep initial development
+        manageable. Our chief architect was afraid we'd grow weird
+        dependencies within that repo. With dependency-cruiser we could prove
+        that concern unfounded, both visually and in our CI.
+    </p>
+    <p>
+
+    </p>
+    <p>
+        I have some <strong>other side projects</strong>; <a href="https://github.com/sverweij" title="Sander on GitHub">GitHub</a>
+        is doing a decent job on showcasing them, so if you want to see them, hit over there.
+    </p>
+
+    <h2>Private life</h2>
+    <p>
+        I live in Holland. As does my girlfriend. Probably; I honestly don't
+        know. I have never met her.
     </p>
     <p>
         To the best of my knowledge I don't have any kids either.
@@ -63,65 +106,6 @@
         </ul>
     </p>
 
-    <h2>Work</h2>
-    <p>
-        Despite appearances, I'm not a software engineer. I did start out as
-        one, but discovered other types of work can be just as
-        rewarding<sup>1)</sup>. I currently earn my daily bread as a
-        <strong>full stack analyst</strong> <sup> 2)</sup> in a scrum team that
-        builds an e-commerce site.
-    </p>
-
-    <h2>Side projects</h2>
-    <p>
-        I love <strong>text based modeling software</strong>, like
-        <a href="http://www.mcternan.me.uk/mscgen/">MscGen</a> (sequence charts)
-        and <a href="http://graphviz.org">Graphviz</a> (networks). Weirdly,
-        tooling to work with that software is klunky - if it's available at all.
-    </p>
-    <p>
-        In 2013 I set out to change that. I implemented mscgen in
-        JavaScript and put it on a website (<a href="https://mscgen.js.org">mscgen.js.org</a>).
-        This meant I could use it from anywhere, and that I could learn from
-        how others used it. That worked. Three years later there's a cli, an
-        npm library, two little languages that expand upon the ideas in MscGen,
-        syntax highlighting in codemirror and visual studio code.
-        And a plugin for the Atom editor. Which is really awesome. You should
-        try it. No, really.
-    </p>
-    <p>
-        At the end of 2016 I set upon writing
-        <a href="https://github.com/sverweij/dependency-cruiser">dependency-cruiser</a>
-        <strong>dependency analyzer and visualizer</strong> for JavaScript.
-        Or actually for TypeScript.
-    </p>
-    <p>
-        My team was using a mono-repo for their Angular 2 code.
-        Our chief architect didn't like that. His concern was that it
-        would be too easy to create dependencies between modules that
-        shouldn't know of each other. The teams concern was that splitting
-        the repo in the early stages would introduce too much complexity and
-        would be error prone (try developing six new npm modules at the same
-        time that work together).
-    </p>
-    <p>
-        As a solution I proposed to add a kind of dependency-lint to our
-        pre-commit hook and to our CI script, that would stop the build process
-        when an ontoward dependency was introduced. I figured that if it wouldn't
-        exist yet, it would be easy to write over a weekend. The architect
-        and the team liked the idea.
-    </p>
-    <p>
-        The <em>easy to write over a weekend</em> estimate proved to be correct
-        for our minimum set of requirements (handles typescript, exits
-        non-zero on rule violations) <em>and</em> a simple graphviz dot
-        visualization.
-    </p>
-    <p>
-        I have some <strong>other side projects</strong>; <a href="https://github.com/sverweij" title="Sander on GitHub">GitHub</a>
-        is doing a decent job on showcasing them, so if you want to see them, hit over there.
-    </p>
-
     <h2>Social media</h2>
     <p>
         Apart from <a href="https://github.com/sverweij" title="Sander on GitHub">GitHub</a>,
@@ -129,22 +113,23 @@
         <a href="http://www.linkedin.com/in/sanderverweij" title="Sander's LinkedIn profile">LinkedIn</a>
         <a href="https://www.twitter.com/SanderSpeaks" title="Sander's Twitter account">Twitter</a> and
         <a href="https://plus.google.com/u/0/118369668878370776334" title="Sander on Google+">Google+</a>.
-        Fair warning, though: I tend to check these once every two weeks.
+        Fair warning, though: I tend to check these once every two weeks, and
+        sometimes less.
     </p>
-    <p>
-    </p>
+
     <p style="text-align:right">
-        Made with :metal: in Holland.
+        Made with <img style="vertical-align:middle;width:1.1em;height:1.1em" src="assets/metal.png" alt="rock"> in Holland.
     </p>
     <footer>
-        <p>
+        <p id="more-rewarding">
             <sup>1)</sup>= And have better pay.
         </p>
-        <p>
+        <p id="full-stack-analyst">
+            <a href="#full-stack-analyst"></a>
             <sup>2)</sup>= That's not my official job title. But it's closer
-            to what I actually do there. It encompasses things like business
-            analysis, coaching, system analysis, coaching, code review and
-            occasionally writing some software.
+            to what I actually do there - business analysis, coaching,
+            system analysis, code review, occasionally writing some software.
+            And stakeholder management.
         </p>
         </p>
             <strong>Disclaimer</strong>: The public work present at github (including, but not limited to
