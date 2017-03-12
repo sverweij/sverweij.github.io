@@ -21,10 +21,15 @@
     <link rel="apple-touch-icon-precomposed" href="./iosfavicon-57.png">
     <link rel="shortcut icon" href="./favicon.ico">
     <style type="text/css">
-        * { transition: all ease 0.1s } /*cough* errm *cough*/
+        * { transition: all ease 0.3s } /*cough* errm *cough*/
         body{font-family: sans-serif; margin:40px auto;max-width:650px;line-height:1.6;font-size:18px;color:#444;padding:0 10px}h1,h2,h3{line-height:1.2}
         a, a:visited{color:inherit;text-decoration: none;border-bottom: 1px solid lightgray}
         a:hover{border-bottom: 1px solid black}
+        svg{fill:currentColor}
+        .p--right{text-align:right}
+        .p__svg--inline{vertical-align:top;width:1.2em;height:1.2em}
+        .h1__img--inline{vertical-align:middle;border-radius:2em;height:2em;width:2em;background-color:currentColor}
+        .h2__svg--inline{vertical-align:middle;height:1em;width:1em}
         footer{border-top:solid grey 1px;font-size:small}
     </style>
     <title>Sander Verweij</title>
@@ -34,23 +39,30 @@
     <![endif]-->
 
 <body>
-    <h1><img style="vertical-align:middle;border-radius:64px;height:2em;width:2em" src="assets/mug.jpg" alt="Sander's mugshot"> Sander Verweij</h1>
-
+    <h1>
+        <img class="h1__img--inline" src="assets/mug.jpg" aria-hidden="true">
+        Hi. I'm Sander</h1>
     <p>
-        Hi. I'm Sander. You probably landed here to learn a little
-        more about me (check?). Chill! Brace for prose.
+        You probably landed here to learn a little more about me.
     </p>
+    <p>
+         Chill! Brace for some prose.
+    </p>
+    <h2>
+        <svg class="h2__svg--inline" aria-hidden="true" viewBox="0 0 14 16" version="1.1"><path fill-rule="evenodd" d="M4.5 6l-.5.5v5l.5.5h2l.5-.5v-5L6.5 6h-2zM6 11H5V7h1v4zm6.27-7.25C12.05 2.37 11.96 1.12 12 0H9.02c0 .27-.13.48-.39.69-.25.2-.63.3-1.13.3-.5 0-.88-.09-1.13-.3-.23-.2-.36-.42-.36-.69H3c.05 1.13-.03 2.38-.25 3.75C2.55 5.13 1.95 5.88 1 6v9c.02.27.11.48.31.69.2.21.42.3.69.31h11c.27-.02.48-.11.69-.31.21-.2.3-.42.31-.69V6c-.95-.13-1.53-.88-1.75-2.25h.02zM13 15H2V7c.89-.5 1.48-1.25 1.72-2.25S4.03 2.5 4 1h1c-.02.78.16 1.47.52 2.06.36.58 1.02.89 2 .94.98-.02 1.64-.33 2-.94.36-.59.5-1.28.48-2.06h1c.02 1.42.13 2.55.33 3.38.2.81.69 2 1.67 2.63v8V15zM8.5 6l-.5.5v5l.5.5h2l.5-.5v-5l-.5-.5h-2zm1.5 5H9V7h1v4z"></path></svg>
 
-    <h2>Work</h2>
+        Work</h2>
     <p>
         Despite appearances, I'm not a software engineer. I did start out as
         one, but discovered other types of work can be just as
         rewarding<sup>1)</sup>. I currently earn my daily bread as a
-        <strong>full stack analyst</strong> <sup> 2)</sup> in a scrum team that
+        <strong>full stack analyst</strong> <sup>2)</sup> in a scrum team that
         builds an e-commerce site.
     </p>
 
-    <h2>Side projects</h2>
+    <h2>
+        <svg class="h2__svg--inline" aria-hidden="true" viewBox="0 0 14 16" version="1.1"><path fill-rule="evenodd" d="M8 9l3 6h-1l-2-4v5H7v-6l-2 5H4l2-5 2-1zM7 0H6v1h1V0zM5 3H4v1h1V3zM2 1H1v1h1V1zM.63 9a.52.52 0 0 0-.16.67l.55.92c.13.23.41.31.64.2l1.39-.66-1.16-2-1.27.86.01.01zm7.89-5.39l-5.8 3.95L3.95 9.7l6.33-3.03-1.77-3.06h.01zm4.22 1.28l-1.47-2.52a.51.51 0 0 0-.72-.17l-1.2.83 1.84 3.2 1.33-.64c.27-.13.36-.44.22-.7z"></path></svg>
+        Side projects</h2>
     <p>
         I love <strong>text based modeling software</strong>, like
         <a href="http://www.mcternan.me.uk/mscgen/">MscGen</a> (sequence charts)
@@ -61,12 +73,16 @@
     <p>
         In 2013 I implemented mscgen in JavaScript and put it on a website
         (<a href="https://mscgen.js.org">mscgen.js.org</a>).
-        So I could use it from anywhere. And so I could learn from
-        how others use it. That worked. Three years later there's a cli, an
-        npm library, two little languages that expand upon the ideas in MscGen,
-        syntax highlighting in codemirror and visual studio code.
-        And a plugin for the Atom editor. Which is really awesome. You should
-        try it. No, really.
+        So I could use it from anywhere. And so I could learn
+        how others use it. That worked. Three years later there's a
+        <a href="https://github.com/mscgenjs/mscgenjs-cli">cli</a>, a
+        <a href="https://github.com/mscgenjs/mscgenjs-core">library on npm</a>,
+        two little languages that expand upon the ideas in MscGen,
+        syntax highlighting in
+        <a href="https://codemirror.net/mode/mscgen/index.html">codemirror</a> and
+        <a href="https://marketplace.visualstudio.com/items?itemName=mscgenjs.vscode-mscgen">visual studio code</a>.
+        And a <a href="https://atom.io/packages/mscgen-preview">plugin for the Atom editor</a>.
+        Which is really awesome. You should try it. No, really.
     </p>
     <p>
         At the end of 2016 I set upon writing
@@ -79,16 +95,15 @@
         that concern unfounded, both visually and in our CI.
     </p>
     <p>
-
-    </p>
-    <p>
         I have some <strong>other side projects</strong>; <a href="https://github.com/sverweij" title="Sander on GitHub">GitHub</a>
         is doing a decent job on showcasing them, so if you want to see them, hit over there.
     </p>
 
-    <h2>Private life</h2>
+    <h2>
+        <svg class="h2__svg--inline" aria-hidden="true" viewBox="0 0 14 16" version="1.1" ><path fill-rule="evenodd" d="M7 0L0 2v6.02C0 12.69 5.31 16 7 16c1.69 0 7-3.31 7-7.98V2L7 0zM5 11l1.14-2.8a.568.568 0 0 0-.25-.59C5.33 7.25 5 6.66 5 6c0-1.09.89-2 1.98-2C8.06 4 9 4.91 9 6c0 .66-.33 1.25-.89 1.61-.19.13-.3.36-.25.59L9 11H5z"></path></svg>
+        Private life</h2>
     <p>
-        I live in Holland. As does my girlfriend. Probably; I honestly don't
+        I live in Holland. As does my girlfriend. Probably - I honestly don't
         know. I have never met her.
     </p>
     <p>
@@ -105,19 +120,23 @@
         </ul>
     </p>
 
-    <h2>Social media</h2>
+    <h2>
+        <svg class="h2__svg--inline" aria-hidden="true" viewBox="0 0 16 16" version="1.1"><path fill-rule="evenodd" d="M14.7 5.34c.13-.32.55-1.59-.13-3.31 0 0-1.05-.33-3.44 1.3-1-.28-2.07-.32-3.13-.32s-2.13.04-3.13.32c-2.39-1.64-3.44-1.3-3.44-1.3-.68 1.72-.26 2.99-.13 3.31C.49 6.21 0 7.33 0 8.69 0 13.84 3.33 15 7.98 15S16 13.84 16 8.69c0-1.36-.49-2.48-1.3-3.35zM8 14.02c-3.3 0-5.98-.15-5.98-3.35 0-.76.38-1.48 1.02-2.07 1.07-.98 2.9-.46 4.96-.46 2.07 0 3.88-.52 4.96.46.65.59 1.02 1.3 1.02 2.07 0 3.19-2.68 3.35-5.98 3.35zM5.49 9.01c-.66 0-1.2.8-1.2 1.78s.54 1.79 1.2 1.79c.66 0 1.2-.8 1.2-1.79s-.54-1.78-1.2-1.78zm5.02 0c-.66 0-1.2.79-1.2 1.78s.54 1.79 1.2 1.79c.66 0 1.2-.8 1.2-1.79s-.53-1.78-1.2-1.78z"></path></svg>
+        Social media</h2>
     <p>
         Apart from <a href="https://github.com/sverweij" title="Sander on GitHub">GitHub</a>,
         I have accounts on
         <a href="http://www.linkedin.com/in/sanderverweij" title="Sander's LinkedIn profile">LinkedIn</a>
         <a href="https://www.twitter.com/SanderSpeaks" title="Sander's Twitter account">Twitter</a> and
         <a href="https://plus.google.com/u/0/118369668878370776334" title="Sander on Google+">Google+</a>.
-        Fair warning, though: I tend to check these once every two weeks, and
+        Fair warning, though: I tend to check these once every two weeks -
         sometimes less.
     </p>
 
-    <p style="text-align:right">
-        Made with <img style="vertical-align:middle;width:1.2em;height:1.2em" src="assets/metal.svg" alt="rock"> in Holland.
+    <p class="p--right">
+        Made with
+        <svg class="p__svg--inline" alt="rock" viewBox="0 0 25 25" style="fill:#fd9;stroke:currentColor"><rect x="8.9" y="10.5" rx="1.3" ry="1.5" width="3.2" height="6.7"/><rect x="12.2" y="10.5" rx="1.3" ry="1.5" width="3.1" height="6.7"/><path d="M13.4 19.2C13.2 17.2 15.2 16.5 16.2 16.5"/><rect x="15.5" y="2.5" rx="1.4" ry="1.5" width="3.1" height="13.7"/><path d="M17.1 17.1L11.3 17.1C10.6 17.1 10 16.3 10 15.6 10 14.8 10.6 14.1 11.3 14.1L18 14.1C18.8 14.1 19.5 14.7 19.5 15.5 19.5 16.3 19.5 16.8 19.5 18.9 19.5 20.9 18 22.5 16.2 22.5L8.8 22.5C7 22.5 5.5 20.9 5.5 18.9L5.5 18.1 5.5 6C5.5 5.2 6.1 4.6 6.9 4.6L7 4.6C7.8 4.6 8.5 5.2 8.5 6L8.5 15C8.5 16.2 9.9 15.9 9.9 15.9M14.6 20.1C14.4 18.7 15.2 17.1 16.8 17.1"/></svg>
+        in Holland.
     </p>
     <footer>
         <p id="more-rewarding">
@@ -126,7 +145,7 @@
         <p id="full-stack-analyst">
             <sup>2)</sup>= That's not my official job title. But it's closer
             to what I actually do there - business analysis, coaching,
-            system analysis, code review, occasionally coding.
+            system analysis, code review, occasional coding.
             And stakeholder management.
         </p>
         <p>
