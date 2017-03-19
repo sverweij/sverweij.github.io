@@ -42,6 +42,7 @@
         .h1__img--inline{vertical-align:middle;border-radius:2em;height:2em;width:2em;background-color:currentColor}
         .h2__svg--inline{vertical-align:middle;height:1em;width:1em}
         footer{border-top:solid grey 1px;font-size:small}
+        p:target{ transition:1s ease-in;background-color:#eee}
     </style>
     <title>Sander Verweij</title>
 </head>
@@ -66,8 +67,8 @@
     <p>
         Despite appearances, I'm not a software engineer. I did start out as
         one, but discovered other types of work can be just as
-        rewarding<sup>1)</sup>. I currently earn my daily bread as a
-        <strong>full stack analyst</strong><sup>2)</sup> in a scrum team that
+        rewarding<sup><a href="#just-as-rewarding">1)</a></sup>. I currently earn my daily bread as a
+        <strong>full stack analyst</strong><sup><a href="#full-stack-analyst">2)</a></sup> in a scrum team that
         builds an e-commerce site.
     </p>
 
@@ -98,7 +99,8 @@
     <p>
         At the end of 2016 I set upon writing
         <a href="https://github.com/sverweij/dependency-cruiser">dependency-cruiser</a>,
-        a <strong>dependency analyzer and visualizer</strong> for TypeScript <sup>3)</sup>
+        a <strong>dependency analyzer and visualizer</strong> for TypeScript
+        <sup><a href="#also-javascript-and">3)</a></sup>
         to keep both my team and the chief architect happy.
         My team wanted to keep a mono-repo for a while to keep initial development
         manageable. Our chief architect was afraid we'd grow weird
@@ -150,17 +152,17 @@
         in Holland.
     </p>
     <footer>
-        <p id="more-rewarding">
-            <sup>1)</sup>= And have better pay.
+        <p id="just-as-rewarding">
+            <sup>1)</sup> = And have better pay.
         </p>
         <p id="full-stack-analyst">
-            <sup>2)</sup>= That's not my official job title. But it's closer
+            <sup>2)</sup> = That's not my official job title. But it's closer
             to what I actually do there - business analysis, coaching,
             system analysis, code review, occasional coding.
-            And stakeholder management.
+            And <strike>drinking coffee</strike> stakeholder management.
         </p>
-        <p>
-            <sup>3)</sup>= the way it's implemented, it also works for JavaScript,
+        <p id="also-javascript-and">
+            <sup>3)</sup> = the way it's implemented, it also works for JavaScript,
             CoffeeScript and LiveScript.
         </p>
         </p>
