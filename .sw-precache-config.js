@@ -2,6 +2,7 @@ module.exports = {
     staticFileGlobs : [
         'assets/mug.jpg',
         'index.html',
-        'favicon.ico'
+        'favicon.ico',
+        'manifest.json'
     ]
 };
