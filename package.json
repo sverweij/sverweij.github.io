@@ -1,0 +1,23 @@
+{
+  "name": "sverweij.github.io",
+  "version": "1.0.0",
+  "description": "stuff",
+  "main": "index.html",
+  "scripts": {
+    "build": "sw-precache --config .sw-precache-config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sverweij/sverweij.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/sverweij/sverweij.github.io/issues"
+  },
+  "homepage": "https://github.com/sverweij/sverweij.github.io#readme",
+  "devDependencies": {
+    "sw-precache": "^5.1.0"
+  }
+}
