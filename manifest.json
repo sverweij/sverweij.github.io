@@ -11,6 +11,7 @@
     }
   ],
   "start_url": "./index.html",
-  "display": "fullscreen",
+  "display": "browser",
+  "lang": "en",
   "orientation": "portrait"
 }
