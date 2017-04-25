@@ -17,17 +17,21 @@
     <link rel="shortcut icon" href="./favicon.ico">
     <link rel="manifest" href="manifest.json">
     <style type="text/css">
-        * { transition: all ease 0.3s } /*cough* errm *cough*/
+        * { transition: all ease .3s } /*cough* errm *cough*/
         body{font-family: sans-serif; margin:40px auto;max-width:650px;line-height:1.6;font-size:18px;color:#444;padding:0 10px}h1,h2,h3{line-height:1.2}
+        .body--night{background-color:#444;color:#fff} .body--night p:target{background-color:gray}
+        .body--police-tape{background-color:#ff0;color:#000} .body--police-tape p:target{background-color:gray;color:#ff0}
+        .body--reverse-police-tape{background-color:#000;color:#ff0} .body--reverse-police-tape p:target{background-color:gray}
         a, a:visited{color:inherit;text-decoration: none;border-bottom: 1px solid lightgray}
         a:hover{border-bottom: 1px solid currentColor}
         svg{fill:currentColor}
         .p--right{text-align:right}
         .p__svg--inline{vertical-align:top;width:1.2em;height:1.2em}
         .h1__img--inline{vertical-align:middle;border-radius:2em;height:2em;width:2em;background-color:currentColor}
+        .h1__img--inline:active,.h1__img--inline:hover{transform:rotate(.05turn)}
         .h2__svg--inline{vertical-align:middle;height:1em;width:1em}
         footer{border-top:solid grey 1px;font-size:small}
-        p:target{ transition:1s ease-in;background-color:#ffc}
+        p:target{transition:1s ease-in;background-color:#ffc}
     </style>
     <title>Sander Verweij</title>
 </head>
@@ -164,6 +168,11 @@
             console.log('ServiceWorker registration failed: ', err);
         });
     }
+    </script>
+    <script type="text/javascript">
+        if (new Date().getHours() > 17 || new Date().getHours() < 5) {
+            document.getElementsByTagName("body")[0].setAttribute("class", "body--night")
+        }
     </script>
 </body>
 </html>
