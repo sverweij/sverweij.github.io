@@ -18,11 +18,11 @@
     <link rel="manifest" href="manifest.json">
     <style type="text/css">
         * { transition: all ease .3s } /*cough* errm *cough*/
-        body{font-family: sans-serif; margin:40px auto;max-width:650px;line-height:1.6;font-size:18px;color:#444;padding:0 10px}h1,h2,h3{line-height:1.2}
-        .body--night{background-color:#444;color:#fff} .body--night p:target{background-color:gray}
+        body{font-family:sans-serif;margin:40px auto;margin-top:0;max-width:650px;line-height:1.6;font-size:18px;color:#444;padding:0 10px}h1,h2,h3{line-height:1.2}
+        .body--night{background-color:#444;color:#fff} .body--night p:target{background-color:#000}
         .body--police-tape{background-color:#ff0;color:#000} .body--police-tape p:target{background-color:gray;color:#ff0}
         .body--reverse-police-tape{background-color:#000;color:#ff0} .body--reverse-police-tape p:target{background-color:gray}
-        a, a:visited{color:inherit;text-decoration: none;border-bottom: 1px solid lightgray}
+        a,a:visited{color:inherit;text-decoration:none;border-bottom: 1px solid lightgray}
         a:hover{border-bottom: 1px solid currentColor}
         svg{fill:currentColor}
         .p--right{text-align:right}
@@ -31,7 +31,9 @@
         .h1__img--inline:active,.h1__img--inline:hover{transform:rotate(.05turn)}
         .h2__svg--inline{vertical-align:middle;height:1em;width:1em}
         footer{border-top:solid grey 1px;font-size:small}
-        p:target{transition:1s ease-in;background-color:#ffc}
+        p:target{transition:1s ease-in;background-color:#ffa}
+        .span--a11y-switcher{display:inline-block;width:100%;text-align: right;}
+        .span--a11y-switcher button{border-radius:1em;font-weight:bold;border:none}
     </style>
     <title>Sander Verweij</title>
 </head>
@@ -39,6 +41,12 @@
     <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 <body>
+    <span class="span--a11y-switcher">
+        <button style="color:#444;background-color:#fff" title="switch to day light mode" onclick="switchTheme('')">A</button>
+        <button style="color:#fff;background-color:#444" title="switch to night mode" onclick="switchTheme('body--night')">A</button>
+        <button style="color:#ff0;background-color:#000" title="switch to reverse high contrast mode" onclick="switchTheme('body--reverse-police-tape')">A</button>
+        <button style="color:#000;background-color:#ff0" title="switch to high contrast mode" onclick="switchTheme('body--police-tape')">A</button>
+    </span>
     <h1>
         <img class="h1__img--inline" src="assets/mug.jpg" aria-hidden="true">
         Hi. I'm Sander</h1>
@@ -87,7 +95,7 @@
         At the end of 2016 I set upon writing
         <a href="https://github.com/sverweij/dependency-cruiser">dependency-cruiser</a>,
         a <strong>dependency analyzer and visualizer</strong> for TypeScript
-        <sup><a href="#also-javascript-and">3)</a></sup>
+        <sup><a href="#also-javascript-and" rel="">3)</a></sup>
         to keep both my team and the chief architect happy.
         My team wanted to keep a mono-repo for a while to keep initial development
         manageable. Our chief architect was afraid we'd grow weird
@@ -170,8 +178,12 @@
     }
     </script>
     <script type="text/javascript">
+        function switchTheme(pTheme) {
+            document.getElementsByTagName("body")[0].setAttribute("class", pTheme)
+        }
+
         if (new Date().getHours() > 17 || new Date().getHours() < 5) {
-            document.getElementsByTagName("body")[0].setAttribute("class", "body--night")
+            switchTheme("body--night");
         }
     </script>
 </body>
