@@ -183,56 +183,63 @@
     }
     </script>
     <script type="text/javascript">
-        var CONSENT_COOKIE_KEY  = "cookieconsent";
-        var CONTRAST_COOKIE_KEY = "contrast";
+    var CONSENT_COOKIE_KEY   = "cookieconsent";
+    var CSS_THEME_COOKIE_KEY = "theme";
 
-        function getCookies() {
-            return document.cookie.split(';')
-                .map(function(pString){
-                    return pString.trim()
-                })
-                .reduce(function(pAll, pKeyValueString){
-                    var lKeyValueArray=pKeyValueString.split('=');
+    function getCookies() {
+        return document.cookie.split(';')
+            .map(function(pString){
+                return pString.trim()
+            })
+            .reduce(function(pAll, pKeyValueString){
+                var lKeyValueArray = pKeyValueString.split('=');
 
-                    pAll[lKeyValueArray[0]]=lKeyValueArray[1];
-                    return pAll
-                },
-                {});
+                pAll[lKeyValueArray[0]] = lKeyValueArray[1];
+                return pAll;
+            },
+            {});
+    }
+
+    function switchTheme(pTheme) {
+        document.getElementsByTagName("body")[0].setAttribute("class", pTheme)
+        document.cookie = CSS_THEME_COOKIE_KEY + "=" + pTheme;
+    }
+
+    function hideCookieBar() {
+        document.getElementsByClassName('span--toaster')[0].setAttribute('style','display:none');
+        document.cookie = CONSENT_COOKIE_KEY + "=1";
+    }
+
+    function hasConsentCookies(pCookies) {
+        return pCookies.hasOwnProperty(CONSENT_COOKIE_KEY);
+    }
+
+    function isDayTime(pDate) {
+        return pDate.getHours() > 17 || pDate.getHours() < 5
+    }
+
+    function getThemeFromCookies(pCookies) {
+        var lRetval = "";
+
+        if (isDayTime(new Date())) {
+            lRetval = "body--night";
         }
-
-        function switchTheme(pTheme) {
-            document.getElementsByTagName("body")[0].setAttribute("class", pTheme)
-            document.cookie = CONTRAST_COOKIE_KEY + "=" + pTheme;
+        if (pCookies.hasOwnProperty(CSS_THEME_COOKIE_KEY) && pCookies[CSS_THEME_COOKIE_KEY].indexOf('contrast') > -1) {
+            lRetval = pCookies[CSS_THEME_COOKIE_KEY];
         }
+        return lRetval;
+    }
 
-        function hideCookieBar() {
-            document.getElementsByClassName('span--toaster')[0].setAttribute('style','display:none');
-            document.cookie = CONSENT_COOKIE_KEY + "=1";
+    function main() {
+        var lCookies = getCookies();
+
+        switchTheme(getThemeFromCookies(lCookies));
+        if (hasConsentCookies(lCookies)){
+            hideCookieBar();
         }
+    }
 
-        function hasCookieConsent() {
-            return getCookies().hasOwnProperty(CONSENT_COOKIE_KEY);
-        }
-
-        function setTheme() {
-            var lCookies = getCookies();
-
-            if (new Date().getHours() > 17 || new Date().getHours() < 5) {
-                switchTheme("body--night");
-            }
-            if (lCookies.hasOwnProperty(CONTRAST_COOKIE_KEY) && lCookies[CONTRAST_COOKIE_KEY].indexOf('contrast') > -1) {
-                switchTheme(lCookies[CONTRAST_COOKIE_KEY]);
-            }
-        }
-
-        function main() {
-            setTheme();
-            if (hasCookieConsent()){
-                hideCookieBar();
-            }
-        }
-
-        main();
+    main();
     </script>
 </body>
 </html>
