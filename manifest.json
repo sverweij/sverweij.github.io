@@ -5,8 +5,8 @@
   "background_color": "#fff",
   "icons": [
     {
-      "src": "assets/mug.jpg",
-      "sizes": "256x256",
+      "src": "assets/splash.jpg",
+      "sizes": "512x512",
       "type": "image/jpg"
     }
   ],
