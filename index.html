@@ -18,7 +18,7 @@
     <link rel="manifest" href="manifest.json">
     <style type="text/css">
         * { transition: all ease .3s } /*cough* errm *cough*/
-        body{font-family:sans-serif;margin:40px auto;margin-top:0;max-width:650px;line-height:1.6;font-size:18px;color:#444;padding:0 10px;background-color:#fff}h1,h2,h3{line-height:1.2}
+        body{font-family:sans-serif;margin:0 auto;max-width:650px;line-height:1.6;font-size:18px;color:#444;padding:0 10px;background-color:#fff}h1,h2,h3{line-height:1.2}
         .body--night{background-color:#444;color:#fff} .body--night p:target{background-color:#000}
         .body--high-contrast{background-color:#ff0;color:#000} .body--high-contrast p:target{background-color:gray;color:#ff0}
         .body--reverse-high-contrast{background-color:#000;color:#ff0} .body--reverse-high-contrast p:target{background-color:gray}
@@ -28,14 +28,14 @@
         .p--right{text-align:right}
         .p__svg--inline{vertical-align:top;width:1.2em;height:1.2em}
         .h1__img--inline{vertical-align:middle;border-radius:2em;height:2em;width:2em;background-color:currentColor}
-        .h1__img--inline:active,.h1__img--inline:hover{transform:rotate(.05turn)}
+        .h1__img--inline:active,.h1__img--inline:hover,.span--a11y-switcher button:active,.span--a11y-switcher button:hover{transform:rotate(.08turn)}
         .h2__svg--inline{vertical-align:middle;height:1em;width:1em}
         footer{border-top:solid grey 1px;font-size:small}
         p:target{transition:1s ease-in;background-color:#ffa}
         .span--a11y-switcher{display:inline-block;width:100%;text-align:right}
-        .span--a11y-switcher button{border-radius:1em;font-weight:bold;border:1px solid #000;margin:0 0 0 1em}
-        .span--toaster{position:fixed;display:inline;width:10em;bottom:0em;left:calc(50% - 5em);padding:.5em 1em .5em 1em;background-color:inherit;color:inherit;border:1px solid currentColor;border-bottom:0}
-        .span--toaster button{display:inline;color:inherit;background-color:inherit;border:1px solid currentColor;border-radius:1em}
+        .span--a11y-switcher button{border-radius:50%;font-weight:bold;border:1px solid #000;padding:.2em .4em .2em .4em;margin:0 0 0 1em}
+        .span--toaster{position:fixed;display:inline;width:10em;bottom:0;left:calc(50% - 5em);padding:.5em 1em .5em 1em;background-color:inherit;color:inherit;border:1px solid currentColor;border-bottom:0}
+        .span--toaster button{display:inline;color:inherit;background-color:inherit;border:1px solid currentColor;border-radius:1em;margin-left:.6em}
     </style>
     <title>Sander Verweij</title>
 </head>
@@ -53,7 +53,7 @@
         <img class="h1__img--inline" src="assets/mug.jpg" aria-hidden="true">
         Hi. I'm Sander</h1>
     <p>
-        You probably landed here to learn a little more about me.
+        You probably landed here to learn more about me.
     </p>
     <p>
          Well, here goes.
@@ -64,7 +64,7 @@
     <p>
         Despite appearances, I'm not a software engineer. I did start out as
         one, but discovered other types of work can be just as
-        rewarding<sup><a href="#just-as-rewarding">1)</a></sup>. I currently earn my daily bread as a
+        rewarding<sup><a href="#just-as-rewarding">1)</a></sup>. I currently earn my bread as a
         <strong>full stack analyst</strong><sup><a href="#full-stack-analyst">2)</a></sup> in a scrum team that
         builds an e-commerce site.
     </p>
@@ -72,26 +72,31 @@
     <h2>
         <svg class="h2__svg--inline" aria-hidden="true" viewBox="0 0 14 16" version="1.1"><path fill-rule="evenodd" d="M8 9l3 6h-1l-2-4v5H7v-6l-2 5H4l2-5 2-1zM7 0H6v1h1V0zM5 3H4v1h1V3zM2 1H1v1h1V1zM.63 9a.52.52 0 0 0-.16.67l.55.92c.13.23.41.31.64.2l1.39-.66-1.16-2-1.27.86.01.01zm7.89-5.39l-5.8 3.95L3.95 9.7l6.33-3.03-1.77-3.06h.01zm4.22 1.28l-1.47-2.52a.51.51 0 0 0-.72-.17l-1.2.83 1.84 3.2 1.33-.64c.27-.13.36-.44.22-.7z"></path></svg>
         Side projects</h2>
+
     <p>
         I love <strong>text based modeling software</strong>, like
         <a href="http://www.mcternan.me.uk/mscgen/">MscGen</a> (sequence charts)
         and <a href="http://graphviz.org">Graphviz</a> (networks). Weirdly,
         tooling to work with that software is either non-existant or klunky.
-        I'm on a mission to change that.
-    </p>
-    <p>
-        In 2013 I implemented mscgen in JavaScript and put it on a website
-        (<a href="https://mscgen.js.org">mscgen.js.org</a>).
-        So I could use it from anywhere. And so I could learn
-        how others use it. That worked. Three years later there's a
-        <a href="https://github.com/mscgenjs/mscgenjs-cli">cli</a>, a
-        <a href="https://github.com/mscgenjs/mscgenjs-core">library on npm</a>,
-        two little languages that expand upon the ideas in MscGen,
-        syntax highlighting in
-        <a href="https://codemirror.net/mode/mscgen/index.html">codemirror</a> and
-        <a href="https://marketplace.visualstudio.com/items?itemName=mscgenjs.vscode-mscgen">visual studio code</a>.
-        And a <a href="https://atom.io/packages/mscgen-preview">plugin for the Atom editor</a>.
-        Which is really awesome. You should try it. No, really.
+        I'm on a mission to change that. As a consequence:
+        <ul>
+            <li>
+                <a href="https://mscgen.js.org">mscgen.js</a> - a
+                re-implementation of MscGen that makes it available on the web
+            </li>
+            <li>
+                Atom editor plugins for writing and previewing
+                <a href="https://atom.io/packages/mscgen-preview">MscGen</a> and
+                <a href="https://atom.io/packages/graphviz-preview-plus">Graphviz</a>
+            </li>
+            <li>
+                <a href="https://github.com/sverweij/state-machine-cat">state machine cat</a>
+                - a language and
+                <a href="https://atom.io/packages/state-machine-cat-preview">accompanying</a>
+                <a href="https://sverweij.gitlab.io/state-machine-cat">tooling</a>
+                for writing beautiful state charts.
+            </li>
+        </ul>
     </p>
     <p>
         At the end of 2016 I set upon writing
