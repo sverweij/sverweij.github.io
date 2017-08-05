@@ -44,10 +44,10 @@
     <![endif]-->
 <body>
     <span class="span--a11y-switcher">
-        <button style="color:#444;background-color:#fff" title="switch to day light mode" onclick="switchTheme('')">A</button>
-        <button style="color:#fff;background-color:#444" title="switch to night mode" onclick="switchTheme('body--night')">A</button>
-        <button style="color:#ff0;background-color:#000" title="switch to reverse high contrast mode" onclick="switchTheme('body--reverse-high-contrast', true)">A</button>
-        <button style="color:#000;background-color:#ff0" title="switch to high contrast mode" onclick="switchTheme('body--high-contrast', true)">A</button>
+        <button style="color:#444;background-color:#fff" title="switch to day light mode" aria-label="light mode" onclick="switchTheme('')">A</button>
+        <button style="color:#fff;background-color:#444" title="switch to night mode" aria-label="night mode" onclick="switchTheme('body--night')">A</button>
+        <button style="color:#ff0;background-color:#000" title="switch to reverse high contrast mode" aria-label="reverse high contrast" onclick="switchTheme('body--reverse-high-contrast', true)">A</button>
+        <button style="color:#000;background-color:#ff0" title="switch to high contrast mode" aria-label="hight contrast" onclick="switchTheme('body--high-contrast', true)">A</button>
     </span>
     <h1>
         <img class="h1__img--inline" src="assets/mug.jpg" aria-hidden="true">
