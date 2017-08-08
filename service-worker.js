@@ -37,7 +37,7 @@
 /* eslint-disable indent, no-unused-vars, no-multiple-empty-lines, max-nested-callbacks, space-before-function-paren, quotes, comma-spacing */
 'use strict';
 
-var precacheConfig = [["assets/mug.jpg","08ff44b1a09d599698aff8a8820bed50"],["favicon.ico","3d6917fb5671861bef10e62ee987f4a3"],["index.html","9cbfe8e55c5d3dc67ccf7fd858676980"],["manifest.json","7c0d661c557cd185b56c7226ec7a907b"]];
+var precacheConfig = [["assets/mug.jpg","08ff44b1a09d599698aff8a8820bed50"],["favicon.ico","3d6917fb5671861bef10e62ee987f4a3"],["index.html","4a548fe7fcdb9f614a0373aee04c6f44"],["manifest.json","7c0d661c557cd185b56c7226ec7a907b"]];
 var cacheName = 'sw-precache-v3-sw-precache-' + (self.registration ? self.registration.scope : '');
 
 
@@ -107,6 +107,8 @@ var isPathWhitelisted = function (whitelist, absoluteUrlString) {
 var stripIgnoredUrlParameters = function (originalUrl,
     ignoreUrlParametersMatching) {
     var url = new URL(originalUrl);
+    // Remove the hash; see https://github.com/GoogleChrome/sw-precache/issues/290
+    url.hash = '';
 
     url.search = url.search.slice(1) // Exclude initial '?'
       .split('&') // Split into an array of 'key=value' strings
@@ -212,8 +214,8 @@ self.addEventListener('fetch', function(event) {
     // handlers a chance to handle the request if need be.
     var shouldRespond;
 
-    // First, remove all the ignored parameter and see if we have that URL
-    // in our cache. If so, great! shouldRespond will be true.
+    // First, remove all the ignored parameters and hash fragment, and see if we
+    // have that URL in our cache. If so, great! shouldRespond will be true.
     var url = stripIgnoredUrlParameters(event.request.url, ignoreUrlParametersMatching);
     shouldRespond = urlsToCacheKeys.has(url);
 
