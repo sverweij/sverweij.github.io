@@ -5,7 +5,7 @@
   "background_color": "#fff",
   "icons": [
     {
-      "src": "assets/splash.jpg",
+      "src": "assets/mug.jpg",
       "sizes": "512x512",
       "type": "image/jpg"
     }
