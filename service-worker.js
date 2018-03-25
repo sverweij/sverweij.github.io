@@ -37,7 +37,7 @@
 /* eslint-disable indent, no-unused-vars, no-multiple-empty-lines, max-nested-callbacks, space-before-function-paren, quotes, comma-spacing */
 'use strict';
 
-var precacheConfig = [["assets/mug-128.jpg","1aa477e992c980abe6ca9f51bb0bf1f2"],["assets/mug-256.jpg","08ff44b1a09d599698aff8a8820bed50"],["assets/mug-64.jpg","d4309a53869f6fc1cc76d6e7539a6e36"],["favicon.ico","3d6917fb5671861bef10e62ee987f4a3"],["index.html","50e0053e346068faa8c035835d8afdad"],["manifest.json","22d5cc2a9a08c2c5c6dac554321b6876"]];
+var precacheConfig = [["assets/mug-128.jpg","1aa477e992c980abe6ca9f51bb0bf1f2"],["assets/mug-256.jpg","08ff44b1a09d599698aff8a8820bed50"],["assets/mug-64.jpg","d4309a53869f6fc1cc76d6e7539a6e36"],["favicon.ico","3d6917fb5671861bef10e62ee987f4a3"],["index.html","8117b74d6e42cb0fa77c50378c0e9357"],["manifest.json","b787e92b730ffbf9c0912ee108ef0265"]];
 var cacheName = 'sw-precache-v3-sw-precache-' + (self.registration ? self.registration.scope : '');
 
 
