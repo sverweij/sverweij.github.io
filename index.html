@@ -44,6 +44,47 @@
     .span--toaster{position:fixed;width:10em;bottom:0;left:calc(50% - 5em);padding:.5em 1em .5em 1em;background-color:inherit;color:inherit;border:1px solid currentColor;border-bottom:0}
     .span--toaster button{display:inline;color:inherit;background-color:inherit;border:1px solid currentColor;border-radius:1em;margin-left:.6em}
   </style>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-118296413-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag(
+      'config',
+      'UA-118296413-1',
+      {
+        'custom_map': {
+            'dimension1': 'timing_firstInteractive',
+            'dimension2': 'timing_loadEnd',
+        }
+      });
+      window.addEventListener(
+        'load',
+        () => {
+          window.setTimeout(
+            function(){
+              gtag(
+                'event',
+                'performance',
+                {
+                  'event_category': 'page.timing',
+                  'timing_firstInteractive': performance.timing.domInteractive - performance.timing.navigationStart,
+                  'timing_loadEnd': performance.timing.loadEventEnd - performance.timing.navigationStart,
+                }
+              );
+            },
+            5000
+          );
+        },
+        {
+          once: true,
+          passive: true
+        }
+      );
+  </script>
+
   <title>Sander Verweij</title>
 </head>
 <!--[if lt IE 9]>
@@ -72,8 +113,7 @@
     Despite appearances, I'm not a software engineer. I started out as
     one, but discovered other work can be just as
     rewarding<sup><a href="#just-as-rewarding">1)</a></sup>. Currently I earn
-    my bread as a <strong>product owner</strong> in a scrum team that builds
-    an e-commerce site.
+    my bread as a <strong>product owner</strong>.
   </p>
 
   <h2>
@@ -137,12 +177,9 @@
     Social media</h2>
   <p>
     Apart from <a href="https://github.com/sverweij" title="Sander on GitHub">GitHub</a>,
-    I have accounts on
+    I have an account on
     <a href="https://www.linkedin.com/in/sanderverweij" title="Sander's LinkedIn profile">LinkedIn</a>
-    <a href="https://www.twitter.com/SanderSpeaks" title="Sander's Twitter account">Twitter</a> and
-    <a href="https://plus.google.com/u/0/118369668878370776334" title="Sander on Google+">Google+</a>.
-    Fair warning, though: I tend to check these once every two weeks -
-    sometimes less.
+    (which I check at irregular intervals).
   </p>
 
   <p class="p--right">
