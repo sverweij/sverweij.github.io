@@ -33,9 +33,9 @@
       <g transform="translate(500,500)" stroke-width="5">
         <circle stroke="white" stroke-width="10" fill="transparent" cx="0" cy="0" r="490"/>
         <text dy=".2em" y="-370" x="0">0</text>
-        <text dy=".2em" y="0" x="390">6</text>
+        <text dy=".3em" y="0" x="390">6</text>
         <text dy=".2em" y="390" x="0">12</text>
-        <text dy=".2em" y="0" x="-390">18</text>
+        <text dy=".3em" y="0" x="-390">18</text>
         <line stroke-width="20" transform="rotate(0)" x1="0" y1="-465" x2="0" y2="-485"/>
         <line transform="rotate(15)" x1="0" y1="-470" x2="0" y2="-490"/>
         <line stroke-width="10" transform="rotate(30)" x1="0" y1="-465" x2="0" y2="-490"/>
@@ -83,7 +83,7 @@
     </g>
   </svg>
   <script>
-    var SVGNS = "http://www.w3.org/2000/svg";
+    const SVGNS = "http://www.w3.org/2000/svg";
 
     function scale2Angle(pValue, pMax) {
       return (pValue/pMax) * 360;
@@ -117,13 +117,13 @@
       }
 
       draw() {
-        var lDate = new Date();
+        const lDate = new Date();
         this.drawTime(lDate.getHours(), lDate.getMinutes(), lDate.getSeconds(), lDate.getMilliseconds());
       }
 
     }
 
-    var cv = new ClockView({x:500, y:500}, {x:300, y:700});
+    const cv = new ClockView({x:500, y:500}, {x:300, y:700});
     window.setInterval(() => cv.draw(), 1000);
 
   </script>
