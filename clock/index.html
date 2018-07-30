@@ -25,60 +25,89 @@
         font-size: 100px;
         text-anchor: middle;
         fill:none;
-        stroke:#eee;
-        stroke-width: 2;
+        stroke-width: 3;
       }
     </style>
-    <g fill="inherit" stroke="white" stroke-width="10">
-      <g transform="translate(500,500)" stroke-width="5">
-        <circle stroke="white" stroke-width="10" fill="transparent" cx="0" cy="0" r="490"/>
-        <text dy=".2em" y="-370" x="0">0</text>
-        <text dy=".3em" y="0" x="390">6</text>
-        <text dy=".2em" y="390" x="0">12</text>
-        <text dy=".3em" y="0" x="-390">18</text>
-        <line stroke-width="20" transform="rotate(0)" x1="0" y1="-465" x2="0" y2="-485"/>
-        <line transform="rotate(15)" x1="0" y1="-470" x2="0" y2="-490"/>
-        <line stroke-width="10" transform="rotate(30)" x1="0" y1="-465" x2="0" y2="-490"/>
-        <line transform="rotate(45)" x1="0" y1="-470" x2="0" y2="-490"/>
-        <line stroke-width="10" transform="rotate(60)" x1="0" y1="-465" x2="0" y2="-490"/>
-        <line transform="rotate(75)" x1="0" y1="-470" x2="0" y2="-490"/>
-        <line stroke-width="10" transform="rotate(90)" x1="0" y1="-465" x2="0" y2="-490"/>
-        <line transform="rotate(105)" x1="0" y1="-470" x2="0" y2="-490"/>
-        <line stroke-width="10" transform="rotate(120)" x1="0" y1="-465" x2="0" y2="-490"/>
-        <line transform="rotate(135)" x1="0" y1="-470" x2="0" y2="-490"/>
-        <line stroke-width="10" transform="rotate(150)" x1="0" y1="-465" x2="0" y2="-490"/>
-        <line transform="rotate(165)" x1="0" y1="-470" x2="0" y2="-490"/>
-        <line stroke-width="10" transform="rotate(180)" x1="0" y1="-465" x2="0" y2="-490"/>
-        <line transform="rotate(195)" x1="0" y1="-470" x2="0" y2="-490"/>
-        <line stroke-width="10" transform="rotate(210)" x1="0" y1="-465" x2="0" y2="-490"/>
-        <line transform="rotate(225)" x1="0" y1="-470" x2="0" y2="-490"/>
-        <line stroke-width="10" transform="rotate(240)" x1="0" y1="-465" x2="0" y2="-490"/>
-        <line transform="rotate(255)" x1="0" y1="-470" x2="0" y2="-490"/>
-        <line stroke-width="10" transform="rotate(270)" x1="0" y1="-465" x2="0" y2="-490"/>
-        <line transform="rotate(285)" x1="0" y1="-470" x2="0" y2="-490"/>
-        <line stroke-width="10" transform="rotate(300)" x1="0" y1="-465" x2="0" y2="-490"/>
-        <line transform="rotate(315)" x1="0" y1="-470" x2="0" y2="-490"/>
-        <line stroke-width="10" transform="rotate(330)" x1="0" y1="-465" x2="0" y2="-490"/>
-        <line transform="rotate(345)" x1="0" y1="-470" x2="0" y2="-490"/>
-      </g>    
-      <g id="secondHand" transform="rotate(0 0 0) translate(300,700)">
+    <g stroke="white" stroke-width="10">
+      <g transform="translate(350,680)">
         <circle cx="0" cy="0" r="120" />
-        <g stroke="red" stroke-width="8">
+        <g id="secondHand" stroke="red" stroke-width="8">
           <line x1="0" y1="40" x2="0" y2="-100"/>
           <circle cx="0" cy="0" r="8" />
         </g>
       </g>
-      <g id="hourHand" transform="rotate(0 0 0) translate(500,500)">
-        <g stroke-width="25">
-          <line x1="0" y1="60" x2="0" y2="-260"/>
-          <circle cx="0" cy="0" r="25" />
+      <g transform="translate(500,500)">
+        <circle fill="transparent" cx="0" cy="0" r="490"/>
+        <g transform="rotate(0)">
+            <text x="0" y="-380" x="0">24</text>
+            <line stroke-width="20" x1="0" y1="-465" x2="0" y2="-485"/>
         </g>
-      </g>
-      <g id="minuteHand" stroke="#eee" transform="rotate(0 0 0) translate(500,500)">
-        <g stroke-width="16">
-          <line x1="0" y1="80" x2="0" y2="-420"/>
-          <circle cx="0" cy="0" r="20" />
+        <g transform="rotate(30)">
+            <text x="0" y="-380" x="0">2</text>
+            <line x1="0" y1="-465" x2="0" y2="-485"/>
         </g>
+        <g transform="rotate(60)">
+            <text x="0" y="-380" x="0">4</text>
+            <line x1="0" y1="-465" x2="0" y2="-485"/>
+        </g>
+        <g transform="rotate(90)">
+            <text x="0" y="-380" x="0">6</text>
+            <line x1="0" y1="-465" x2="0" y2="-485"/>
+        </g>
+        <g transform="rotate(120)">
+            <text x="0" y="-380" x="0">8</text>
+            <line x1="0" y1="-465" x2="0" y2="-485"/>
+        </g>
+        <g transform="rotate(150)">
+            <text x="0" y="-380" x="0">10</text>
+            <line x1="0" y1="-465" x2="0" y2="-485"/>
+        </g>
+        <g transform="rotate(180)">
+            <text x="0" y="-380" x="0">12</text>
+            <line x1="0" y1="-465" x2="0" y2="-485"/>
+        </g>
+        <g transform="rotate(210)">
+            <text x="0" y="-380" x="0">14</text>
+            <line x1="0" y1="-465" x2="0" y2="-485"/>
+        </g>
+        <g transform="rotate(240)">
+            <text x="0" y="-380" x="0">16</text>
+            <line x1="0" y1="-465" x2="0" y2="-485"/>
+        </g>
+        <g transform="rotate(270)">
+            <text x="0" y="-380" x="0">18</text>
+            <line x1="0" y1="-465" x2="0" y2="-485"/>
+        </g>
+        <g transform="rotate(300)">
+            <text x="0" y="-380" x="0">20</text>
+            <line stroke-width="10" x1="0" y1="-465" x2="0" y2="-485"/>
+        </g>
+        <g transform="rotate(330)">
+            <text x="0" y="-380" x="0">22</text>
+            <line stroke-width="10" x1="0" y1="-465" x2="0" y2="-485"/>
+        </g>
+        <g stroke-width="5">
+          <line transform="rotate(15)" x1="0" y1="-470" x2="0" y2="-490"/>
+          <line transform="rotate(45)" x1="0" y1="-470" x2="0" y2="-490"/>
+          <line transform="rotate(75)" x1="0" y1="-470" x2="0" y2="-490"/>
+          <line transform="rotate(105)" x1="0" y1="-470" x2="0" y2="-490"/>
+          <line transform="rotate(135)" x1="0" y1="-470" x2="0" y2="-490"/>
+          <line transform="rotate(165)" x1="0" y1="-470" x2="0" y2="-490"/>
+          <line transform="rotate(195)" x1="0" y1="-470" x2="0" y2="-490"/>
+          <line transform="rotate(225)" x1="0" y1="-470" x2="0" y2="-490"/>
+          <line transform="rotate(255)" x1="0" y1="-470" x2="0" y2="-490"/>
+          <line transform="rotate(285)" x1="0" y1="-470" x2="0" y2="-490"/>
+          <line transform="rotate(315)" x1="0" y1="-470" x2="0" y2="-490"/>
+          <line transform="rotate(345)" x1="0" y1="-470" x2="0" y2="-490"/>
+        </g>
+        <g id="hourHand" stroke-width="25">
+            <line x1="0" y1="60" x2="0" y2="-260"/>
+            <circle cx="0" cy="0" r="25" />
+        </g>
+        <g id="minuteHand" stroke="#eee" stroke-width="16">
+            <line x1="0" y1="80" x2="0" y2="-420"/>
+            <circle cx="0" cy="0" r="20" />
+          </g>
       </g>
     </g>
   </svg>
@@ -102,18 +131,16 @@
 
     class ClockView {
 
-      constructor(pCenter, pSecondCenter) {
+      constructor() {
         this.hourHand = document.getElementById("hourHand");
         this.minuteHand = document.getElementById("minuteHand");
         this.secondHand = document.getElementById("secondHand");
-        this.center = pCenter;
-        this.secondCenter = pSecondCenter;
       }
 
       drawTime(pHour, pMinute, pSecond, pMilliSecond=0) {
-        this.hourHand.setAttribute("transform", `translate(${this.center.x},${this.center.y}) rotate(${hour2Angle(pHour, pMinute)}, 0, 0)`);
-        this.minuteHand.setAttribute("transform", `translate(${this.center.x},${this.center.y}) rotate(${minute2Angle(pMinute, pSecond)}, 0, 0)`);
-        this.secondHand.setAttribute("transform", `translate(${this.secondCenter.x},${this.secondCenter.y}) rotate(${second2Angle(pSecond,pMilliSecond)}, 0, 0)`);
+        this.hourHand.setAttribute("transform", `rotate(${hour2Angle(pHour, pMinute)})`);
+        this.minuteHand.setAttribute("transform", `rotate(${minute2Angle(pMinute, pSecond)})`);
+        this.secondHand.setAttribute("transform", `rotate(${second2Angle(pSecond,pMilliSecond)})`);
       }
 
       draw() {
@@ -123,7 +150,7 @@
 
     }
 
-    const cv = new ClockView({x:500, y:500}, {x:300, y:700});
+    const cv = new ClockView();
     window.setInterval(() => cv.draw(), 1000);
 
   </script>
