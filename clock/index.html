@@ -15,7 +15,12 @@
 <body>
   <svg viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg">
     <style>
-      html,body,svg { height:99%; width:99%; background-color: black; margin:0;}
+      html,body,svg {
+        height:99%;
+        width:99%;
+        background-color: #000;
+        margin:0;
+      }
       line, circle {
         stroke-linecap: round;
         stroke-linejoin: round
@@ -30,10 +35,10 @@
     </style>
     <g stroke="white" stroke-width="10">
       <g transform="translate(350,680)">
-        <circle cx="0" cy="0" r="120" />
+        <circle fill="transparent" cx="0" cy="0" r="120" />
         <g id="secondHand" stroke="red" stroke-width="8">
           <line x1="0" y1="40" x2="0" y2="-100"/>
-          <circle cx="0" cy="0" r="8" />
+          <circle  cx="0" cy="0" r="8" />
         </g>
       </g>
       <g transform="translate(500,500)">
