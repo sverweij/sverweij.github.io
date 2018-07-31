@@ -11,15 +11,21 @@
   <meta name="apple-mobile-web-app-title" content="24H">
   <link rel="canonical" href="https://sverweij.github.io/clock">
   <title>24H</title>
+  <style>
+    html,body{
+        height:100%;
+        width:100%;
+        background-color: #000;
+        margin:0;
+    }
+  </style>
 </head>
 <body>
   <svg viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg">
     <style>
-      html,body,svg {
+      svg {
         height:99%;
         width:99%;
-        background-color: #000;
-        margin:0;
       }
       line, circle {
         stroke-linecap: round;
@@ -105,14 +111,14 @@
           <line transform="rotate(315)" x1="0" y1="-470" x2="0" y2="-490"/>
           <line transform="rotate(345)" x1="0" y1="-470" x2="0" y2="-490"/>
         </g>
-        <g id="hourHand" stroke-width="25">
+        <g id="hourHand" stroke-width="25" filter="drop-shadow(0px 0px 4px gray)">
             <line x1="0" y1="60" x2="0" y2="-260"/>
             <circle cx="0" cy="0" r="25" />
         </g>
-        <g id="minuteHand" stroke="#eee" stroke-width="16">
+        <g id="minuteHand" stroke-width="16" filter="drop-shadow(0px 0px 4px gray)">
             <line x1="0" y1="80" x2="0" y2="-420"/>
             <circle cx="0" cy="0" r="20" />
-          </g>
+        </g>
       </g>
     </g>
   </svg>
@@ -157,6 +163,7 @@
 
     const cv = new ClockView();
     window.setInterval(() => cv.draw(), 1000);
+    // cv.drawTime(0,0,0,0)
 
   </script>
 </body>
