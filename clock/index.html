@@ -15,7 +15,7 @@
     html,body{
         height:100%;
         width:100%;
-        background-color: #000;
+        background-color: #fff;
         margin:0;
     }
   </style>
@@ -39,6 +39,16 @@
         stroke-width: 3;
       }
     </style>
+     <filter id="drop-shadow" width="150%">
+        <feGaussianBlur in="SourceAlpha" stdDeviation="4"/>
+        <feOffset dx="0" dy="0" result="offsetblur"/>
+        <feFlood flood-color="gray"/>
+        <feComposite in2="offsetblur" operator="in"/>
+        <feMerge>
+          <feMergeNode/>
+          <feMergeNode in="SourceGraphic"/>
+        </feMerge>
+      </filter>
     <g stroke="white" stroke-width="10">
       <g transform="translate(350,680)">
         <circle fill="transparent" cx="0" cy="0" r="120" />
@@ -111,11 +121,11 @@
           <line transform="rotate(315)" x1="0" y1="-470" x2="0" y2="-490"/>
           <line transform="rotate(345)" x1="0" y1="-470" x2="0" y2="-490"/>
         </g>
-        <g id="hourHand" stroke-width="25" filter="drop-shadow(0px 0px 4px gray)">
+        <g id="hourHand" stroke-width="25" filter="url(#drop-shadow)">
             <line x1="0" y1="60" x2="0" y2="-260"/>
             <circle cx="0" cy="0" r="25" />
         </g>
-        <g id="minuteHand" stroke-width="16" filter="drop-shadow(0px 0px 4px gray)">
+        <g id="minuteHand" stroke-width="16" filter="url(#drop-shadow)" fnurk="drop-shadow(0px 0px 4px gray)">
             <line x1="0" y1="80" x2="0" y2="-420"/>
             <circle cx="0" cy="0" r="20" />
         </g>
