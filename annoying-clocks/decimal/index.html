@@ -9,8 +9,8 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="#000">
   <meta name="apple-mobile-web-app-title" content="24H">
-  <link rel="canonical" href="https://sverweij.github.io/clock">
-  <title>24H</title>
+  <link rel="canonical" href="https://sverweij.github.io/annoying-clocks/24H">
+  <title>decimal</title>
   <style>
     html,body{
         height:100%;
@@ -42,7 +42,7 @@
      <filter id="drop-shadow" width="180%" x="-40%">
         <feGaussianBlur in="SourceAlpha" stdDeviation="4"/>
         <feOffset dx="0" dy="0" result="offsetblur"/>
-        <feFlood flood-color="gray"/>
+        <feFlood flood-color="#333"/>
         <feComposite in2="offsetblur" operator="in"/>
         <feMerge>
           <feMergeNode/>
@@ -61,76 +61,49 @@
           <circle fill="#444" cx="0" cy="0" r="8" />
         </g>
       </g>
-      <g transform="translate(650,680)" visibility="hidden">
-          <circle stroke-width="4" fill="transparent" cx="0" cy="0" r="120" />
-          <line stroke-width="4" x1="0" y1="-105" x2="0" y2="-120" />
-          <line transform="rotate(90)" stroke-width="4" x1="0" y1="-105" x2="0" y2="-120" />
-          <line transform="rotate(180)" stroke-width="4" x1="0" y1="-105" x2="0" y2="-120" />
-          <line transform="rotate(270)" stroke-width="4" x1="0" y1="-105" x2="0" y2="-120" />
-          <g id="offSetHourHand" stroke-width="8" filter="url(#drop-shadow)">
-              <line x1="0" y1="20" x2="0" y2="-70"/>
-              <circle cx="0" cy="0" r="8" />
-          </g>
-          <g id="offSetMinuteHand" stroke-width="6" filter="url(#drop-shadow)">
-              <line x1="0" y1="30" x2="0" y2="-100"/>
-              <circle fill="#444" cx="0" cy="0" r="6" />
-          </g>
-          <g id="offSetSecondHand" stroke="white" stroke-width="2">
-              <!-- <line x1="0" y1="40" x2="0" y2="-100"/> -->
-              <!-- <circle fill="#444" cx="0" cy="0" r="4" /> -->
-            </g>
-        </g>
       <g transform="translate(500,500)">
         <circle fill="transparent" cx="0" cy="0" r="490"/>
         <g transform="rotate(0)">
-            <text x="0" y="-380" x="0">24</text>
+            <text x="0" y="-380" x="0">0</text>
             <line stroke-width="20" x1="0" y1="-465" x2="0" y2="-485"/>
         </g>
-        <g transform="rotate(30)">
+        <g transform="rotate(36)">
+            <text x="0" y="-380" x="0">1</text>
+            <line x1="0" y1="-465" x2="0" y2="-485"/>
+        </g>
+        <g transform="rotate(72)">
             <text x="0" y="-380" x="0">2</text>
             <line x1="0" y1="-465" x2="0" y2="-485"/>
         </g>
-        <g transform="rotate(60)">
+        <g transform="rotate(108)">
+            <text x="0" y="-380" x="0">3</text>
+            <line x1="0" y1="-465" x2="0" y2="-485"/>
+        </g>
+        <g transform="rotate(144)">
             <text x="0" y="-380" x="0">4</text>
             <line x1="0" y1="-465" x2="0" y2="-485"/>
         </g>
-        <g transform="rotate(90)">
+        <g transform="rotate(180)">
+            <text x="0" y="-380" x="0">5</text>
+            <line x1="0" y1="-465" x2="0" y2="-485"/>
+        </g>
+        <g transform="rotate(216)">
             <text x="0" y="-380" x="0">6</text>
             <line x1="0" y1="-465" x2="0" y2="-485"/>
         </g>
-        <g transform="rotate(120)">
+        <g transform="rotate(252)">
+            <text x="0" y="-380" x="0">7</text>
+            <line x1="0" y1="-465" x2="0" y2="-485"/>
+        </g>
+        <g transform="rotate(288)">
             <text x="0" y="-380" x="0">8</text>
             <line x1="0" y1="-465" x2="0" y2="-485"/>
         </g>
-        <g transform="rotate(150)">
-            <text x="0" y="-380" x="0">10</text>
+        <g transform="rotate(324)">
+            <text x="0" y="-380" x="0">9</text>
             <line x1="0" y1="-465" x2="0" y2="-485"/>
         </g>
-        <g transform="rotate(180)">
-            <text x="0" y="-380" x="0">12</text>
-            <line x1="0" y1="-465" x2="0" y2="-485"/>
-        </g>
-        <g transform="rotate(210)">
-            <text x="0" y="-380" x="0">14</text>
-            <line x1="0" y1="-465" x2="0" y2="-485"/>
-        </g>
-        <g transform="rotate(240)">
-            <text x="0" y="-380" x="0">16</text>
-            <line x1="0" y1="-465" x2="0" y2="-485"/>
-        </g>
-        <g transform="rotate(270)">
-            <text x="0" y="-380" x="0">18</text>
-            <line x1="0" y1="-465" x2="0" y2="-485"/>
-        </g>
-        <g transform="rotate(300)">
-            <text x="0" y="-380" x="0">20</text>
-            <line stroke-width="10" x1="0" y1="-465" x2="0" y2="-485"/>
-        </g>
-        <g transform="rotate(330)">
-            <text x="0" y="-380" x="0">22</text>
-            <line stroke-width="10" x1="0" y1="-465" x2="0" y2="-485"/>
-        </g>
-        <g stroke-width="5">
+        <g stroke-width="5" visibility="hidden">
           <line transform="rotate(15)" x1="0" y1="-470" x2="0" y2="-490"/>
           <line transform="rotate(45)" x1="0" y1="-470" x2="0" y2="-490"/>
           <line transform="rotate(75)" x1="0" y1="-470" x2="0" y2="-490"/>
@@ -162,7 +135,7 @@
       return (pValue/pMax) * 360;
     }
     function hour2Angle(pHour, pMinute) {
-      return scale2Angle(pHour + (pMinute/60), 24)
+      return scale2Angle(pHour + (pMinute/60), 12)
     }
 
     function minute2Angle(pMinute, pSeconds) {
