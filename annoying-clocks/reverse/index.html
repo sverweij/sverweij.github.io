@@ -38,6 +38,9 @@
         fill:none;
         stroke-width: 3;
       }
+      rect {
+        fill:none;
+      }
     </style>
      <filter id="drop-shadow" width="180%" x="-40%">
         <feGaussianBlur in="SourceAlpha" stdDeviation="4"/>
@@ -50,6 +53,7 @@
         </feMerge>
       </filter>
     <g stroke="white" stroke-width="10" filter="url(#drop-shadow)">
+      <!-- seconds plate-->
       <g transform="translate(350,680)">
         <circle stroke-width="4" fill="transparent" cx="0" cy="0" r="120" />
         <line stroke-width="4" x1="0" y1="-105" x2="0" y2="-120" />
@@ -61,6 +65,7 @@
           <circle fill="#444" cx="0" cy="0" r="8" />
         </g>
       </g>
+      <!-- big plate-->
       <g transform="translate(500,500)">
         <circle fill="transparent" cx="0" cy="0" r="490"/>
         <g transform="rotate(0)">
@@ -110,6 +115,11 @@
         <g transform="rotate(330)">
             <text x="0" y="-380" x="0">1</text>
             <line stroke-width="10" x1="0" y1="-465" x2="0" y2="-485"/>
+        </g>
+        <g transform="translate(180, 25)" >
+          <rect stroke-width="4px" stroke="gray" x=-80 y=-58 width=240 height=72 rx=15 ry=15></rect>
+          <text style="font-size:60px;fill:gray;stroke:none" id="dayElement" x="0" y="0"></text>
+          <text style="font-size:60px;fill:gray;stroke:gray" id="dateElement" x="110" y="0"></text>
         </g>
         <g id="hourHand" stroke-width="25" filter="url(#drop-shadow)">
             <line x1="0" y1="60" x2="0" y2="-260"/>
@@ -161,14 +171,46 @@
 
     }
 
+    class DateView {
+      constructor(pDayElement, pDateElement) {
+        this.dayElement = pDayElement;
+        this.dateElement = pDateElement;
+      };
+
+      drawDate(pDay, pDate){
+        const DAY2DATE = {
+          0: "SUN",
+          1: "MON",
+          2: "TUE",
+          3: "WED",
+          4: "THU",
+          5: "FRI",
+          6: "SAT"
+        };
+        this.dayElement.innerHTML = DAY2DATE[pDay] || "ERR";
+        this.dateElement.innerHTML = pDate;
+        console.log(snorkel[pDay], pDate);
+      }
+      
+      draw() {
+        const lDate = new Date();
+        this.drawDate(lDate.getDay(), lDate.getDate())
+      }
+    }
+
     const cv = new ClockView(
       document.getElementById("hourHand"),
       document.getElementById("minuteHand"),
       document.getElementById("secondHand")
     );
-    window.setInterval(() => cv.draw(), 1000);
-    // cv.drawTime(0,0,0,0)
 
+    const dv = new DateView(
+      document.getElementById("dayElement"),
+      document.getElementById("dateElement")
+    );
+
+    window.setInterval(() => {cv.draw(); dv.draw(); }, 1000);
+    
   </script>
 </body>
 </html>
