@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+  <meta name="theme-color" content="#000">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="#000">
+  <meta name="apple-mobile-web-app-title" content="24H">
+  <link rel="canonical" href="https://sverweij.github.io/annoying-clocks/doomsday">
+  <title>doomsday</title>
+  <style>
+    html,body{
+        height:100%;
+        width:100%;
+        background-color: #444;
+        margin:0;
+    }
+  </style>
+</head>
+<body>
+  <svg viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg">
+    <style>
+      svg {
+        height:99%;
+        width:99%;
+      }
+      line, circle {
+        stroke-linecap: round;
+        stroke-linejoin: round
+      }
+      text {
+        font-family: sans-serif;
+        font-size: 100px;
+        text-anchor: middle;
+        fill:none;
+        stroke-width: 3;
+      }
+      rect {
+        fill:none;
+      }
+    </style>
+     <filter id="drop-shadow" width="180%" x="-40%">
+        <feGaussianBlur in="SourceAlpha" stdDeviation="4"/>
+        <feOffset dx="0" dy="0" result="offsetblur"/>
+        <feFlood flood-color="#333"/>
+        <feComposite in2="offsetblur" operator="in"/>
+        <feMerge>
+          <feMergeNode/>
+          <feMergeNode in="SourceGraphic"/>
+        </feMerge>
+      </filter>
+    <g stroke="white" stroke-width="10" filter="url(#drop-shadow)">
+      <!-- big plate-->
+      <g transform="translate(500,500)">
+        <circle fill="transparent" cx="0" cy="0" r="490"/>
+        <g transform="rotate(0)">
+            <text x="0" y="-380" x="0">12</text>
+            <line stroke-width="20" x1="0" y1="-465" x2="0" y2="-485"/>
+        </g>
+        <g id="hourHand" stroke-width="25" filter="url(#drop-shadow)">
+            <line x1="0" y1="60" x2="0" y2="-260"/>
+            <circle cx="0" cy="0" r="25" />
+        </g>
+        <g id="minuteHand" stroke-width="16" filter="url(#drop-shadow)">
+            <line x1="0" y1="80" x2="0" y2="-420"/>
+            <circle fill="#444" cx="0" cy="0" r="20" />
+        </g>
+      </g>
+    </g>
+  </svg>
+  <script>
+    const SVGNS = "http://www.w3.org/2000/svg";
+
+    function scale2Angle(pValue, pMax) {
+      return (pValue/pMax) * 360;
+    }
+    function hour2Angle(pHour, pMinute) {
+      return scale2Angle(pHour + (pMinute/60), 12)
+    }
+
+    function minute2Angle(pMinute, pSeconds) {
+      return scale2Angle(pMinute + (pSeconds/60), 60)
+    }
+
+
+    class ClockView {
+      constructor(pHourHandElement, pMinuteHandElement, pOffSet=0) {
+        this.hourHand = pHourHandElement;
+        this.minuteHand = pMinuteHandElement;
+        this.offSet = pOffSet;
+      }
+
+      drawTime(pHour, pMinute, pSecond, pMilliSecond=0) {
+        this.hourHand.setAttribute("transform", `rotate(${hour2Angle(pHour, pMinute + this.offSet)})`);
+        this.minuteHand.setAttribute("transform", `rotate(${minute2Angle(pMinute + this.offSet, pSecond)})`);
+      }
+
+    }
+
+    class DateView {
+      constructor(pDayElement, pDateElement) {
+        this.dayElement = pDayElement;
+        this.dateElement = pDateElement;
+      };
+
+      drawDate(pDay, pDate){
+        const DAY2DATE = {
+          0: "SUN",
+          1: "MON",
+          2: "TUE",
+          3: "WED",
+          4: "THU",
+          5: "FRI",
+          6: "SAT"
+        };
+        this.dayElement.innerHTML = DAY2DATE[pDay] || "ERR";
+        this.dateElement.innerHTML = pDate;
+        console.log(snorkel[pDay], pDate);
+      }
+      
+      draw() {
+        const lDate = new Date();
+        this.drawDate(lDate.getDay(), lDate.getDate())
+      }
+    }
+
+    const cv = new ClockView(
+      document.getElementById("hourHand"),
+      document.getElementById("minuteHand")
+    );
+
+    const dv = new DateView(
+      document.getElementById("dayElement"),
+      document.getElementById("dateElement")
+    );
+
+    cv.drawTime(23, 58, 00);
+    dv.drawDate();
+    
+  </script>
+</body>
+</html>
