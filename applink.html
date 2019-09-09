@@ -7,13 +7,30 @@
     
     <h2>For Apple iOS devices</h2>
     <p>Should show a banner on apple devices devices by virtue of a meta <code>apple-itunes-app</code> tag.</p>
-    <ul>
-      <li><a href="klm://">just klm://</a></li>
-      <li><a href="klm://com.klm">klm://com.klm</a></li>
+    <p>'Magic' deep links ...
+      <ul>
+        <li><a href="klm://">just klm://</a></li>
+        <li><a href="klm://com.klm">klm://com.klm</a></li>
+        <li><a href="klm://ams/checkin/web/kl/nl/nl/identify?identificationValue=0742469818245&identificationType=ETPNR&flightNumber=KL1007">open ticket yadda, flightnr KLyadda in the app - or open the app store if it ain't there</a></li>
     </ul>
-    <p>Styleed deep link into the app store 
-      <a href="https://apps.apple.com/us/app/klm/id391732065?mt=8" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/en-us/badge-lrg.svg?releaseDate=2010-09-17&kind=iossoftware&bubble=ios_apps) no-repeat;width:135px;height:40px;">US app store</a>
-      <a href="https://apps.apple.com/fr/app/klm/id391732065?mt=8" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/en-us/badge-lrg.svg?releaseDate=2010-09-17&kind=iossoftware&bubble=ios_apps) no-repeat;width:135px;height:40px;">FR app store</a>
+    </p>
+    <p>Styled deep link into the app store 
+      <ul>
+        <li>US app store: <a href="https://apps.apple.com/us/app/klm/id391732065?mt=8" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/en-us/badge-lrg.svg?releaseDate=2010-09-17&kind=iossoftware&bubble=ios_apps) no-repeat;width:135px;height:40px;"></a></li>
+        <li>FR app store: <a href="https://apps.apple.com/fr/app/klm/id391732065?mt=8" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/en-us/badge-lrg.svg?releaseDate=2010-09-17&kind=iossoftware&bubble=ios_apps) no-repeat;width:135px;height:40px;"></a></li>
+      <ul>
+    </p>
+        
+    <h2>For android devices</h2>
+    <p>Deep link into the play store</p>
+    <ul>
+      <li><a href="https://play.google.com/store/apps/details?id=com.afklm.mobile.android.gomobile.klm&hl=en">play store language EN</a></li>
+      <li><a href="https://play.google.com/store/apps/details?id=com.afklm.mobile.android.gomobile.klm&hl=fr">play store language FR</a></li>
+      <li><a href="https://play.google.com/store/apps/details?id=com.afklm.mobile.android.gomobile.klm&hl=nl">play store language NL</a></li>
+    </ul>
+    
+    <p>'Magic' deep link onto the play store installed on the device (unless the app is already installed, in which case it opens that: 
+      <a href="intent://#Intent;scheme=klm://com.klm;package=com.afklm.mobile.android.gomobile.klm;end">open da thing</a>
     </p>
   </body>
 </html>
