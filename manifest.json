@@ -5,9 +5,15 @@
   "background_color": "#fff",
   "icons": [
     {
-      "src": "assets/mug-400.jpg",
+      "src": "assets/mug-144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/mug-512.png",
       "sizes": "512x512",
-      "type": "image/jpg"
+      "type": "image/png",
+      "purpose": "any maskable"
     }
   ],
   "start_url": "./index.html",

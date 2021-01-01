@@ -27,12 +27,11 @@
   <meta name="twitter:image" content="https://sverweij.github.io/assets/mug.jpg">
   <link rel="icon" sizes="16x16 32x32 64x64" href="./favicon.ico">
   <link rel="icon" sizes="152x152" href="./favicon-152.png">
-  <link rel="apple-touch-icon-precomposed" sizes="152x152" href="./iosfavicon-152.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="./iosfavicon-152.png">
   <link rel="shortcut icon" href="./favicon.ico">
   <link rel="manifest" href="manifest.json">
   <link rel="canonical" href="https://sverweij.github.io">
   <style type="text/css">
-    * { transition: all ease .3s } /*cough* errm *cough*/
     body{font-family:sans-serif;margin:0 auto;max-width:650px;line-height:1.6;font-size:18px;color:#444;padding:0 10px;background-color:#fff}h1,h2,h3{line-height:1.2}
     .body--night{background-color:#444;color:#fff} .body--night p:target{background-color:#000}
     .body--high-contrast{background-color:#ff0;color:#000} .body--high-contrast p:target{background-color:gray;color:#ff0}
@@ -42,7 +41,7 @@
     svg{fill:currentColor}
     .p--right{text-align:right}
     .p__svg--inline{vertical-align:top;width:1.2em;height:1.2em}
-    .h1__img--inline{vertical-align:middle;border-radius:2em;height:2em;width:2em;background-color:currentColor}
+    .h1__img--inline{vertical-align:middle;border-radius:2em;height:2em;width:2em;background-color:currentColor;transition: all ease .3s;}
     .h1__img--inline:active,.h1__img--inline:hover,.span--a11y-switcher button:active,.span--a11y-switcher button:hover{transform:rotate(.08turn)}
     .h2__svg--inline{vertical-align:middle;height:1em;width:1em}
     footer{border-top:solid grey 1px;font-size:small}
@@ -106,7 +105,20 @@
     <button style="color:#000;background-color:#ff0" title="switch to high contrast mode" aria-label="hight contrast" onclick="switchTheme('body--high-contrast', true)">A</button>
   </span>
   <h1>
-    <img class="h1__img--inline" srcset="assets/mug-64.jpg, assets/mug-128.jpg 2x, assets/mug-256.jpg 3x" src="assets/mug-256.jpg" aria-hidden="true">
+    <picture
+      aria-hidden="true">
+      <source
+        type="image/webp"
+        srcset="assets/mug-64.webp, assets/mug-128.webp 2x, assets/mug-256.webp 3x">
+      <img
+        srcset="assets/mug-64.jpg, assets/mug-128.jpg 2x, assets/mug-256.jpg 3x"
+        src="assets/mug-256.jpg"
+        class="h1__img--inline"
+        width="256"
+        height="256"
+        >
+    </picture>
+
     Hi. I'm Sander</h1>
   <p>
     If you've come here you're probably <em>really</em> motivated to know more about me.
