@@ -1,19 +1,10 @@
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-    <sitemap>
-        <loc>https://sverweij.github.io/sitemaplocal.xml</loc>
-        <lastmod>2020-09-10T20:00:00+00:00</lastmod>
-    </sitemap>
-    <sitemap>
-        <loc>https://sverweij.github.io/dependency-cruiser/sitemap.xml</loc>
-        <lastmod>2020-09-10T20:00:00+00:00</lastmod>
-    </sitemap>
-    <sitemap>
-        <loc>https://sverweij.github.io/urlset-sitemap-test-one.xml</loc>
-    </sitemap>
-    <sitemap>
-        <loc>https://sverweij.github.io/urlset-sitemap-test-two.xml</loc>
-    </sitemap>
-    <sitemap>
-        <loc>https://sverweij.github.io/index-sitemap-information.xml</loc>
-    </sitemap>
+  <sitemap>
+    <loc>https://sverweij.github.io/sitemaplocal.xml</loc>
+    <lastmod>2020-09-10T20:00:00+00:00</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://sverweij.github.io/dependency-cruiser/sitemap.xml</loc>
+    <lastmod>2020-09-10T20:00:00+00:00</lastmod>
+  </sitemap>
 </sitemapindex>
