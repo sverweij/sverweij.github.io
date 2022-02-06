@@ -1,91 +1,216 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
-  <meta name="theme-color" content="#000">
-  <meta name="mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="#000">
-  <meta name="apple-mobile-web-app-title" content="annoying clocks">
-  <link rel="canonical" href="https://sverweij.github.io/annoying-clocks">
-  <title>decimal</title>
-  <style>
-    body{font-family:sans-serif;margin:0 auto;max-width:650px;line-height:1.6;font-size:18px;color:#444;padding:0 10px;background-color:#fff}h1,h2,h3{line-height:1.2}
-    .body--night{background-color:#444;color:#fff} .body--night p:target{background-color:#000}
-    .body--high-contrast{background-color:#ff0;color:#000} .body--high-contrast p:target{background-color:gray;color:#ff0}
-    .body--reverse-high-contrast{background-color:#000;color:#ff0} .body--reverse-high-contrast p:target{background-color:gray}
-    a,a:visited{color:inherit;text-decoration:none;border-bottom: 1px solid lightgray}
-    a:hover{border-bottom: 1px solid currentColor}
-    svg{fill:currentColor}
-    .p--right{text-align:right}
-    .p__svg--inline{vertical-align:top;width:1.2em;height:1.2em}
-    .h1__img--inline{vertical-align:middle;border-radius:2em;height:2em;width:2em;background-color:currentColor}
-    .h1__img--inline:active,.h1__img--inline:hover,.span--a11y-switcher button:active,.span--a11y-switcher button:hover{transform:rotate(.08turn)}
-    .h2__svg--inline{vertical-align:middle;height:1em;width:1em}
-    footer{border-top:solid grey 1px;font-size:small}
-    p:target{transition:1s ease-in;background-color:#ffa}
-    .span--a11y-switcher{display:inline-block;width:100%;text-align:right}
-    .span--a11y-switcher button{border-radius:50%;font-weight:bold;border:1px solid #000;padding:.2em .4em .2em .4em;margin:0 0 0 1em}
-    .span--toaster{position:fixed;width:10em;bottom:0;left:calc(50% - 5em);padding:.5em 1em .5em 1em;background-color:inherit;color:inherit;border:1px solid currentColor;border-bottom:0}
-    .span--toaster button{display:inline;color:inherit;background-color:inherit;border:1px solid currentColor;border-radius:1em;margin-left:.6em}
-  </style>
-</head>
-<body>
-<span class="span--a11y-switcher">
-  <button style="color:#444;background-color:#fff" title="switch to day light mode" aria-label="light mode" onclick="switchTheme('')">A</button>
-  <button style="color:#fff;background-color:#444" title="switch to night mode" aria-label="night mode" onclick="switchTheme('body--night')">A</button>
-  <button style="color:#ff0;background-color:#000" title="switch to reverse high contrast mode" aria-label="reverse high contrast" onclick="switchTheme('body--reverse-high-contrast', true)">A</button>
-  <button style="color:#000;background-color:#ff0" title="switch to high contrast mode" aria-label="hight contrast" onclick="switchTheme('body--high-contrast', true)">A</button>
-</span>
-<h1>Annoying clocks</h1>
-<p>
-  Here's some clocks that tell the time in an annoying fashion.
-</p>
-<ul>
-  <li><a href="decimal/index.html">decimal</a></li>
-  <li><a href="24H/index.html">24 hour</a></li>
-  <li><a href="reverse/index.html">reverse</a></li>
-  <li><a href="doomsday/index.html">doomsday</a></li>
-</ul>
-  <script type="text/javascript">
-  var CSS_THEME_COOKIE_KEY = "theme";
-  function getCookies() {
-    return document.cookie.split(';')
-      .map(function(pString){
-        return pString.trim()
-      })
-      .reduce(function(pAll, pKeyValueString){
-        var lKeyValueArray = pKeyValueString.split('=');
-        pAll[lKeyValueArray[0]] = lKeyValueArray[1];
-        return pAll;
-      },
-      {});
-  }
-  function switchTheme(pTheme) {
-    document.getElementsByTagName("body")[0].setAttribute("class", pTheme)
-    document.cookie = CSS_THEME_COOKIE_KEY + "=" + pTheme;
-  }
-  function isDayTime(pDate) {
-    return pDate.getHours() > 17 || pDate.getHours() < 5
-  }
-  function getThemeFromCookies(pCookies) {
-    var lRetval = "";
-    if (isDayTime(new Date())) {
-      lRetval = "body--night";
-    }
-    if (pCookies.hasOwnProperty(CSS_THEME_COOKIE_KEY) && pCookies[CSS_THEME_COOKIE_KEY].indexOf('contrast') > -1) {
-      lRetval = pCookies[CSS_THEME_COOKIE_KEY];
-    }
-    return lRetval;
-  }
-  function main() {
-    var lCookies = getCookies();
-    switchTheme(getThemeFromCookies(lCookies));
-  }
-  main();
-  </script>
-</body>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="theme-color" content="#000" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="#000" />
+    <meta name="apple-mobile-web-app-title" content="annoying clocks" />
+    <link rel="canonical" href="https://sverweij.github.io/annoying-clocks" />
+    <title>decimal</title>
+    <style>
+      body {
+        font-family: sans-serif;
+        margin: 0 auto;
+        max-width: 650px;
+        line-height: 1.6;
+        font-size: 18px;
+        color: #444;
+        padding: 0 10px;
+        background-color: #fff;
+      }
+      h1,
+      h2,
+      h3 {
+        line-height: 1.2;
+      }
+      .body--night {
+        background-color: #444;
+        color: #fff;
+      }
+      .body--night p:target {
+        background-color: #000;
+      }
+      .body--high-contrast {
+        background-color: #ff0;
+        color: #000;
+      }
+      .body--high-contrast p:target {
+        background-color: gray;
+        color: #ff0;
+      }
+      .body--reverse-high-contrast {
+        background-color: #000;
+        color: #ff0;
+      }
+      .body--reverse-high-contrast p:target {
+        background-color: gray;
+      }
+      a,
+      a:visited {
+        color: inherit;
+        text-decoration: none;
+        border-bottom: 1px solid lightgray;
+      }
+      a:hover {
+        border-bottom: 1px solid currentColor;
+      }
+      svg {
+        fill: currentColor;
+      }
+      .p--right {
+        text-align: right;
+      }
+      .p__svg--inline {
+        vertical-align: top;
+        width: 1.2em;
+        height: 1.2em;
+      }
+      .h1__img--inline {
+        vertical-align: middle;
+        border-radius: 2em;
+        height: 2em;
+        width: 2em;
+        background-color: currentColor;
+      }
+      .h1__img--inline:active,
+      .h1__img--inline:hover,
+      .span--a11y-switcher button:active,
+      .span--a11y-switcher button:hover {
+        transform: rotate(0.08turn);
+      }
+      .h2__svg--inline {
+        vertical-align: middle;
+        height: 1em;
+        width: 1em;
+      }
+      footer {
+        border-top: solid grey 1px;
+        font-size: small;
+      }
+      p:target {
+        transition: 1s ease-in;
+        background-color: #ffa;
+      }
+      .span--a11y-switcher {
+        display: inline-block;
+        width: 100%;
+        text-align: right;
+      }
+      .span--a11y-switcher button {
+        border-radius: 50%;
+        font-weight: bold;
+        border: 1px solid #000;
+        padding: 0.2em 0.4em 0.2em 0.4em;
+        margin: 0 0 0 1em;
+      }
+      .span--toaster {
+        position: fixed;
+        width: 10em;
+        bottom: 0;
+        left: calc(50% - 5em);
+        padding: 0.5em 1em 0.5em 1em;
+        background-color: inherit;
+        color: inherit;
+        border: 1px solid currentColor;
+        border-bottom: 0;
+      }
+      .span--toaster button {
+        display: inline;
+        color: inherit;
+        background-color: inherit;
+        border: 1px solid currentColor;
+        border-radius: 1em;
+        margin-left: 0.6em;
+      }
+    </style>
+  </head>
+  <body>
+    <span class="span--a11y-switcher">
+      <button
+        style="color: #444; background-color: #fff"
+        title="switch to day light mode"
+        aria-label="light mode"
+        onclick="switchTheme('')"
+      >
+        A
+      </button>
+      <button
+        style="color: #fff; background-color: #444"
+        title="switch to night mode"
+        aria-label="night mode"
+        onclick="switchTheme('body--night')"
+      >
+        A
+      </button>
+      <button
+        style="color: #ff0; background-color: #000"
+        title="switch to reverse high contrast mode"
+        aria-label="reverse high contrast"
+        onclick="switchTheme('body--reverse-high-contrast', true)"
+      >
+        A
+      </button>
+      <button
+        style="color: #000; background-color: #ff0"
+        title="switch to high contrast mode"
+        aria-label="hight contrast"
+        onclick="switchTheme('body--high-contrast', true)"
+      >
+        A
+      </button>
+    </span>
+    <h1>Annoying clocks</h1>
+    <p>Here's some clocks that tell the time in an annoying fashion.</p>
+    <ul>
+      <li><a href="decimal/index.html">decimal</a></li>
+      <li><a href="24H/index.html">24 hour</a></li>
+      <li><a href="reverse/index.html">reverse</a></li>
+      <li><a href="doomsday/index.html">doomsday</a></li>
+      <li><a href="12H/index.html">12 hour</a></li>
+    </ul>
+    <script type="text/javascript">
+      var CSS_THEME_COOKIE_KEY = "theme";
+      function getCookies() {
+        return document.cookie
+          .split(";")
+          .map(function (pString) {
+            return pString.trim();
+          })
+          .reduce(function (pAll, pKeyValueString) {
+            var lKeyValueArray = pKeyValueString.split("=");
+            pAll[lKeyValueArray[0]] = lKeyValueArray[1];
+            return pAll;
+          }, {});
+      }
+      function switchTheme(pTheme) {
+        document.getElementsByTagName("body")[0].setAttribute("class", pTheme);
+        document.cookie = CSS_THEME_COOKIE_KEY + "=" + pTheme;
+      }
+      function isDayTime(pDate) {
+        return pDate.getHours() > 17 || pDate.getHours() < 5;
+      }
+      function getThemeFromCookies(pCookies) {
+        var lRetval = "";
+        if (isDayTime(new Date())) {
+          lRetval = "body--night";
+        }
+        if (
+          pCookies.hasOwnProperty(CSS_THEME_COOKIE_KEY) &&
+          pCookies[CSS_THEME_COOKIE_KEY].indexOf("contrast") > -1
+        ) {
+          lRetval = pCookies[CSS_THEME_COOKIE_KEY];
+        }
+        return lRetval;
+      }
+      function main() {
+        var lCookies = getCookies();
+        switchTheme(getThemeFromCookies(lCookies));
+      }
+      main();
+    </script>
+  </body>
 </html>
-
