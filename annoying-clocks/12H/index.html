@@ -4,14 +4,15 @@
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="description" content="12h clock" />
     <meta name="theme-color" content="#000" />
     <meta name="mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="#000" />
-    <meta name="apple-mobile-web-app-title" content="24H" />
+    <meta name="apple-mobile-web-app-title" content="12H" />
     <link
       rel="canonical"
-      href="https://sverweij.github.io/annoying-clocks/24H"
+      href="https://sverweij.github.io/annoying-clocks/12H"
     />
     <title>12H</title>
     <style>
@@ -22,11 +23,6 @@
         /* background-color: #444; */
         background-color: black;
         margin: 0;
-        /* background-image: url("./background.webp"); */
-        background-repeat: repeat;
-        background-attachment: fixed;
-        background-position: top;
-        background-size: 100% auto;
       }
     </style>
   </head>
@@ -137,10 +133,16 @@
           </g>
         </g>
         <g transform="translate(500,500)">
-          <circle fill="transparent" cx="0" cy="0" r="490" />
           <g transform="rotate(0)">
-            <text x="0" y="-360" x="0">12</text>
-            <line stroke-width="20" x1="0" y1="-465" x2="0" y2="-485" />
+            <text x="0" y="-360">12</text>
+            <line
+              stroke="red"
+              stroke-width="20"
+              x1="0"
+              y1="-465"
+              x2="0"
+              y2="-485"
+            />
           </g>
           <g transform="rotate(30)">
             <text x="0" y="-360">1</text>
@@ -200,6 +202,7 @@
             <line transform="rotate(315)" x1="0" y1="-470" x2="0" y2="-490" />
             <line transform="rotate(345)" x1="0" y1="-470" x2="0" y2="-490" />
           </g>
+          <circle fill="transparent" cx="0" cy="0" r="490" />
           <g transform="translate(180, 25)">
             <rect
               stroke-width="4px"
