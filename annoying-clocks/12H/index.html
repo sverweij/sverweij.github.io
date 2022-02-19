@@ -1,9 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- <meta http-equiv="refresh" content="1" /> -->
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta
+      http-equiv="content-security-policy"
+      content="connect-src 'none';
+        font-src 'none';
+        frame-src 'none';
+        img-src 'none';
+        media-src 'none';
+        object-src 'none';
+        prefetch-src 'none';
+        script-src 'nonce-werealyshoulduseahash';
+        style-src 'unsafe-inline';
+        form-action 'none';
+        navigate-to 'none'"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="12h clock" />
     <meta name="theme-color" content="#000" />
     <meta name="mobile-web-app-capable" content="yes" />
@@ -20,7 +35,6 @@
       body {
         height: 100%;
         width: 100%;
-        /* background-color: #444; */
         background-color: black;
         margin: 0;
       }
@@ -59,6 +73,16 @@
           <feMergeNode in="SourceGraphic" />
         </feMerge>
       </filter>
+      <filter id="drop-shadow-white" width="140%" x="-40%">
+        <feGaussianBlur in="SourceAlpha" stdDeviation="3" />
+        <feOffset dx="0" dy="0" result="offsetblur" />
+        <feFlood flood-color="#999" />
+        <feComposite in2="offsetblur" operator="in" />
+        <feMerge>
+          <feMergeNode />
+          <feMergeNode in="SourceGraphic" />
+        </feMerge>
+      </filter>
       <g stroke="white" stroke-width="10" filter="url(#drop-shadow)">
         <g id="secondFace" transform="translate(350,680)" visibility="hidden">
           <circle stroke-width="4" fill="transparent" cx="0" cy="0" r="120" />
@@ -90,46 +114,6 @@
           <g id="secondHand" stroke="red" stroke-width="8">
             <line x1="0" y1="40" x2="0" y2="-100" />
             <circle fill="#444" cx="0" cy="0" r="8" />
-          </g>
-        </g>
-        <g transform="translate(650,680)" visibility="hidden">
-          <circle stroke-width="4" fill="transparent" cx="0" cy="0" r="120" />
-          <line stroke-width="4" x1="0" y1="-105" x2="0" y2="-120" />
-          <line
-            transform="rotate(90)"
-            stroke-width="4"
-            x1="0"
-            y1="-105"
-            x2="0"
-            y2="-120"
-          />
-          <line
-            transform="rotate(180)"
-            stroke-width="4"
-            x1="0"
-            y1="-105"
-            x2="0"
-            y2="-120"
-          />
-          <line
-            transform="rotate(270)"
-            stroke-width="4"
-            x1="0"
-            y1="-105"
-            x2="0"
-            y2="-120"
-          />
-          <g id="offSetHourHand" stroke-width="8" filter="url(#drop-shadow)">
-            <line x1="0" y1="20" x2="0" y2="-70" />
-            <circle cx="0" cy="0" r="8" />
-          </g>
-          <g id="offSetMinuteHand" stroke-width="6" filter="url(#drop-shadow)">
-            <line x1="0" y1="30" x2="0" y2="-100" />
-            <circle fill="#444" cx="0" cy="0" r="6" />
-          </g>
-          <g id="offSetSecondHand" stroke="white" stroke-width="2">
-            <!-- <line x1="0" y1="40" x2="0" y2="-100"/> -->
-            <!-- <circle fill="#444" cx="0" cy="0" r="4" /> -->
           </g>
         </g>
         <g transform="translate(500,500)">
@@ -203,27 +187,20 @@
             <line transform="rotate(345)" x1="0" y1="-470" x2="0" y2="-490" />
           </g>
           <circle fill="transparent" cx="0" cy="0" r="490" />
-          <g transform="translate(180, 25)">
-            <rect
-              stroke-width="4px"
-              stroke="gray"
-              x="-80"
-              y="-58"
-              width="240"
-              height="72"
-              rx="15"
-              ry="15"
-            ></rect>
+          <!-- <g transform="translate(160, 25)">-->
+          <g transform="translate(-20, 260)">
             <text
-              style="font-size: 60px; fill: gray; stroke: none"
+              style="font-size: 60px; fill: black; stroke: none"
+              filter="url(#drop-shadow-white)"
               id="dayElement"
               x="0"
               y="0"
             ></text>
             <text
-              style="font-size: 60px; fill: gray; stroke: gray"
+              style="font-size: 60px; fill: black; stroke: black"
+              filter="url(#drop-shadow-white)"
               id="dateElement"
-              x="110"
+              x="100"
               y="0"
             ></text>
           </g>
@@ -238,9 +215,7 @@
         </g>
       </g>
     </svg>
-    <script>
-      const SVGNS = "http://www.w3.org/2000/svg";
-
+    <script nonce="werealyshoulduseahash">
       function scale2Angle(pValue, pMax) {
         return (pValue / pMax) * 360;
       }
@@ -252,53 +227,17 @@
         return scale2Angle(pMinute + pSeconds / 60, 60);
       }
 
-      function second2Angle(pSecond, pMilliSecond) {
-        return scale2Angle(pSecond + pMilliSecond / 1000, 60);
-      }
-
       class ClockView {
         constructor(
+          pDayElement,
+          pDateElement,
           pHourHandElement,
-          pMinuteHandElement,
-          pSecondHandElement,
-          pOffSet = 0
+          pMinuteHandElement
         ) {
-          this.hourHand = pHourHandElement;
-          this.minuteHand = pMinuteHandElement;
-          this.secondHand = pSecondHandElement;
-          this.offSet = pOffSet;
-        }
-
-        drawTime(pHour, pMinute, pSecond, pMilliSecond = 0) {
-          this.hourHand.setAttribute(
-            "transform",
-            `rotate(${hour2Angle(pHour, pMinute + this.offSet)})`
-          );
-          this.minuteHand.setAttribute(
-            "transform",
-            `rotate(${minute2Angle(pMinute + this.offSet, pSecond)})`
-          );
-          this.secondHand.setAttribute(
-            "transform",
-            `rotate(${second2Angle(pSecond, pMilliSecond)})`
-          );
-        }
-
-        draw() {
-          const lDate = new Date();
-          this.drawTime(
-            lDate.getHours(),
-            lDate.getMinutes(),
-            lDate.getSeconds(),
-            lDate.getMilliseconds()
-          );
-        }
-      }
-
-      class DateView {
-        constructor(pDayElement, pDateElement) {
           this.dayElement = pDayElement;
           this.dateElement = pDateElement;
+          this.hourHand = pHourHandElement;
+          this.minuteHand = pMinuteHandElement;
         }
 
         drawDate(pDay, pDate) {
@@ -315,28 +254,38 @@
           this.dateElement.innerHTML = pDate;
         }
 
-        draw() {
-          const lDate = new Date();
-          this.drawDate(lDate.getDay(), lDate.getDate());
+        drawTime(pHour, pMinute, pSecond, pMilliSecond = 0) {
+          this.hourHand.setAttribute(
+            "transform",
+            `rotate(${hour2Angle(pHour, pMinute)})`
+          );
+          this.minuteHand.setAttribute(
+            "transform",
+            `rotate(${minute2Angle(pMinute, pSecond)})`
+          );
+        }
+
+        draw(pDate) {
+          this.drawDate(pDate.getDay(), pDate.getDate());
+          this.drawTime(
+            pDate.getHours(),
+            pDate.getMinutes(),
+            pDate.getSeconds()
+          );
         }
       }
 
       const cv = new ClockView(
+        document.getElementById("dayElement"),
+        document.getElementById("dateElement"),
         document.getElementById("hourHand"),
-        document.getElementById("minuteHand"),
-        document.getElementById("secondHand")
+        document.getElementById("minuteHand")
       );
 
-      const dv = new DateView(
-        document.getElementById("dayElement"),
-        document.getElementById("dateElement")
-      );
-      cv.draw();
-      dv.draw();
+      cv.draw(new Date());
 
       window.setInterval(() => {
-        cv.draw();
-        dv.draw();
+        cv.draw(new Date());
       }, 10000);
     </script>
   </body>
