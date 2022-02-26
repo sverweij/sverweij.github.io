@@ -3,6 +3,22 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta
+    http-equiv="content-security-policy"
+    content="connect-src 'none';
+      font-src 'none';
+      form-action 'none';
+      frame-src 'none';
+      img-src 'self';
+      navigate-to 'none';
+      manifest-src 'none';
+      media-src 'none';
+      object-src 'none';
+      prefetch-src 'none';
+      script-src 'unsafe-inline';
+      style-src 'unsafe-inline';
+      worker-src 'none'"
+  />
   <meta name="google-site-verification" content="G7Qv6VkSE89m8dMe9LGXIR5VlycCrVLD53OmmtTYsKw" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#444">
@@ -45,10 +61,10 @@
   <![endif]-->
 <body>
   <span class="span--a11y-switcher">
-    <button style="color:#444;background-color:#fff" title="switch to day light mode" aria-label="light mode" onclick="switchTheme('')">A</button>
-    <button style="color:#fff;background-color:#444" title="switch to night mode" aria-label="night mode" onclick="switchTheme('body--night')">A</button>
-    <button style="color:#ff0;background-color:#000" title="switch to reverse high contrast mode" aria-label="reverse high contrast" onclick="switchTheme('body--reverse-high-contrast', true)">A</button>
-    <button style="color:#000;background-color:#ff0" title="switch to high contrast mode" aria-label="hight contrast" onclick="switchTheme('body--high-contrast', true)">A</button>
+    <button id="themeLight" style="color:#444;background-color:#fff" title="switch to day light mode" aria-label="light mode">A</button>
+    <button id="themeNight" style="color:#fff;background-color:#444" title="switch to night mode" aria-label="night mode">A</button>
+    <button id="themeReverseHighContrast" style="color:#ff0;background-color:#000" title="switch to reverse high contrast mode" aria-label="reverse high contrast">A</button>
+    <button id="themeHighContrast" style="color:#000;background-color:#ff0" title="switch to high contrast mode" aria-label="high contrast">A</button>
   </span>
   <h1>
       Oh dear!</h1>
@@ -65,7 +81,7 @@
       <li>I want something with <b>mscgen</b> or <b>sequence charts</b>
       <p>
       <ul>
-          <li><a href="https://sverweij.github.io/mscgen_js/index.html?utm_source=ghio.404">online interpreter</a></li>
+          <li><a href="https://mscgen.js.org/index.html?utm_source=ghio.404">online interpreter</a></li>
           <li>atom <a href="https://atom.io/packages/mscgen-preview">mscgen package</a></li>
           <li>mscgenjs <a href="https://www.npmjs.com/package/mscgenjs-cli">command line interface</a></li>
           <li><a href="https://github.com/sverweij/mscgen_js">source code</a></li>
@@ -96,7 +112,7 @@
   </p>
 
   <span class="span--toaster">
-    I'm using cookies <button onclick="hideCookieBar()" type="button">ok</button>
+    I'm using cookies <button id="hideCookieBarButton" type="button">ok</button>
   </span>
   <script type="text/javascript">
   var CONSENT_COOKIE_KEY   = "cookieconsent";
@@ -154,6 +170,12 @@
       hideCookieBar();
     }
   }
+
+  window.themeLight.addEventListener('click', function() {switchTheme('')})
+  window.themeNight.addEventListener('click', function() {switchTheme('body--night')})
+  window.themeReverseHighContrast.addEventListener('click', function() {switchTheme('body--reverse-high-contrast')})
+  window.themeHighContrast.addEventListener('click', function(){switchTheme('body--high-contrast')})
+  window.hideCookieBarButton.addEventListener('click', function() {hideCookieBar()})
 
   main();
   </script>
