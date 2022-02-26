@@ -3,6 +3,22 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta
+    http-equiv="content-security-policy"
+    content="connect-src https://www.google-analytics.com/j/collect;
+      font-src 'none';
+      form-action 'none';
+      frame-src 'none';
+      img-src 'self' https://www.google-analytics.com/collect;
+      navigate-to 'none';
+      manifest-src 'self';
+      media-src 'none';
+      object-src 'none';
+      prefetch-src 'none';
+      script-src 'self' 'nonce-werealyshoulduseahash' https://www.googletagmanager.com/gtag/js;
+      style-src 'unsafe-inline';
+      worker-src 'self'"
+  />
   <meta name="description" content="Sander Verweij. Full stack product owner">
   <meta name="google-site-verification" content="G7Qv6VkSE89m8dMe9LGXIR5VlycCrVLD53OmmtTYsKw" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -51,9 +67,8 @@
     .span--toaster{position:fixed;width:10em;bottom:0;left:calc(50% - 5em);padding:.5em 1em .5em 1em;background-color:inherit;color:inherit;border:1px solid currentColor;border-bottom:0}
     .span--toaster button{display:inline;color:inherit;background-color:inherit;border:1px solid currentColor;border-radius:1em;margin-left:.6em}
   </style>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-118296413-1"></script>
-  <script>
+  <script nonce="werealyshoulduseahash">
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
@@ -66,40 +81,41 @@
             'dimension1': 'timing_firstInteractive',
             'dimension2': 'timing_loadEnd',
         }
-      });
-      window.addEventListener(
-        'load',
-        () => {
-          window.setTimeout(
-            function(){
-              gtag(
-                'event',
-                'performance',
-                {
-                  'event_category': 'page.timing',
-                  'timing_firstInteractive': performance.timing.domInteractive - performance.timing.navigationStart,
-                  'timing_loadEnd': performance.timing.loadEventEnd - performance.timing.navigationStart,
-                }
-              );
-            },
-            5000
-          );
-        },
-        {
-          once: true,
-          passive: true
-        }
-      );
+      }
+    );
+    window.addEventListener(
+      'load',
+      () => {
+        window.setTimeout(
+          function(){
+            gtag(
+              'event',
+              'performance',
+              {
+                'event_category': 'page.timing',
+                'timing_firstInteractive': performance.timing.domInteractive - performance.timing.navigationStart,
+                'timing_loadEnd': performance.timing.loadEventEnd - performance.timing.navigationStart,
+              }
+            );
+          },
+          5000
+        );
+      },
+      {
+        once: true,
+        passive: true
+      }
+    );
   </script>
 
   <title>Sander Verweij</title>
 </head>
 <body>
   <span class="span--a11y-switcher">
-    <button style="color:#444;background-color:#fff" title="switch to day light mode" aria-label="light mode" onclick="switchTheme('')">A</button>
-    <button style="color:#fff;background-color:#444" title="switch to night mode" aria-label="night mode" onclick="switchTheme('body--night')">A</button>
-    <button style="color:#ff0;background-color:#000" title="switch to reverse high contrast mode" aria-label="reverse high contrast" onclick="switchTheme('body--reverse-high-contrast', true)">A</button>
-    <button style="color:#000;background-color:#ff0" title="switch to high contrast mode" aria-label="hight contrast" onclick="switchTheme('body--high-contrast', true)">A</button>
+    <button id="themeLight" style="color:#444;background-color:#fff" title="switch to day light mode" aria-label="light mode">A</button>
+    <button id="themeNight" style="color:#fff;background-color:#444" title="switch to night mode" aria-label="night mode">A</button>
+    <button id="themeReverseHighContrast" style="color:#ff0;background-color:#000" title="switch to reverse high contrast mode" aria-label="reverse high contrast">A</button>
+    <button id="themeHighContrast" style="color:#000;background-color:#ff0" title="switch to high contrast mode" aria-label="high contrast">A</button>
   </span>
   <h1>
     <picture
@@ -223,9 +239,9 @@
     </p>
   </footer>
   <span class="span--toaster">
-    I'm using cookies <button onclick="hideCookieBar()" type="button">ok</button>
+    I'm using cookies <button id="hideCookieBarButton" type="button">ok</button>
   </span>
-  <script type="text/javascript">
+  <script type="text/javascript" nonce="werealyshoulduseahash">
   if ('serviceWorker' in navigator) {
     window.addEventListener('load', function() {
       navigator.serviceWorker.register('service-worker.js').then(function(registration) {
@@ -235,8 +251,7 @@
       });
     });
   }
-  </script>
-  <script type="text/javascript">
+
   var CONSENT_COOKIE_KEY   = "cookieconsent";
   var CSS_THEME_COOKIE_KEY = "theme";
 
@@ -292,6 +307,11 @@
       hideCookieBar();
     }
   }
+  window.themeLight.addEventListener('click', function() {switchTheme('')})
+  window.themeNight.addEventListener('click', function() {switchTheme('body--night')})
+  window.themeReverseHighContrast.addEventListener('click', function() {switchTheme('body--reverse-high-contrast')})
+  window.themeHighContrast.addEventListener('click', function(){switchTheme('body--high-contrast')})
+  window.hideCookieBarButton.addEventListener('click', function() {hideCookieBar()})
 
   main();
   </script>
