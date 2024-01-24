@@ -10,11 +10,9 @@
       form-action 'none';
       frame-src 'none';
       img-src 'self' https://www.google-analytics.com/collect;
-      navigate-to 'none';
       manifest-src 'self';
       media-src 'none';
       object-src 'none';
-      prefetch-src 'none';
       script-src 'self' 'nonce-werealyshoulduseahash' https://www.googletagmanager.com/gtag/js;
       style-src 'unsafe-inline';
       worker-src 'self'"
@@ -266,12 +264,12 @@
 
   function switchTheme(pTheme) {
     document.getElementsByTagName("body")[0].setAttribute("class", pTheme)
-    document.cookie = CSS_THEME_COOKIE_KEY + "=" + pTheme;
+    document.cookie = CSS_THEME_COOKIE_KEY + "=" + pTheme + "; SameSite=Strict";
   }
 
   function hideCookieBar() {
     document.getElementsByClassName('span--toaster')[0].setAttribute('style','display:none');
-    document.cookie = CONSENT_COOKIE_KEY + "=1";
+    document.cookie = CONSENT_COOKIE_KEY + "=1; SameSite=Strict";
   }
 
   function hasConsentCookies(pCookies) {
