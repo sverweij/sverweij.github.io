@@ -1,0 +1,20 @@
+{
+  "border-default": {
+    "type": "borderRadius",
+    "value": "{global-borderRadius-400}",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/6rjDCHsELEyU7bQY3t3jHu/hG6PSiMGYTwEFpa5aCQ9dP"
+      }
+    }
+  },
+  "primary-color-default": {
+    "type": "color",
+    "value": "{global-color-one-600}",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/6rjDCHsELEyU7bQY3t3jHu/vu1cAqmKE1PjMbExea27kx"
+      }
+    }
+  }
+}

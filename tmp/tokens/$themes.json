@@ -1,0 +1,78 @@
+[
+  {
+    "id": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:themeGroupOption/tfc7LoberqDUcwm4RyzsSh",
+    "name": "AFKL",
+    "group": "Brand",
+    "groupId": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:themeGroup/g5tbgeomyhFHbtb6VB8X8W",
+    "selectedTokenSets": {
+      "Global/Core": "source",
+      "Global/Brand/AFKL": "enabled",
+      "Global/Theme/Light": "source"
+    },
+    "$figmaStyleReferences": {},
+    "$figmaVariableReferences": {}
+  },
+  {
+    "id": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:themeGroupOption/mHtREk15pKKzJtF839BdYZ",
+    "name": "Air France",
+    "group": "Brand",
+    "groupId": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:themeGroup/g5tbgeomyhFHbtb6VB8X8W",
+    "selectedTokenSets": {
+      "Global/Theme/Light": "source",
+      "Global/Core": "source",
+      "Global/Brand/AirFrance": "enabled"
+    },
+    "$figmaStyleReferences": {},
+    "$figmaVariableReferences": {
+      "border-default": "b51c601b72d9c6b16671d84fc21215261d0bc13a",
+      "primary-color-default": "7d04a869c9fda64959bcda7bbb6d442c91e7a9fc"
+    }
+  },
+  {
+    "id": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:themeGroupOption/7EXgNYyUotp5BTj5f3XBiL",
+    "name": "KLM",
+    "group": "Brand",
+    "groupId": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:themeGroup/g5tbgeomyhFHbtb6VB8X8W",
+    "selectedTokenSets": {
+      "Global/Core": "source",
+      "Global/Theme/Light": "source",
+      "Global/Brand/KLM": "enabled"
+    },
+    "$figmaStyleReferences": {},
+    "$figmaVariableReferences": {
+      "border-default": "b51c601b72d9c6b16671d84fc21215261d0bc13a",
+      "primary-color-default": "7d04a869c9fda64959bcda7bbb6d442c91e7a9fc"
+    }
+  },
+  {
+    "id": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:themeGroupOption/tBtvSKq7hiSguEfGoave13",
+    "name": "Dark",
+    "group": "Theme",
+    "groupId": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:themeGroup/w9J23vgn5aX8hgqKG5csdQ",
+    "selectedTokenSets": {
+      "Global/Theme/Dark": "enabled",
+      "Global/Core": "source"
+    },
+    "$figmaStyleReferences": {},
+    "$figmaVariableReferences": {
+      "global-color-body": "0179d30738d5ef32199eb880e8211978c86b7978"
+    }
+  },
+  {
+    "id": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:themeGroupOption/mRxVHy6517LabGs4ogCwKD",
+    "name": "Light",
+    "group": "Theme",
+    "groupId": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:themeGroup/w9J23vgn5aX8hgqKG5csdQ",
+    "selectedTokenSets": {
+      "Global/Core": "source",
+      "Global/Theme/Light": "enabled"
+    },
+    "$figmaStyleReferences": {
+      "global-text-body-regular-md": "S:7a02f06db8e0d5cba30d5672620617318154f249,"
+    },
+    "$figmaVariableReferences": {
+      "global-color-body": "0179d30738d5ef32199eb880e8211978c86b7978",
+      "global-border-default": "6bebfcf82485b4e9af744095ba6433a633bc85d0"
+    }
+  }
+]

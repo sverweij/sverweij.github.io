@@ -1,0 +1,13 @@
+{
+  "tokenSetOrder": [
+    "Global/Core",
+    "Global/Theme/Light",
+    "Global/Theme/Dark",
+    "Global/Brand/Neutral",
+    "Global/Brand/AirFrance",
+    "Global/Brand/KLM",
+    "Global/Brand/AFKL",
+    "Platform/Blueweb",
+    "Platform/Mobile"
+  ]
+}

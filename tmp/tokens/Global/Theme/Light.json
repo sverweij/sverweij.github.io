@@ -1,0 +1,35 @@
+{
+  "global-border-default": {
+    "type": "borderRadius",
+    "value": "{border-default}",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/vQUktiWAkSMgg19cpuBNWa/vN5jw7YbMtcBR7sJa4rPXd"
+      }
+    }
+  },
+  "global-color-body": {
+    "type": "color",
+    "value": "{primary-color-default}",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/vQUktiWAkSMgg19cpuBNWa/1YzLn6CMpjuiTqGb3dnhhR"
+      }
+    }
+  },
+  "global-text-body-regular-md": {
+    "type": "typography",
+    "value": {
+      "lineHeight": "{global-lineHeight-300}",
+      "letterSpacing": "{global-letterSpacing-100}",
+      "fontSize": "{global-fontSize-150}",
+      "fontFamily": "{global-fontFamily-two}",
+      "fontWeight": "{global-fontWeight-400}"
+    },
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/vQUktiWAkSMgg19cpuBNWa/sFx1j6hwDrGGM5WExnPrCZ"
+      }
+    }
+  }
+}

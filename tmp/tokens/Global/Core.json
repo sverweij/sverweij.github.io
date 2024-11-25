@@ -1,0 +1,2095 @@
+{
+  "global-borderRadius-0": {
+    "type": "borderRadius",
+    "value": "0px",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/dUUfwJHpdhJHAgVcT8RotQ"
+      }
+    },
+    "description": "Example: rounding of components, like buttons and cards"
+  },
+  "global-borderRadius-100": {
+    "type": "borderRadius",
+    "value": "4px",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/csBn8Fu7bc9oLxUkTxUXtP"
+      }
+    }
+  },
+  "global-borderRadius-200": {
+    "type": "borderRadius",
+    "value": "8px",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/7k7maQ2i4rKzaVw1RCHjzZ"
+      }
+    }
+  },
+  "global-borderRadius-300": {
+    "type": "borderRadius",
+    "value": "16px",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/nDPWoAdC9GdnqFpiaQDd92"
+      }
+    }
+  },
+  "global-borderRadius-400": {
+    "type": "borderRadius",
+    "value": "24px",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/78dNmbfAZi9jZ2dNiExNT1"
+      }
+    }
+  },
+  "global-borderRadius-500": {
+    "type": "borderRadius",
+    "value": "32px",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/ny9wJ2mzyc6Z1Ny2syDbDF"
+      }
+    }
+  },
+  "global-borderRadius-600": {
+    "type": "borderRadius",
+    "value": "40px",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/t8DsLczNEtYAdSrESbpFvm"
+      }
+    }
+  },
+  "global-borderRadius-700": {
+    "type": "borderRadius",
+    "value": "48px",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/giRq6Y96EAeW8s1f29M1wV"
+      }
+    }
+  },
+  "global-borderRadius-800": {
+    "type": "borderRadius",
+    "value": "56px",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/2s4CVUjXS5VJKPxyC8YP7B"
+      }
+    }
+  },
+  "global-borderRadius-900": {
+    "type": "borderRadius",
+    "value": "64px",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/2evASUEk8zPuCqUgiA9LCN"
+      }
+    }
+  },
+  "global-borderRadius-999": {
+    "type": "borderRadius",
+    "value": "999px",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/cxH3FZsmy4tv7QpDGypSQo"
+      }
+    }
+  },
+  "global-borderWidth-0": {
+    "type": "borderWidth",
+    "value": "0px",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/7qRw9kkGJrnBRSWsUNPB8Z"
+      }
+    },
+    "description": "Example: thickness of borders"
+  },
+  "global-borderWidth-100": {
+    "type": "borderWidth",
+    "value": "1px",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/veusshhj81tWkEq2rhWePK"
+      }
+    }
+  },
+  "global-borderWidth-200": {
+    "type": "borderWidth",
+    "value": "2px",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/imNcGzfsGpFHmxwEwoLjvr"
+      }
+    }
+  },
+  "global-borderWidth-300": {
+    "type": "borderWidth",
+    "value": "3px",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/5aQJvyX87UawNPotsFHaMB"
+      }
+    }
+  },
+  "global-borderWidth-400": {
+    "type": "borderWidth",
+    "value": "4px",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/1e149juCnDaMNBm2MUQ5DN"
+      }
+    }
+  },
+  "global-borderWidth-500": {
+    "type": "borderWidth",
+    "value": "5px",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/9psyKa4RKb9HeXWhrJPJUi"
+      }
+    }
+  },
+  "global-borderWidth-600": {
+    "type": "borderWidth",
+    "value": "6px",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/izFLSwLzgPJSkq3dm58qn1"
+      }
+    }
+  },
+  "global-borderWidth-700": {
+    "type": "borderWidth",
+    "value": "7px",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/b55DoegF2CNqriLPMkKMb2"
+      }
+    }
+  },
+  "global-borderWidth-800": {
+    "type": "borderWidth",
+    "value": "8px",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/hjDhx3F1Ucpa3btTaJzV9v"
+      }
+    }
+  },
+  "global-borderWidth-900": {
+    "type": "borderWidth",
+    "value": "9px",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/rjtwdyrE4xzGaxzGyth1j8"
+      }
+    }
+  },
+  "global-boxShadow-0": {
+    "type": "boxShadow",
+    "value": [
+      {
+        "x": "0px",
+        "y": "0px",
+        "blur": "0px",
+        "spread": "0px",
+        "color": "rgba({global-color-black}, {global-opacity-200})",
+        "type": "dropShadow"
+      }
+    ],
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/7FoQuuoxMCBJ3E1iuGmf4Z"
+      }
+    },
+    "description": "Example: shadows of cards and other components"
+  },
+  "global-boxShadow-100": {
+    "type": "boxShadow",
+    "value": [
+      {
+        "x": "0px",
+        "y": "1px",
+        "blur": "1px",
+        "spread": "1px",
+        "color": "rgba({global-color-black}, {global-opacity-200})",
+        "type": "dropShadow"
+      }
+    ],
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/dT3jSh64wJfDqrSawNokEA"
+      }
+    }
+  },
+  "global-boxShadow-200": {
+    "type": "boxShadow",
+    "value": [
+      {
+        "x": "0px",
+        "y": "2px",
+        "blur": "2px",
+        "spread": "2px",
+        "color": "rgba({global-color-black}, {global-opacity-200})",
+        "type": "dropShadow"
+      }
+    ],
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/e3t4nHtfTCzGFmSC54xVK5"
+      }
+    }
+  },
+  "global-boxShadow-300": {
+    "type": "boxShadow",
+    "value": [
+      {
+        "x": "0",
+        "y": "3",
+        "blur": "3",
+        "spread": "3",
+        "color": "rgba({global-color-black}, {global-opacity-200})",
+        "type": "dropShadow"
+      }
+    ],
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/jnSNHAyqC6bNXFMbh6NxMn"
+      }
+    }
+  },
+  "global-boxShadow-400": {
+    "type": "boxShadow",
+    "value": [
+      {
+        "x": "0px",
+        "y": "4px",
+        "blur": "4px",
+        "spread": "4px",
+        "color": "rgba({global-color-black}, {global-opacity-200})",
+        "type": "dropShadow"
+      }
+    ],
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/aoZ4MEAAbXQzEU68r5ETpK"
+      }
+    }
+  },
+  "global-boxShadow-500": {
+    "type": "boxShadow",
+    "value": [
+      {
+        "x": "0px",
+        "y": "5px",
+        "blur": "5px",
+        "spread": "5px",
+        "color": "rgba({global-color-black}, {global-opacity-200})",
+        "type": "dropShadow"
+      }
+    ],
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/abfTS4wdrgJmGEFKnYQwaD"
+      }
+    }
+  },
+  "global-boxShadow-600": {
+    "type": "boxShadow",
+    "value": [
+      {
+        "x": "0px",
+        "y": "6px",
+        "blur": "6px",
+        "spread": "6px",
+        "color": "rgba({global-color-black}, {global-opacity-200})",
+        "type": "dropShadow"
+      }
+    ],
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/qSoecC6sSvfQN87PuWyToj"
+      }
+    }
+  },
+  "global-boxShadow-700": {
+    "type": "boxShadow",
+    "value": [
+      {
+        "x": "0px",
+        "y": "7px",
+        "blur": "7px",
+        "spread": "7px",
+        "color": "rgba({global-color-black}, {global-opacity-200})",
+        "type": "dropShadow"
+      }
+    ],
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/2izswp5kZMck1Jb3RZ424P"
+      }
+    }
+  },
+  "global-boxShadow-800": {
+    "type": "boxShadow",
+    "value": [
+      {
+        "x": "0px",
+        "y": "8px",
+        "blur": "8px",
+        "spread": "8px",
+        "color": "rgba({global-color-black}, {global-opacity-200})",
+        "type": "dropShadow"
+      }
+    ],
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/cqqofds4Lsg6RDM6p6HQpK"
+      }
+    }
+  },
+  "global-boxShadow-900": {
+    "type": "boxShadow",
+    "value": [
+      {
+        "x": "0px",
+        "y": "9px",
+        "blur": "9px",
+        "spread": "9px",
+        "color": "rgba({global-color-black}, {global-opacity-200})",
+        "type": "dropShadow"
+      }
+    ],
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/scvUPY3RNQB8JSdi4sojXZ"
+      }
+    }
+  },
+  "global-color-black": {
+    "type": "color",
+    "value": "#000000",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/iczVfQxXtTKFiRPoRGV1wH"
+      }
+    },
+    "description": "Black as universal color"
+  },
+  "global-color-brand": {
+    "type": "color",
+    "value": "#676767",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/ambZ9TNpJXttfG1RYrCpMv"
+      }
+    },
+    "description": "The single universal brand color"
+  },
+  "global-color-eight-100": {
+    "type": "color",
+    "value": "#fafafa",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/e6J1VKoHpx2wcTjwC5cPPg"
+      }
+    }
+  },
+  "global-color-eight-200": {
+    "type": "color",
+    "value": "#f5f5f5",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/hJ1D3ouhEYyvp6qoATfkRP"
+      }
+    }
+  },
+  "global-color-eight-300": {
+    "type": "color",
+    "value": "#eeeeee",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/eS7U1ZQ31a4yL4KR7eRK3D"
+      }
+    }
+  },
+  "global-color-eight-400": {
+    "type": "color",
+    "value": "#e0e0e0",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/fPNEKJFEgYyQ3CoWWGPBCE"
+      }
+    }
+  },
+  "global-color-eight-500": {
+    "type": "color",
+    "value": "#bdbdbd",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/wSS7THA4PY2Nq36dcniHqo"
+      }
+    }
+  },
+  "global-color-eight-600": {
+    "type": "color",
+    "value": "#9e9e9e",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/6eTN7vsoXnrAiMWw8krCjT"
+      }
+    }
+  },
+  "global-color-eight-700": {
+    "type": "color",
+    "value": "#757575",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/4dsutPbSTJBCB5iXwxhK5c"
+      }
+    }
+  },
+  "global-color-eight-800": {
+    "type": "color",
+    "value": "#616161",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/gduhppKjcAQGmaxoL538GT"
+      }
+    }
+  },
+  "global-color-eight-900": {
+    "type": "color",
+    "value": "#424242",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/hoNAvCaQhhtyoA1dYH3V5L"
+      }
+    }
+  },
+  "global-color-eight-950": {
+    "type": "color",
+    "value": "#212121",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/tVnyvKLHfTjLfZm594HqVf"
+      }
+    }
+  },
+  "global-color-five-100": {
+    "type": "color",
+    "value": "#ffebee",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/3fZ8t9FxukrBHCawjTS9v8"
+      }
+    }
+  },
+  "global-color-five-200": {
+    "type": "color",
+    "value": "#ffcdd2",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/2xoFyLaG6ewBPWWqfZvGaU"
+      }
+    }
+  },
+  "global-color-five-300": {
+    "type": "color",
+    "value": "#ef9a9a",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/25KMsarR3L4BDTsqcgGKmR"
+      }
+    }
+  },
+  "global-color-five-400": {
+    "type": "color",
+    "value": "#e57373",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/7aKU9pUWqvYiQXhCAmzx2E"
+      }
+    }
+  },
+  "global-color-five-500": {
+    "type": "color",
+    "value": "#ef5350",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/3zFv1qSxGfnwTi8Rri5cMX"
+      }
+    }
+  },
+  "global-color-five-600": {
+    "type": "color",
+    "value": "#f44336",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/fpPEPj6EzTZmY3XQA2CVsM"
+      }
+    }
+  },
+  "global-color-five-700": {
+    "type": "color",
+    "value": "#e53935",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/2jyEizWLdXTPMqngUEfFjd"
+      }
+    }
+  },
+  "global-color-five-800": {
+    "type": "color",
+    "value": "#d32f2f",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/1GWFuo7A8mXioub8SvWYMo"
+      }
+    }
+  },
+  "global-color-five-900": {
+    "type": "color",
+    "value": "#c62828",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/et1YcHqZoTVD7kyMMpPNkj"
+      }
+    }
+  },
+  "global-color-five-950": {
+    "type": "color",
+    "value": "#b71c1c",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/kkJeLheyuJihbyS14jxJyd"
+      }
+    }
+  },
+  "global-color-four-100": {
+    "type": "color",
+    "value": "#e8f5e9",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/wsUaP2Usr2AUiJkDfCPxYS"
+      }
+    }
+  },
+  "global-color-four-200": {
+    "type": "color",
+    "value": "#c8e6c9",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/8Jy13juQPMfCcqLuwPd9vY"
+      }
+    }
+  },
+  "global-color-four-300": {
+    "type": "color",
+    "value": "#a5d6a7",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/covEquFymUy11ckDgnWNvk"
+      }
+    }
+  },
+  "global-color-four-400": {
+    "type": "color",
+    "value": "#81c784",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/4BwfWPknU5fnkNctyr79X8"
+      }
+    }
+  },
+  "global-color-four-500": {
+    "type": "color",
+    "value": "#66bb6a",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/3sZDWDXSJgPkGXQMBnMKtE"
+      }
+    }
+  },
+  "global-color-four-600": {
+    "type": "color",
+    "value": "#4caf50",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/2LSeFeWj9DRUYzkqodKYqi"
+      }
+    }
+  },
+  "global-color-four-700": {
+    "type": "color",
+    "value": "#43a047",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/jVykRELsPaKc29PbcjAwq6"
+      }
+    }
+  },
+  "global-color-four-800": {
+    "type": "color",
+    "value": "#388e3c",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/qX4bP8CZFPrxkAqDHCucrR"
+      }
+    }
+  },
+  "global-color-four-900": {
+    "type": "color",
+    "value": "#2e7d32",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/coAjLt4shAToxJTi3Ccu7X"
+      }
+    }
+  },
+  "global-color-four-950": {
+    "type": "color",
+    "value": "#1b5e20",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/2yq5v52CgQXUZxGKFfnBGy"
+      }
+    }
+  },
+  "global-color-nine-100": {
+    "type": "color",
+    "value": "#fafafa",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/wFJkoyztnUMKK6aAGbfEpT"
+      }
+    }
+  },
+  "global-color-nine-200": {
+    "type": "color",
+    "value": "#f5f5f5",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/fNGydMfccwBrHRdNGRFk4Q"
+      }
+    }
+  },
+  "global-color-nine-300": {
+    "type": "color",
+    "value": "#eeeeee",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/eZR4z6DMmMhLUhSdQ27gSj"
+      }
+    }
+  },
+  "global-color-nine-400": {
+    "type": "color",
+    "value": "#e0e0e0",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/m8ZjKTnn6c3ktfaDAN8uA1"
+      }
+    }
+  },
+  "global-color-nine-500": {
+    "type": "color",
+    "value": "#bdbdbd",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/65sR5b9CK23vgUo67jLXXq"
+      }
+    }
+  },
+  "global-color-nine-600": {
+    "type": "color",
+    "value": "#9e9e9e",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/oiyC6kJL7oLatmvBzgAa2N"
+      }
+    }
+  },
+  "global-color-nine-700": {
+    "type": "color",
+    "value": "#757575",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/cZx2mWxqYzrUJGa9GU2ETt"
+      }
+    }
+  },
+  "global-color-nine-800": {
+    "type": "color",
+    "value": "#616161",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/j8C9u84ncvD1Vy1GNVigVd"
+      }
+    }
+  },
+  "global-color-nine-900": {
+    "type": "color",
+    "value": "#424242",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/vGHpzYHZQsLpQ8VBCz4qQg"
+      }
+    }
+  },
+  "global-color-nine-950": {
+    "type": "color",
+    "value": "#212121",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/89DKyZkif4BR2KRXvPtJYa"
+      }
+    }
+  },
+  "global-color-one-100": {
+    "type": "color",
+    "value": "#e0f7ff",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/4xw1zPRfWfzcCrH29tHrDS"
+      }
+    }
+  },
+  "global-color-one-200": {
+    "type": "color",
+    "value": "#b3e5fc",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/oFarffQDEDnvPGFJgj2r2r"
+      }
+    }
+  },
+  "global-color-one-300": {
+    "type": "color",
+    "value": "#81d4fa",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/cw32DNrBv83VuH4qGuT57p"
+      }
+    }
+  },
+  "global-color-one-400": {
+    "type": "color",
+    "value": "#4fc3f7",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/ogrrpXchL833HMGNiM2UNC"
+      }
+    }
+  },
+  "global-color-one-500": {
+    "type": "color",
+    "value": "#29b6f6",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/npE38xsEySZo2w5oD5nEGm"
+      }
+    }
+  },
+  "global-color-one-600": {
+    "type": "color",
+    "value": "#03a9f4",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/wKsdy1Fx3hqWy7et7LVUrZ"
+      }
+    }
+  },
+  "global-color-one-700": {
+    "type": "color",
+    "value": "#039be5",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/tc6rzYoaaErCb5CKPrjj5J"
+      }
+    }
+  },
+  "global-color-one-800": {
+    "type": "color",
+    "value": "#0288d1",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/dRcXoJ2KU3bykyQwehLQ3B"
+      }
+    }
+  },
+  "global-color-one-900": {
+    "type": "color",
+    "value": "#0277bd",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/36ifnqWL95uuucvSXitqCa"
+      }
+    }
+  },
+  "global-color-one-950": {
+    "type": "color",
+    "value": "#01579b",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/w6sj51hZtxjPbbmTsNTV9F"
+      }
+    }
+  },
+  "global-color-seven-100": {
+    "type": "color",
+    "value": "#fafafa",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/c1feVydPkCZqVHgH6hiF6x"
+      }
+    }
+  },
+  "global-color-seven-200": {
+    "type": "color",
+    "value": "#f5f5f5",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/mkExJzp4crQtQoZ4QGgAiX"
+      }
+    }
+  },
+  "global-color-seven-300": {
+    "type": "color",
+    "value": "#eeeeee",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/r1ybeWihiFFXeUNvQnLcep"
+      }
+    }
+  },
+  "global-color-seven-400": {
+    "type": "color",
+    "value": "#e0e0e0",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/iTD5zCxygbGuQ9owKGmiBv"
+      }
+    }
+  },
+  "global-color-seven-500": {
+    "type": "color",
+    "value": "#bdbdbd",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/mE3ttoV4ZagAiYqEJepQWt"
+      }
+    }
+  },
+  "global-color-seven-600": {
+    "type": "color",
+    "value": "#9e9e9e",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/kbWFj92fcZAyQdXqwUZai4"
+      }
+    }
+  },
+  "global-color-seven-700": {
+    "type": "color",
+    "value": "#757575",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/d2RKneLkeZQycbGhCn9LXv"
+      }
+    }
+  },
+  "global-color-seven-800": {
+    "type": "color",
+    "value": "#616161",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/81DTgKsUccFT3cNCwuogpo"
+      }
+    }
+  },
+  "global-color-seven-900": {
+    "type": "color",
+    "value": "#424242",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/uG3wvF35uwYzwgqA7oDrRR"
+      }
+    }
+  },
+  "global-color-seven-950": {
+    "type": "color",
+    "value": "#212121",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/smn7nFArws1qvsPqHMQjTx"
+      }
+    }
+  },
+  "global-color-six-100": {
+    "type": "color",
+    "value": "#fffde7",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/9DxSaYtPAwtJaY4Q6gtdif"
+      }
+    }
+  },
+  "global-color-six-200": {
+    "type": "color",
+    "value": "#fff9c4",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/sMwGv29KvAf1Sz4WFiDvtd"
+      }
+    }
+  },
+  "global-color-six-300": {
+    "type": "color",
+    "value": "#fff59d",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/piYWGjbMEWkPwuKD19RRiE"
+      }
+    }
+  },
+  "global-color-six-400": {
+    "type": "color",
+    "value": "#fff176",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/iVC85LjTVmch8K4WNLsURx"
+      }
+    }
+  },
+  "global-color-six-500": {
+    "type": "color",
+    "value": "#ffee58",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/rSWkXHLYuYQNGG6z5HqHP3"
+      }
+    }
+  },
+  "global-color-six-600": {
+    "type": "color",
+    "value": "#ffeb3b",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/dwHCMiL6RAghUHQF6wCtjV"
+      }
+    }
+  },
+  "global-color-six-700": {
+    "type": "color",
+    "value": "#fdd835",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/tzZGe3jDLPwRYFdY73gMtP"
+      }
+    }
+  },
+  "global-color-six-800": {
+    "type": "color",
+    "value": "#fbc02d",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/pPpsnubDQ6ADXk35c7skyb"
+      }
+    }
+  },
+  "global-color-six-900": {
+    "type": "color",
+    "value": "#f9a825",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/eqzsaHu7hT1weTD4tLEGSu"
+      }
+    }
+  },
+  "global-color-six-950": {
+    "type": "color",
+    "value": "#f57f17",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/feuyrKoM2yoiFQwCxGxov3"
+      }
+    }
+  },
+  "global-color-ten-100": {
+    "type": "color",
+    "value": "#fafafa",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/em2J3HeBNyyCGhgGXgYTH7"
+      }
+    }
+  },
+  "global-color-ten-200": {
+    "type": "color",
+    "value": "#f5f5f5",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/gNG3UGArLWRe3pwacxRyWc"
+      }
+    }
+  },
+  "global-color-ten-300": {
+    "type": "color",
+    "value": "#eeeeee",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/hLEHaRwMcXnZFbZ5ZZK476"
+      }
+    }
+  },
+  "global-color-ten-400": {
+    "type": "color",
+    "value": "#e0e0e0",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/m1PGGbKh1rv8Ny6xNXJMpx"
+      }
+    }
+  },
+  "global-color-ten-500": {
+    "type": "color",
+    "value": "#bdbdbd",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/gAbiHg2tdpTGsbtn25bo2o"
+      }
+    }
+  },
+  "global-color-ten-600": {
+    "type": "color",
+    "value": "#9e9e9e",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/hnUss1y99ALLJJVQJBhAWZ"
+      }
+    }
+  },
+  "global-color-ten-700": {
+    "type": "color",
+    "value": "#757575",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/9bd3FioMbmzc6ZspRn5Xgn"
+      }
+    }
+  },
+  "global-color-ten-800": {
+    "type": "color",
+    "value": "#616161",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/vfeKqUMyNNCSRivv5aSkSB"
+      }
+    }
+  },
+  "global-color-ten-900": {
+    "type": "color",
+    "value": "#424242",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/9qLRrUk8pUY7MRi7zPmNUs"
+      }
+    }
+  },
+  "global-color-ten-950": {
+    "type": "color",
+    "value": "#212121",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/8XBbWjgcH4LqtnJCb72fhv"
+      }
+    }
+  },
+  "global-color-three-100": {
+    "type": "color",
+    "value": "#fff3e0",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/1STi7txzKAoe5qDGNNy2fW"
+      }
+    }
+  },
+  "global-color-three-200": {
+    "type": "color",
+    "value": "#ffe0b2",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/bdfVXjkiUkuvTfFiKTtE6H"
+      }
+    }
+  },
+  "global-color-three-300": {
+    "type": "color",
+    "value": "#ffcc80",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/9TdjiJQDpyFWCsmvFfjKB1"
+      }
+    }
+  },
+  "global-color-three-400": {
+    "type": "color",
+    "value": "#ffb74d",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/4xJY75gCCy681Xb3gwiiJT"
+      }
+    }
+  },
+  "global-color-three-500": {
+    "type": "color",
+    "value": "#ffa726",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/tdS816KUWX5Ru85bhKp9tn"
+      }
+    }
+  },
+  "global-color-three-600": {
+    "type": "color",
+    "value": "#ff9800",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/usVtFR8mXzmNFGSqSvdYPY"
+      }
+    }
+  },
+  "global-color-three-700": {
+    "type": "color",
+    "value": "#fb8c00",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/fYZNMT9JtYJrHNYbMCsqtz"
+      }
+    }
+  },
+  "global-color-three-800": {
+    "type": "color",
+    "value": "#f57c00",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/qhnq1e2WuZHqRh8UDfiYeu"
+      }
+    }
+  },
+  "global-color-three-900": {
+    "type": "color",
+    "value": "#ef6c00",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/ouqsPdpVkfDeoTonPZMg7u"
+      }
+    }
+  },
+  "global-color-three-950": {
+    "type": "color",
+    "value": "#e65100",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/run4TX4wGa4K64tThtCDyC"
+      }
+    }
+  },
+  "global-color-two-100": {
+    "type": "color",
+    "value": "#f3e5f5",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/hyq6iU6CfGZChpSbLEsMan"
+      }
+    }
+  },
+  "global-color-two-200": {
+    "type": "color",
+    "value": "#e1bee7",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/n6ig5iYMZp3QbkLDYKmsgA"
+      }
+    }
+  },
+  "global-color-two-300": {
+    "type": "color",
+    "value": "#ce93d8",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/dZpvsCDWX35ArNXknaG2Sa"
+      }
+    }
+  },
+  "global-color-two-400": {
+    "type": "color",
+    "value": "#ba68c8",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/dw4hu4fjpdtJst2LpAPADY"
+      }
+    }
+  },
+  "global-color-two-500": {
+    "type": "color",
+    "value": "#ab47bc",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/agVtnozZ7DDCvg18vMfATo"
+      }
+    }
+  },
+  "global-color-two-600": {
+    "type": "color",
+    "value": "#9c27b0",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/tvVZLX2ahDB5bT24LmwZoB"
+      }
+    }
+  },
+  "global-color-two-700": {
+    "type": "color",
+    "value": "#8e24aa",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/aCgTVNTG8dncfkbxt4j3kM"
+      }
+    }
+  },
+  "global-color-two-800": {
+    "type": "color",
+    "value": "#7b1fa2",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/tKMe3MvwcbDKvvaaarya3Q"
+      }
+    }
+  },
+  "global-color-two-900": {
+    "type": "color",
+    "value": "#6a1b9a",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/bGAU9KQ3LTTMzaxDVetm27"
+      }
+    }
+  },
+  "global-color-two-950": {
+    "type": "color",
+    "value": "#4a148c",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/g2vJXGuyiU2GtA3k9HGZTP"
+      }
+    }
+  },
+  "global-color-white": {
+    "type": "color",
+    "value": "#FFFFFF",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/5Ck28AdzkngFogKDoMBzji"
+      }
+    },
+    "description": "White as universal color"
+  },
+  "global-fontFamily-one": {
+    "type": "fontFamilies",
+    "value": "Arial",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/wC5oX4SAqpa9zsBF93AKjd"
+      }
+    },
+    "description": "Display font"
+  },
+  "global-fontFamily-three": {
+    "type": "fontFamilies",
+    "value": "Input Sans Narrow",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/tzrKRdyqGg2fBfKV2zkJYC"
+      }
+    },
+    "description": "Text font"
+  },
+  "global-fontFamily-two": {
+    "type": "fontFamilies",
+    "value": "Input Sans",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/aYin5WdeV3h33hx2KBAKES"
+      }
+    },
+    "description": "Other font"
+  },
+  "global-fontSize-100": {
+    "type": "fontSizes",
+    "value": "{global-fontSize-base} * 0.875",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/q7tezA4NW6B3UTfvsRVVPm"
+      }
+    }
+  },
+  "global-fontSize-150": {
+    "type": "fontSizes",
+    "value": "{global-fontSize-base} * 1",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/dBKDNcQeRhzVqkoi6y3TTD"
+      }
+    }
+  },
+  "global-fontSize-200": {
+    "type": "fontSizes",
+    "value": "{global-fontSize-base} * 1.125",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/1yf5oYKA4Sw2vZabLMLVCE"
+      }
+    }
+  },
+  "global-fontSize-250": {
+    "type": "fontSizes",
+    "value": "{global-fontSize-base} * 1.25",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/h2ZqTMCcdFy9ZjhAFDV4gx"
+      }
+    }
+  },
+  "global-fontSize-300": {
+    "type": "fontSizes",
+    "value": "{global-fontSize-base} * 1.375",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/fAjqCr1kYfoFmsCBbwiA8n"
+      }
+    }
+  },
+  "global-fontSize-350": {
+    "type": "fontSizes",
+    "value": "{global-fontSize-base} * 1.5",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/hdoNvwZgwCe7iv1E4uEjZu"
+      }
+    }
+  },
+  "global-fontSize-400": {
+    "type": "fontSizes",
+    "value": "{global-fontSize-base} * 1.625",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/9mNsnjt4x2PXa3NrpDziiA"
+      }
+    }
+  },
+  "global-fontSize-450": {
+    "type": "fontSizes",
+    "value": "{global-fontSize-base} * 1.75",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/tVaz7JaC376qS68Jskdtb8"
+      }
+    }
+  },
+  "global-fontSize-50": {
+    "type": "fontSizes",
+    "value": "{global-fontSize-base} * 0.75",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/8etDWVbFS4MMMTHQM2Wakt"
+      }
+    }
+  },
+  "global-fontSize-500": {
+    "type": "fontSizes",
+    "value": "{global-fontSize-base} * 2",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/8dmacGE2o8cje4f8FcRErW"
+      }
+    }
+  },
+  "global-fontSize-550": {
+    "type": "fontSizes",
+    "value": "{global-fontSize-base} * 2.25",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/bHrFPV6MARrae8dnAjNz2m"
+      }
+    }
+  },
+  "global-fontSize-600": {
+    "type": "fontSizes",
+    "value": "{global-fontSize-base} * 2.5",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/uwhuQ9BjMqbejXbKaaaqjH"
+      }
+    }
+  },
+  "global-fontSize-650": {
+    "type": "fontSizes",
+    "value": "{global-fontSize-base} * 3",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/dUdMtXocCWZXj6vgAyFuS4"
+      }
+    }
+  },
+  "global-fontSize-700": {
+    "type": "fontSizes",
+    "value": "{global-fontSize-base} * 3.5",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/gz9AksVNMuAs9pMYCdkNp6"
+      }
+    }
+  },
+  "global-fontSize-750": {
+    "type": "fontSizes",
+    "value": "{global-fontSize-base} * 4",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/ezfXL4KZPSmjUHaCUNe27N"
+      }
+    }
+  },
+  "global-fontSize-800": {
+    "type": "fontSizes",
+    "value": "{global-fontSize-base} * 4.5",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/38H8pCor3EeXWDMjfWpUHR"
+      }
+    }
+  },
+  "global-fontSize-850": {
+    "type": "fontSizes",
+    "value": "{global-fontSize-base} * 5",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/uYvETc4t35i9BrC1vb1MeP"
+      }
+    }
+  },
+  "global-fontSize-900": {
+    "type": "fontSizes",
+    "value": "{global-fontSize-base} * 5.5",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/5CDAqmiscrw7oYZCSwVCNC"
+      }
+    }
+  },
+  "global-fontSize-950": {
+    "type": "fontSizes",
+    "value": "{global-fontSize-base} * 6",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/uiik3uaPjz51W31HQovvX2"
+      }
+    }
+  },
+  "global-fontSize-base": {
+    "type": "fontSizes",
+    "value": "16px",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/7Z7fGZU5mjwnhgwpMfA5gv"
+      }
+    },
+    "description": "The base fontsize that impacts all other font sizes (example: base*1.2)"
+  },
+  "global-fontWeight-100": {
+    "type": "fontWeights",
+    "value": 100,
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/k8M8GeeFnGVSBexq4f5Q2e"
+      }
+    },
+    "description": "Example: Font weight possibilities"
+  },
+  "global-fontWeight-200": {
+    "type": "fontWeights",
+    "value": 200,
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/6sAHuPGYwcVv3rsj2NJ77F"
+      }
+    }
+  },
+  "global-fontWeight-300": {
+    "type": "fontWeights",
+    "value": 300,
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/csb3pmt9TCMGTbdbnjr125"
+      }
+    }
+  },
+  "global-fontWeight-400": {
+    "type": "fontWeights",
+    "value": 400,
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/kSxe4KgqkiBryJ7JanL83J"
+      }
+    }
+  },
+  "global-fontWeight-500": {
+    "type": "fontWeights",
+    "value": 500,
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/ee8JcF6unKtGXdvAwYTyK5"
+      }
+    }
+  },
+  "global-fontWeight-600": {
+    "type": "fontWeights",
+    "value": 600,
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/ntjYhrV2ydn7tS2HB9nFtN"
+      }
+    }
+  },
+  "global-fontWeight-700": {
+    "type": "fontWeights",
+    "value": 700,
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/wqzq34L45sKD5uTHSFCp5W"
+      }
+    }
+  },
+  "global-fontWeight-800": {
+    "type": "fontWeights",
+    "value": 800,
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/qaJHXdvDzPuKehREmJSXnp"
+      }
+    }
+  },
+  "global-fontWeight-900": {
+    "type": "fontWeights",
+    "value": 900,
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/w7jdwN1hFDjtnFyGPw19Ws"
+      }
+    }
+  },
+  "global-letterSpacing-0": {
+    "type": "letterSpacing",
+    "value": "0px",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/gzpepp48oz9ZhCuApoFpPe"
+      }
+    }
+  },
+  "global-letterSpacing-100": {
+    "type": "letterSpacing",
+    "value": "-0.5px",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/jTn6o2KMd8vV1UQ2ittRb9"
+      }
+    }
+  },
+  "global-letterSpacing-200": {
+    "type": "letterSpacing",
+    "value": "-0.1px",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/omrKKoqQ8JwnLFCVZZu6kN"
+      }
+    }
+  },
+  "global-letterSpacing-300": {
+    "type": "letterSpacing",
+    "value": "0.1px",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/3YjJy6WTPnERxSWsmjLN5h"
+      }
+    }
+  },
+  "global-letterSpacing-400": {
+    "type": "letterSpacing",
+    "value": "0.5px",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/fFtXadakBTkuoNfPhNXanV"
+      }
+    }
+  },
+  "global-lineHeight-100": {
+    "type": "lineHeights",
+    "value": "{global-fontSize-base} * 1",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/1UiYCv1pg68YpX7rYXRqW5"
+      }
+    }
+  },
+  "global-lineHeight-150": {
+    "type": "lineHeights",
+    "value": "{global-fontSize-base} * 1.125",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/rcSzs5G6yK89SaojLMkj2h"
+      }
+    }
+  },
+  "global-lineHeight-200": {
+    "type": "lineHeights",
+    "value": "{global-fontSize-base} * 1.25",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/6pAimMPaHXWzhaQ3ogB4Ps"
+      }
+    }
+  },
+  "global-lineHeight-250": {
+    "type": "lineHeights",
+    "value": "{global-fontSize-base} * 1.375",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/oUbihPaHBJCHDY8TMoDWFC"
+      }
+    }
+  },
+  "global-lineHeight-300": {
+    "type": "lineHeights",
+    "value": "{global-fontSize-base} * 1.5",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/eFtAJ3eDifbVzpPPDcfUX8"
+      }
+    }
+  },
+  "global-lineHeight-350": {
+    "type": "lineHeights",
+    "value": "{global-fontSize-base} * 1.625",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/2o4oKbaTdXPLdoQAjb1TUW"
+      }
+    }
+  },
+  "global-lineHeight-400": {
+    "type": "lineHeights",
+    "value": "{global-fontSize-base} * 1.75",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/dwUGBrfE3ywvQBtQw7BPCM"
+      }
+    }
+  },
+  "global-lineHeight-450": {
+    "type": "lineHeights",
+    "value": "{global-fontSize-base} * 2",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/ow3HpvQbZJGFVJN9uEsy4U"
+      }
+    }
+  },
+  "global-lineHeight-50": {
+    "type": "lineHeights",
+    "value": "{global-fontSize-base} * 0.875",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/giDGm4K53qPiRZuBDusnSi"
+      }
+    }
+  },
+  "global-lineHeight-500": {
+    "type": "lineHeights",
+    "value": "{global-fontSize-base} * 2.25",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/5t4xKkTLLTDb9Da3hTBX18"
+      }
+    }
+  },
+  "global-lineHeight-550": {
+    "type": "lineHeights",
+    "value": "{global-fontSize-base} * 2.5",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/rn5RqNXeDNjt8pJx1VukWb"
+      }
+    }
+  },
+  "global-lineHeight-600": {
+    "type": "lineHeights",
+    "value": "{global-fontSize-base} * 3",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/eAQJiuAWnfNABuv9GKjRsT"
+      }
+    }
+  },
+  "global-lineHeight-650": {
+    "type": "lineHeights",
+    "value": "{global-fontSize-base} * 3.5",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/aXny1ZoyiqU3zw167yXicb"
+      }
+    }
+  },
+  "global-lineHeight-700": {
+    "type": "lineHeights",
+    "value": "{global-fontSize-base} * 4",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/b2GQjC7stZ7w82368E85RC"
+      }
+    }
+  },
+  "global-lineHeight-750": {
+    "type": "lineHeights",
+    "value": "{global-fontSize-base} * 4.5",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/nbudz61UecJdvLGrSQGkdJ"
+      }
+    }
+  },
+  "global-lineHeight-800": {
+    "type": "lineHeights",
+    "value": "{global-fontSize-base} * 5",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/4PST9fvu31e6SGaJd2BiXd"
+      }
+    }
+  },
+  "global-lineHeight-850": {
+    "type": "lineHeights",
+    "value": "{global-fontSize-base} * 5.5",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/pbF5kxzfF2DToWVNxvwPip"
+      }
+    }
+  },
+  "global-lineHeight-900": {
+    "type": "lineHeights",
+    "value": "{global-fontSize-base} * 6",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/jFb5TmYKDJnGwVBpRAR2QY"
+      }
+    }
+  },
+  "global-lineHeight-950": {
+    "type": "lineHeights",
+    "value": "{global-fontSize-base} * 6.5",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/2BisJzY7SsxaSANeHZF9b4"
+      }
+    }
+  },
+  "global-opacity-0": {
+    "type": "opacity",
+    "value": "0%",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/dyuJ1dC6cKVpq7YseRHJRC"
+      }
+    },
+    "description": "Example: opacity standards for surfaces but also the color of shadows"
+  },
+  "global-opacity-100": {
+    "type": "opacity",
+    "value": "10%",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/eMQLmm4wM6usdCcWtgaHcY"
+      }
+    }
+  },
+  "global-opacity-1000": {
+    "type": "opacity",
+    "value": "100%",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/8dFa6xDUVNrdjKA87hWaBj"
+      }
+    }
+  },
+  "global-opacity-200": {
+    "type": "opacity",
+    "value": "20%",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/bEEm6bQ8s9mCeWucYqMcRN"
+      }
+    }
+  },
+  "global-opacity-300": {
+    "type": "opacity",
+    "value": "30%",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/u5Uk9hhxx9nvMQ1wWmy1Fa"
+      }
+    }
+  },
+  "global-opacity-400": {
+    "type": "opacity",
+    "value": "40%",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/4XEiE3Q9rAvrZUJGDGkvSk"
+      }
+    }
+  },
+  "global-opacity-500": {
+    "type": "opacity",
+    "value": "50%",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/fpXocfHgSgZeAdPVGQTBFa"
+      }
+    }
+  },
+  "global-opacity-600": {
+    "type": "opacity",
+    "value": "60%",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/2yyJMiyQnEcz7X3KPNwv7q"
+      }
+    }
+  },
+  "global-opacity-700": {
+    "type": "opacity",
+    "value": "70%",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/ngjpBmASG3ULoDB31xfAk3"
+      }
+    }
+  },
+  "global-opacity-800": {
+    "type": "opacity",
+    "value": "80%",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/rRYc5unuXAprigm3uF2JaW"
+      }
+    }
+  },
+  "global-opacity-900": {
+    "type": "opacity",
+    "value": "90%",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/tFnADQftY9VfkSgRSpA5ow"
+      }
+    }
+  },
+  "global-size-0": {
+    "type": "sizing",
+    "value": "0px",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/1EzydKRt7KfpsfTaye8TMB"
+      }
+    },
+    "description": "Example: Icon sizing"
+  },
+  "global-size-100": {
+    "type": "sizing",
+    "value": "4px",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/pYDJo55dzy6863LxxwJmPr"
+      }
+    }
+  },
+  "global-size-200": {
+    "type": "sizing",
+    "value": "8px",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/buHZbh6joGudXds5vuc8nP"
+      }
+    }
+  },
+  "global-size-300": {
+    "type": "sizing",
+    "value": "16px",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/i11kZ26Q1Tt5djwPtoqr3T"
+      }
+    }
+  },
+  "global-size-400": {
+    "type": "sizing",
+    "value": "24px",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/cxH8dP88KaExSkHZAQP2S7"
+      }
+    }
+  },
+  "global-size-500": {
+    "type": "sizing",
+    "value": "32px",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/jhhvDDAwoo5QunDtyJnhxt"
+      }
+    }
+  },
+  "global-size-600": {
+    "type": "sizing",
+    "value": "40px",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/okmuGA18pGuAFCNPMv6ktc"
+      }
+    }
+  },
+  "global-size-700": {
+    "type": "sizing",
+    "value": "48px",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/barJznGm3uFpLrzY7ZK8Jj"
+      }
+    }
+  },
+  "global-size-800": {
+    "type": "sizing",
+    "value": "56px",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/gGsxSUAo79z68jHVwS8ob8"
+      }
+    }
+  },
+  "global-size-900": {
+    "type": "sizing",
+    "value": "64px",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/4v6S3j121om2zBqHgXupzZ"
+      }
+    }
+  },
+  "global-space-0": {
+    "type": "spacing",
+    "value": "0px",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/vmyZzo9jYRqTHcHhHCpah3"
+      }
+    },
+    "description": "Example: padding between elements and components"
+  },
+  "global-space-100": {
+    "type": "spacing",
+    "value": "4px",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/t78mVftqVC9h3GzyYkD5Gh"
+      }
+    }
+  },
+  "global-space-200": {
+    "type": "spacing",
+    "value": "8px",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/ioZ1UoJ1TieBqXHyUC1JRz"
+      }
+    }
+  },
+  "global-space-300": {
+    "type": "spacing",
+    "value": "16px",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/i1fwxHxpRRPvVAQWpLx8Df"
+      }
+    }
+  },
+  "global-space-400": {
+    "type": "spacing",
+    "value": "24px",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/nJPTe8N35WKwce71QKzNVB"
+      }
+    }
+  },
+  "global-space-500": {
+    "type": "spacing",
+    "value": "32px",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/rFSVqHXZwydiHVUXn22Hx7"
+      }
+    }
+  },
+  "global-space-600": {
+    "type": "spacing",
+    "value": "40px",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/8UcL5H9CGqCKHtohEEL4RN"
+      }
+    }
+  },
+  "global-space-700": {
+    "type": "spacing",
+    "value": "48px",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/67EypjHR4n1r5W5qX1vDN1"
+      }
+    }
+  },
+  "global-space-800": {
+    "type": "spacing",
+    "value": "56px",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/4s999WRVMkPnyn47eyrvgA"
+      }
+    }
+  },
+  "global-space-900": {
+    "type": "spacing",
+    "value": "64px",
+    "$extensions": {
+      "studio.tokens": {
+        "urn": "urn:ts:tokens:eu-central-1:pvpLLG7b2J6QgwG1RTUnPg:token/mM5DsrHxZhLXfSWUTuw5yv/qbn9RQCtVriZDdt5t8E3Hg/3UBmmyRmDxu4Mi5cxxVNcz"
+      }
+    }
+  }
+}
